@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Julee');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
 .container{
+	width: 100%;
+	height: 100%;
     padding: 10px;
     margin: 10px;
+    display: flex;
+
+   
+}
+
+div.col-left{
+	width: 30%;
+	height: 100%;
+}
+
+div.col-left > img{
+	width: 200px;
+    border-radius: 70%;
+    box-shadow: 0 0 5px black;
+}
+
+div.col-right{
+	display: flex;
+	width: 70%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+div.col-left{
+	font-size: 20px;
+	font-family: 'Acme', sans-serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a > li{
+	font-size: 30px;
+	font-family: 'Julee', cursive;
+}
+
+a > p{
+	font-size: 23px;
+	font-family: 'Pacifico', cursive;
+}
+
+a{
+	color: crimson;
+	text-decoration: none;
+	
+}
+
+
+
+a:hover{
+	color: orange;
+	 text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	container{
+		width: 100%;
+		position: relative;
+		float: left;
+
+	}
+
+	div.col-left{
+		width: 100%;
+		
+	}
+
+	div.col-right{
+		width: 100%;
+		float: left;
+	}
+
+
 }
