@@ -54,14 +54,18 @@ a{
 	color: crimson;
 	text-decoration: none;
 	
+	
 }
 
 
 
 a:hover{
 	color: orange;
-	 text-decoration: none;
+	text-decoration: none;
+	
+	
 }
+
 
 
 
