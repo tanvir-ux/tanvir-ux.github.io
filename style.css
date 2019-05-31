@@ -33,7 +33,7 @@ div.col-right{
 
 div.col-left{
 	font-size: 20px;
-	font-family: 'Acme', sans-serif;
+	font-family: 'roboto', sans-serif;
 }
 
 ul{
@@ -42,16 +42,16 @@ ul{
 
 a > li{
 	font-size: 30px;
-	font-family: 'Julee', cursive;
+	font-family: 'roboto', cursive;
 }
 
 a > p{
 	font-size: 23px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'roboto', cursive;
 }
 
 a{
-	color: crimson;
+	color: cornflowerblue;
 	text-decoration: none;
 	
 	
