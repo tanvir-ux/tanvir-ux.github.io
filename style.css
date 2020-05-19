@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Julee');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Acme');
 
 *{
 	box-sizing: border-box;
@@ -31,6 +28,7 @@ div.col-right{
 	height: 100%;
 	flex-direction: column;
 	justify-content: flex-end;
+	font-family: 'roboto', sans-serif;
 }
 div.col-left{
 	font-size: 20px;
