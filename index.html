@@ -1,212 +1,265 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
     <head>
-        <title>Application Developer | Tanvir Alam</title>
-        <!-- reach out directly tanviralamshuvo@gmail.com-->
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />     </head>
-    <body class="bg-gray-100 font-sans leading-normal tracking-normal">
-        <header class="bg-white border-b border-gray-400 py-4">
-            <div class="container mx-auto flex items-center justify-between flex-wrap px-4">
-                <div class="w-full md:w-1/3 md:text-left text-center">
-                    <a class="text-2xl font-bold text-black no-underline" href="#">Tanvir Alam</a>
+        <title>Software Engineer | Tanvir Alam</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tanvir Alam's portfolio website. A Software Engineer specializing in Java, Spring Boot, Microservices, and Cloud Technologies.">
+        <meta name="keywords" content="Tanvir Alam, Software Engineer, Java Developer, Spring Boot, Microservices, Angular, Portfolio">
+        
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Google Fonts: Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+        <style>
+            /* Use Inter as the default font */
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+            /* Add a subtle transition for hover effects */
+            .card-hover {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            }
+        </style>
+    </head>
+    <body class="bg-slate-50 text-slate-800 leading-normal tracking-normal">
+
+        <!-- Header -->
+        <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
+            <div class="container mx-auto flex items-center justify-between flex-wrap p-4">
+                <div class="flex items-center">
+                    <a class="text-2xl font-bold text-slate-900 no-underline" href="#">Tanvir Alam</a>
                 </div>
-                <div class="w-full md:w-2/3 md:text-right text-center">
-                    <nav class="text-sm font-bold uppercase tracking-wide">
-                        <a class="nav-link px-4 py-2 rounded-lg text-black hover:bg-gray-200" href="#about">About</a>
-                        <a class="nav-link px-4 py-2 rounded-lg text-black hover:bg-gray-200" href="#skills">Skills</a>
-                        <a class="nav-link px-4 py-2 rounded-lg text-black hover:bg-gray-200" href="#projects">Projects</a>
-                        <a class="nav-link px-4 py-2 rounded-lg text-black hover:bg-gray-200" href="#experience">Experience</a>
-                        <a class="nav-link px-4 py-2 rounded-lg text-black hover:bg-gray-200" href="#education">Education</a>
-                        <a class="nav-link px-4 py-2 rounded-lg text-black hover:bg-gray-200" href="#contact">Contact</a>
-                    </nav>
-                </div>
+                <nav class="hidden md:flex text-sm font-semibold uppercase tracking-wider space-x-2">
+                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#about">About</a>
+                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#experience">Experience</a>
+                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#skills">Skills</a>
+                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#projects">Projects</a>
+                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#contact">Contact</a>
+                </nav>
             </div>
         </header>
-        <section id="about" class="py-16 bg-gray-100">
+
+        <!-- About Section -->
+        <section id="about" class="py-20 md:py-28 bg-white">
             <div class="container mx-auto px-4">
                 <div class="flex flex-wrap items-center">
-                    <div class="w-full md:w-1/2 md:pr-8">
-                        <img src="images/profile.jpg" alt="Profile Picture" class="rounded-full w-64 h-64">
+                    <div class="w-full md:w-1/3 text-center mb-8 md:mb-0">
+                        <img src="images/profile.jpg" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/256x256/E2E8F0/4A5568?text=TA';"
+                             alt="Profile Picture of Tanvir Alam" 
+                             class="rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto shadow-lg">
                     </div>
-                    <div class="w-full md:w-1/2 md:pl-8">
-                        <h2 class="text-3xl font-bold text-black mb-6">About Me</h2>
-                        <p class="text-gray-700 leading-relaxed mb-8">I am a highly skilled and experienced application developer with a strong background in building web and mobile applications using various programming languages and frameworks. I have a passion for solving problems and delivering high-quality software that meets the needs of users. In my current role as an application developer, I am responsible for designing, developing, and maintaining software applications for various clients. I am constantly learning and staying up-to-date with the latest technologies and best practices in the field.</p>
-                        <p class="text-gray-700 leading-relaxed mb-8">In my free time, I enjoy contributing to open source projects, attending tech meetups and conferences, and learning new programming languages and frameworks. I am also an avid gamer and enjoy spending time with my family and friends.</p>
+                    <div class="w-full md:w-2/3 md:pl-12">
+                        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Software Engineer</h1>
+                        <p class="text-lg text-slate-600 leading-relaxed mb-6">Highly skilled Software Engineer with 5+ years of experience in developing enterprise-level applications, specializing in Java microservices, REST APIs, and digital banking platforms. Proven track record in delivering scalable, secure, and high-performance solutions for major banking clients.</p>
+                        <a href="TANVIR_ALAM_CV_JUNE_2025_FULL_UPDATED.pdf" download="Tanvir_Alam_Resume.pdf" class="inline-flex items-center bg-slate-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-slate-700 transition-transform transform hover:scale-105 shadow-lg">
+                            <i class="fas fa-download mr-3"></i>
+                            Download CV
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="skills" class="py-16">
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 md:py-24 bg-slate-50">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl font-bold text-black mb-6 mr-6">Skills</h2>
-                <div class="flex flex-wrap -mx-4">
-                    <div class="w-1/2 px-4 mb-10">
-                        <div class="bg-white rounded-lg shadow-lg p-6">
-                            <h3 class="text-xl font-bold text-black mb-4 pr-20">Programming Languages</h3>
-                            <ul class="list-disc pl-6 mb-4">
-                                <li>C</li>
-                                <li>C++</li>
-                                <li>JavaScript</li>
-                                <li>Java</li>
-                                <li>Python</li>                                                                
-                            </ul>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Professional Experience</h2>
+                <div class="max-w-4xl mx-auto">
+                    <!-- Midas Software Solutions -->
+                    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8 card-hover relative border border-slate-200">
+                         <div class="absolute top-4 right-4 text-xs font-bold uppercase text-slate-400">Mar 2023 - Present</div>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-1">Midas Software Solutions Ltd.</h3>
+                        <p class="text-lg text-slate-500 mb-6">Software Engineer (Java)</p>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-bold text-slate-700">Project: SMBC (Sumitomo Mitsui Banking Corporation)</h4>
+                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
+                                    <li>Upgraded Oracle FLEXCUBE (FCUBS) to v14.7 and integrated Oracle Banking Payments (OBPM) v14.7.</li>
+                                    <li>Customized FLEXCUBE/OBPM modules using Java, PL/SQL, and extended Java JARs for client-specific workflows.</li>
+                                    <li>Conducted API testing using Insomnia and managed deployments on Oracle WebLogic Server.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-700">Project: dBankPro (Bank Danamon Indonesia)</h4>
+                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
+                                    <li>Developed and maintained Java microservices using Spring Boot and PostgreSQL.</li>
+                                    <li>Implemented OAuth 2.0, JWT authentication, and RBAC for enhanced API security.</li>
+                                    <li>Deployed containerized services using Docker & Kubernetes and automated CI/CD pipelines with Jenkins & GitHub Actions.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-700">Project: NGI (Bank Danamon Indonesia)</h4>
+                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
+                                    <li>Developed core banking modules using Java Spring microservices, Oracle FLEXCUBE, and PL/SQL.</li>
+                                    <li>Designed and implemented REST APIs to connect microservices and frontend components.</li>
+                                    <li>Led the transition from monolithic architecture to a fully microservices-based system.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-1/2 px-4 mb-8">
-                        <div class="bg-white rounded-lg shadow-lg p-6">
-                            <h3 class="text-xl font-bold text-black mb-4">Web Frameworks</h3>
-                            <ul class="list-disc pl-6 mb-4">
-                                <li>Angular</li>
-                                <li>Ionic</li>
-                                <li>Node.js</li>
-                                <li>Nest.js</li>
-                                <li>Express</li>
-                            </ul>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg p-6">
-                        <h3 class="text-xl font-bold text-black mb-4">Database Technologies</h3>
-                        <ul class="list-disc pl-6 mb-4">
-                            <li>MySQL</li>
-                            <li>PostgreSQL</li>
-                            <li>MongoDB</li>
-                            <li>SQL Server</li>
-                            <li>Firebase</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg p-6">
-                        <h3 class="text-xl font-bold text-black mb-4">Other Skills</h3>
-                        <ul class="list-disc pl-6 mb-4">
-                            <li>Git</li>
-                            <li>Tensorflow</li>
-                            <li>Pytorch</li>
-                            <li>CI/CD</li>
-                            <li>Unit, Integration, E2E Testing</li>
+                    <!-- MehvozSoft -->
+                    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 card-hover relative border border-slate-200">
+                         <div class="absolute top-4 right-4 text-xs font-bold uppercase text-slate-400">Sep 2021 - Feb 2023</div>
+                        <h3 class="text-2xl font-bold text-slate-800 mb-1">MehvozSoft</h3>
+                        <p class="text-lg text-slate-500 mb-4">Application Developer</p>
+                        <ul class="list-disc pl-5 text-slate-600 space-y-1">
+                            <li>Developed RESTful backend services using Spring Boot and Node.js for mobile and web applications.</li>
+                            <li>Designed microservice-based architecture for scalable apps like Express Entry Calculator, Adhaan, and BuyOrRent.</li>
+                            <li>Integrated REST APIs into Ionic Angular and Angular apps to deliver real-time data and enhance user experience.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="projects" class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-black mb-6 mr-6">Projects</h2>
-            <div class="flex flex-wrap -mx-4">
-            
-                <div class="w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg p-6">
-                        <h3 class="text-xl font-bold text-black mb-4">BuyOrRent</h3>
-                        <p class="text-gray-700 leading-relaxed mb-4">BuyOrRent is a property management full stack application built with Angular 10 and ASP DOT NET. Right Now it's front end part is done and backend is in progress. This project uses latest Angular 10 features where users can register and login with name and password. Then create new property based on Buy or Rent what they select it will be listed on corresponding page. Users can search and sort current listings. I used bootstrap 4, ngx-bootstrap, alertifyjs like third party libraries in this project.</p>
-                        <div class="flex items-center mb-4">
-                            <img src="images/buyOrRent.png" alt="Tech 2" class="w-100 h-50 mr-2">
-                            
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 md:py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Technical Skills</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Backend</h3><p class="text-slate-600">Java, Spring Boot, Microservices, REST APIs, SOAP</p></div>
+                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Frontend</h3><p class="text-slate-600">Angular, TypeScript, JavaScript, Ionic</p></div>
+                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Database</h3><p class="text-slate-600">PostgreSQL, Oracle DB, PL/SQL, NoSQL</p></div>
+                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">DevOps</h3><p class="text-slate-600">Docker, Kubernetes, CI/CD, Jenkins, Git</p></div>
+                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Security</h3><p class="text-slate-600">OAuth 2.0, JWT, RBAC</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 md:py-24 bg-slate-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-xl font-bold text-slate-800 mb-2">BuyOrRent</h3>
+                            <p class="text-slate-600 leading-relaxed">A full-stack property management app using Angular and ASP.NET. Features user authentication, property listings, search, and sorting. </p>
                         </div>
-                        <a href="https://buyorrent-angular.web.app/" target="_blank" class="bg-black text-white font-bold py-2 px-4 rounded-full">View Project</a>
+                        <div class="p-6 bg-slate-50"><a href="https://buyorrent-angular.web.app/" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
+                         <div class="p-6 flex-grow">
+                            <h3 class="text-xl font-bold text-slate-800 mb-2">Express Entry Calculator</h3>
+                            <p class="text-slate-600 leading-relaxed">A hybrid Android app (Ionic/Angular) for Canadian immigration, helping users calculate eligibility scores and access immigration news. </p>
+                        </div>
+                        <div class="p-6 bg-slate-50"><a href="https://steprimo.com/android/us/app/com.ionicframework.expressentrycalculator/Express-Entry-Calculator/" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
+                        <div class="p-6 flex-grow">
+                            <h3 class="text-xl font-bold text-slate-800 mb-2">Adhaan</h3>
+                            <p class="text-slate-600 leading-relaxed">A mobile app to locate nearby mosques and calculate accurate prayer times based on the sun's position, initially serving Dhaka. </p>
+                        </div>
+                        <div class="p-6 bg-slate-50"><a href="https://apkpure.com/adhaan/io.mehvozsoft.adhan" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
                     </div>
                 </div>
-            
-            
-                <div class="w-1/2 px-4 mb-8">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                <h3 class="text-xl font-bold text-black mb-4">Express Entry Calculator</h3>
-                <p class="text-gray-700 leading-relaxed mb-4">Hybrid Android project built with Ionic3 and Angular4. Express Entry is a Canadian immigration system. This app helps you check your eligibility for the Express Entry program. You can check your FSW score out of 100. You can use this app to calculate the CRS score for both married and single applicants. You can search your NOC code by typing occupation name or code. You will daily immigration news.</p>
-                <div class="flex items-center mb-4">
-                    <img src="images/express.jpg" alt="Tech 1" class="w-100 h-50 mr-2">
-                    
-                </div>
-                <a href="https://steprimo.com/android/us/app/com.ionicframework.expressentrycalculator/Express-Entry-Calculator/" target="_blank" class="bg-black text-white font-bold py-2 px-4 rounded-full">View Project</a>
-                </div>
-                </div>
+            </div>
+        </section>
 
-
-                <div class="w-1/2 px-4 mb-8">
-                    <div class="bg-white rounded-lg shadow-lg p-6">
-                        <h3 class="text-xl font-bold text-black mb-4">Adhaan</h3>
-                        <p class="text-gray-700 leading-relaxed mb-4">Adhaan app will help you locate the nearest mosques in your area. It also calculates the exact prayer duration according to the sun's position. This app is still in beta version so some data still not accurate. But as we collect new data in the near future it will serve the whole of Bangladesh. This app is currently serving Dhaka users only but within a short period, it will serve the whole of Bangladesh.</p>
-                        <div class="flex items-center mb-4">
-                            <img src="images/adhaan.png" alt="Tech 2" class="w-100 h-50 mr-2">
-                            
-                        </div>
-                        <a href="https://apkpure.com/adhaan/io.mehvozsoft.adhan" target="_blank" class="bg-black text-white font-bold py-2 px-4 rounded-full">View Project</a>
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 md:py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Get In Touch</h2>
+                    <p class="text-lg text-slate-600 mb-8">Have a project in mind or just want to say hi? Feel free to send me a message.</p>
+                </div>
+                
+                <!-- 
+                    ACTION REQUIRED: To make this form work, you need a free account from https://formspree.io/
+                    1. Sign up on Formspree.
+                    2. Create a new form and get your unique endpoint URL.
+                    3. Replace 'YOUR_FORM_ID' in the action URL below with your actual form ID.
+                -->
+                <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="max-w-xl mx-auto">
+                    <div class="mb-4">
+                        <label class="block text-slate-700 text-sm font-bold mb-2" for="name">Full Name</label>
+                        <input class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="name" name="name" type="text" placeholder="Your Name" required>
                     </div>
-                </div>  
+                    <div class="mb-4">
+                        <label class="block text-slate-700 text-sm font-bold mb-2" for="email">Email Address</label>
+                        <input class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="email" name="email" type="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-slate-700 text-sm font-bold mb-2" for="message">Message</label>
+                        <textarea class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button class="shadow bg-slate-900 text-white font-bold py-3 px-8 rounded-lg hover:bg-slate-700 transition-transform transform hover:scale-105 focus:outline-none focus:shadow-outline" type="submit">
+                            Send Message
+                        </button>
+                    </div>
+                    <p id="form-status" class="text-center mt-4"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-slate-900 text-slate-400 py-10">
+            <div class="container mx-auto px-4 text-center">
+                 <div class="flex items-center justify-center space-x-6 mb-4">
+                    <a href="https://github.com/tanvir-ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mdtanviralam/" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/tanvir_ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://stackoverflow.com/users/4763593/tanvir-alam" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-stack-overflow"></i></a>
+                    <a href="https://leetcode.com/tanvir-ux/" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fas fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/tanviralamshuvo" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://dev.to/tanvir_ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-dev"></i></a>
+                </div>
+                <p class="text-sm">&copy; 2025 Tanvir Alam. All Rights Reserved.</p>
+                <p class="text-xs mt-2">Built with <span class="text-red-400">&hearts;</span> and Tailwind CSS.</p>
+            </div>
+        </footer>
+
+        <!-- Contact Form Submission Script -->
+        <script>
+            var form = document.getElementById("contact-form");
             
-            
-            
-        </div>
-    </div>
-</section>
-<section id="contact" class="py-16 bg-gray-300">
-    <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-black mb-6">Contact: mehvozsoft@gmail.com</h2>        
-        <form class="w-full max-w-lg mx-auto">
-            <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-                        First Name
-                    </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="text" placeholder="Jane">
-                </div>
-                <div class="w-full md:w-1/2 px-3">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-                        Last Name
-                    </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-                </div>
-            </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full px-3">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-                        Email
-                    </label>
-                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="email" placeholder="jane@example.com">
-                    <p class="text-gray-600 text-xs italic">Make sure it's an email you check regularly</p>
-                </div>
-            </div>
-            <div class="flex flex-wrap -mx-3 mb-2">
-                <div class="w-full px-3">
-                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-                        Message
-                    </label>
-                    <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" placeholder="Hi, I'm interested in
-                    working with you. Let's discuss further."></textarea>
-                </div>
-            </div>
-            <div class="md:flex md:items-center">
-                <div class="md:w-1/3">
-                    <button class="shadow bg-black text-white font-bold py-2 px-4 rounded-full" type="button">
-                        Send
-                    </button>
-                </div>
-                <div class="md:w-2/3"></div>
-            </div>
-        </form>
-    </div>
-</section>
-<footer class="bg-black text-white py-6">
-    <div class="container mx-auto px-4">
-        <div class="flex items-center justify-between">
-            <p class="pr-2">Copyright mehvozsoft.com 2023</p>
-            <ul class="flex items-center">
-                <li><a href="https://twitter.com/tanvir_ux" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://github.com/tanvir-ux" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/mdtanviralam/" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.facebook.com/mehvozsoft/" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://stackoverflow.com/users/4763593/tanvir-alam" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-stack-overflow"></i></a></li>
-                <li><a href="https://www.youtube.com/user/tanviralamshuvo" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://dev.to/tanvir_ux" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-dev"></i></a></li>
-                <li><a href="https://tanvirux.hashnode.dev/" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fa-brands fa-hashnode"></i></a></li>
-                <li><a href="https://www.hackerrank.com/tanviralamshuvo" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fab fa-hackerrank"></i></a></li>
-                <li><a href="https://leetcode.com/tanvir-ux/" target="_blank" class="text-white hover:text-gray-300 mr-4"><i class="fas fa-code"></i></a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
-</body>
+            async function handleSubmit(event) {
+              event.preventDefault();
+              var status = document.getElementById("form-status");
+              var data = new FormData(event.target);
+              fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+              }).then(response => {
+                if (response.ok) {
+                  status.innerHTML = "Thanks for your submission!";
+                  status.className = 'text-green-600 font-semibold';
+                  form.reset()
+                } else {
+                  response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                      status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                      status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                    status.className = 'text-red-600 font-semibold';
+                  })
+                }
+              }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form";
+                status.className = 'text-red-600 font-semibold';
+              });
+            }
+            form.addEventListener("submit", handleSubmit)
+        </script>
+
+    </body>
 </html>
