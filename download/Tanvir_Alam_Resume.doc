@@ -1,0 +1,146 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Tanvir Alam - Resume</title></head><body>
+        <!-- PAGE 1 -->
+        <div class="page">
+            <header class="header">
+                <h1>TANVIR ALAM</h1>
+                <div class="contact-info">
+                    Dhaka, Bangladesh | +8801716416679 | <a href="mailto:tanviralamshuvo@gmail.com">tanviralamshuvo@gmail.com</a> | <a href="https://www.linkedin.com/in/mdtanviralam">LinkedIn</a> | <a href="https://tanvir-ux.github.io">Portfolio</a>
+                </div>
+            </header>
+
+            <main>
+                <section class="section summary">
+    <h2 class="section-title">SUMMARY</h2>
+    <p>
+        Software Engineer with over five years of experience building and scaling full-stack systems that connect modern web applications with enterprise-grade backends. Experienced across both the financial and technology sectors—delivering robust digital banking solutions for SMBC and Bank Danamon Indonesia, and now driving innovation in a high-traffic HRM startup environment.
+        <br><br>
+        Skilled in a wide ecosystem of technologies including Vue.js 2, AngularJS 1, Spring Boot, Kafka, Redis, MySQL, PostgreSQL, and Debezium. Adept at maintaining and enhancing multi-panel admin and client applications, synchronizing distributed systems, and optimizing real-time event pipelines. 
+        <br><br>
+        Passionate about scalable architectures, DevOps reliability, and seamless API-driven integrations—bridging solid backend engineering with efficient and intuitive user experiences.
+    </p>
+</section>
+
+
+                <section class="section">
+                    <h2 class="section-title">TECHNICAL SKILLS</h2>
+                    <div class="skills-grid">
+                        <ul>
+                            <li><strong>Frontend Technologies:</strong> Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3, JSON, Ajax, Ionic Framework</li>
+                            <li><strong>UI/UX &amp; Design:</strong> Responsive Web Design, Cross-Browser Compatibility, UI/UX Principles, Wireframe Translation</li>
+                            <li><strong>Backend Technologies:</strong> Java, Spring Boot, Microservices, RESTful APIs, SOAP, Middleware Integration</li>
+                            <li><strong>Databases:</strong> PostgreSQL, Oracle Database, PL/SQL, SQL, NoSQL</li>
+                            <li><strong>DevOps &amp; Tools:</strong> Git, GitHub, Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions), Jira</li>
+                            <li><strong>Methodologies:</strong> Agile, Scrum, Software Development Lifecycle (SDLC)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+                    
+                    <div class="job">
+    <div class="job-header">
+        <span class="job-company"><strong>Inovace Technologies Ltd.</strong> | Software Engineer — Dhaka, Bangladesh</span>
+        <span class="job-date">Sep 2025 - Present</span>
+    </div>
+    <ul class="job-details">
+        <li>Design, enhance, and maintain distributed HRM systems built on <strong>Spring Boot</strong>, <strong>Vue.js 2</strong>, and <strong>AngularJS 1</strong>.</li>
+        <li>Integrate and optimize event-driven communication using <strong>Kafka</strong>, <strong>Redis</strong>, and <strong>Debezium</strong> to synchronize data between <strong>MySQL</strong> and <strong>PostgreSQL</strong> databases.</li>
+        <li>Maintain high-availability workflows where legacy biometric devices send data via <strong>HTTP</strong> and modern devices use <strong>MQTT</strong>, unified through <strong>Node.js</strong>, <strong>Vernemq</strong>, and <strong>Nginx</strong> into a centralized system.</li>
+        <li>Collaborate with cross-functional teams to design and deploy new admin and client panel features, ensuring performance, reliability, and observability across distributed services.</li>
+        <li>Deliver resilient APIs, efficient database schemas, and optimized pipelines while contributing to <strong>CI/CD</strong> automation and scalable production deployments.</li>
+    </ul>
+</div>
+
+<div class="job">
+                        <div class="job-header">
+                            <span class="job-company"><strong>Midas Software Solutions Ltd.</strong> | Software Engineer (Java)</span>
+                            <span class="job-date">Mar 2023 - Aug 2025</span>
+                        </div>
+                        
+                        <div class="project-title">Project: SMBC (Jun 2025 - Present) | <em>Client: Sumitomo Mitsui Banking Corporation</em></div>
+                        <ul class="job-details">
+                            <li>Develop and customize user-facing screens for the Oracle FLEXCUBE banking platform using JavaScript, HTML, and XML to meet specific UI/UX requirements.</li>
+                            <li>Collaborate with Oracle and client teams to translate business requirements and technical specifications into functional frontend and backend solutions.</li>
+                            <li>Integrate frontend components with backend Oracle Banking Payments (OBPM) and FLEXCUBE modules using Java, ensuring efficient and reliable workflows.</li>
+                            <li>Debug and resolve frontend issues, ensuring UI consistency and optimal performance across the application.</li>
+                            <li>Conduct rigorous API testing using Insomnia to validate data integrity between the UI and backend services.</li>
+                        </ul>
+
+                        <div class="project-title">Project: dBankPro (Sep 2024 - Jun 2025) | <em>Client: Bank Danamon Indonesia</em></div>
+                        <ul class="job-details">
+                            <li>Developed high-performance RESTful APIs using Java and Spring Boot to power digital banking frontend applications, ensuring secure and high-speed communication.</li>
+                            <li>Implemented OAuth 2.0, JWT, and RBAC security standards to protect API endpoints consumed by the user interface.</li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <!-- END PAGE 1 -->
+        
+        <!-- <div class="page-break"></div> -->
+
+        <!-- PAGE 2 -->
+        <!-- <div class="page">
+             <header class="header page-header-2" style="text-align: right; border: none; padding: 0; margin-bottom: 1rem;">
+                <div class="contact-info" style="font-size: 0.9rem;">Tanvir Alam | Page 2</div>
+            </header> -->
+            <main>
+                 <section class="section">
+                    <div class="job">
+                        <!-- <div class="job-header">
+                            <span class="job-company"><strong>Midas Software Solutions Ltd.</strong> (Continued)</span>
+                        </div>  -->
+                        <div class="project-title">Project: NGI (Mar 2023 - Aug 2024) | <em>Client: Bank Danamon Indonesia</em></div>
+                        <ul class="job-details">
+                            <li>Designed and implemented REST APIs using Java Spring microservices to seamlessly connect backend modules with frontend components.</li>
+                            <li>Led the architectural migration from a monolith to a microservices-based system, exposing core workflows as REST endpoints to enhance frontend integration capabilities.</li>
+                            <!-- <li>Authored and maintained clear API documentation to facilitate efficient consumption by the frontend development team.</li> -->
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <div class="job-header">
+                            <span class="job-company"><strong>MehvozSoft</strong> | Application Developer</span>
+                            <span class="job-date">Sep 2021 - Feb 2023</span>
+                        </div>
+                        <ul class="job-details">
+                            <li>Led frontend development for multiple web and mobile applications, building responsive and dynamic user interfaces with <strong>Angular</strong> and the <strong>Ionic Framework</strong>.</li>
+                            <li>Architected and implemented the complete frontend for three major applications (Express Entry Calculator, Adhaan, and BuyOrRent), focusing on modularity and scalability.</li>
+                            <!-- <li>Translated UI/UX designs and wireframes into functional, reusable, and cross-browser compatible components, ensuring high standards of responsiveness and code quality.</li> -->
+                            <!-- <li>Integrated frontend applications with backend services by consuming RESTful APIs, implementing real-time data flow and comprehensive error handling strategies.</li>
+                            <li>Managed application state effectively using Angular services and RxJS to ensure data consistency and a reactive user experience.</li>
+                            <li>Conducted unit testing for frontend components to maintain code quality and reliability.</li>
+                            <li>Actively participated in daily stand-ups, sprint planning, and code review sessions as part of a collaborative Agile development team.</li> -->
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <div class="education-item">
+                        <span><strong>Stamford University Bangladesh</strong></span>
+                        <span>2021</span>
+                    </div>
+                    <div><em>Bachelor of Science, Electrical &amp; Electronic Engineering</em></div>
+
+                    <div class="education-item" style="margin-top: 1rem;">
+                        <span><strong>Notre Dame College</strong></span>
+                        <span>2006</span>
+                    </div>
+                    <div><em>Higher Secondary Certificate (HSC), Science</em></div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">CERTIFICATIONS &amp; LANGUAGES</h2>
+                     <div class="cert-item">
+                        <span><strong>IELTS (Academic):</strong> Score 6.5, British Council</span>
+                    </div>
+                     <div class="cert-item">
+                        <span><strong>Introduction to Machine Learning:</strong> Coursera</span>
+                    </div>
+                     <div class="cert-item" style="margin-top: 1rem;">
+                        <span><strong>Languages:</strong> English (Professional Proficiency), Bangla (Native)</span>
+                    </div>
+                </section>
+            </main>
+        </body></html>
