@@ -1,201 +1,372 @@
 <!doctype html>
 <html class="scroll-smooth">
     <head>
-        <title>Software Engineer | Tanvir Alam</title>
+        <title>Chief Technology Officer & Senior Software Engineer | Tanvir Alam</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Tanvir Alam's portfolio website. A Software Engineer specializing in Java, Spring Boot, Microservices, and Cloud Technologies.">
-        <meta name="keywords" content="Tanvir Alam, Software Engineer, Java Developer, Spring Boot, Microservices, Angular, Portfolio">
+        <meta name="description" content="Tanvir Alam's professional engineering portfolio. Chief Technology Officer specializing in Java Ecosystems, Enterprise Cloud Architectures, and Agentic AI Workflows.">
+        <meta name="keywords" content="Tanvir Alam, CTO, Chief Technology Officer, Senior Software Engineer, Java Developer, Spring Boot, Microservices, Agentic AI, D3js Timeline, Keras, Angular">
         
-        <!-- Tailwind CSS -->
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
         
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
-        <!-- Google Fonts: Inter -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght=400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <style>
-            /* Use Inter as the default font */
-            body {
-                font-family: 'Inter', sans-serif;
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <style type="text/css">
+            body { font-family: 'Inter', sans-serif; background-color: #0b1329; }
+            
+            /* Glassmorphism System Components */
+            .glass-card {
+                background: rgba(30, 41, 59, 0.45);
+                backdrop-filter: blur(16px);
+                -webkit-backdrop-filter: blur(16px);
+                border: 1px solid rgba(255, 255, 255, 0.08);
             }
-            /* Add a subtle transition for hover effects */
+            .glass-nav {
+                background: rgba(11, 19, 41, 0.75);
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            }
             .card-hover {
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
             }
             .card-hover:hover {
-                transform: translateY(-8px);
-                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+                transform: translateY(-6px);
+                border-color: rgba(56, 189, 248, 0.4);
+                box-shadow: 0 20px 40px -15px rgba(14, 165, 233, 0.15);
+            }
+            .glow-text { text-shadow: 0 0 20px rgba(14, 165, 233, 0.4); }
+            
+            /* High-Performance Zoomable Lightbox Layer */
+            .lightbox-overlay {
+                transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s;
+            }
+            .lightbox-img-wrapper {
+                max-width: 90vw;
+                max-height: 72vh;
+                overflow: auto;
+                transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+            .lightbox-img-node {
+                transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+                cursor: zoom-in;
+            }
+            .lightbox-img-node.zoomed-state {
+                transform: scale(1.75);
+                cursor: zoom-out;
+            }
+            
+            /* Timeline Image Scaling System */
+            .badge-logo {
+                transition: transform 0.2s ease, filter 0.2s ease;
+            }
+            .badge-logo:hover {
+                filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.6));
             }
         </style>
     </head>
-    <body class="bg-slate-50 text-slate-800 leading-normal tracking-normal">
+    <body class="text-slate-200 leading-normal tracking-normal overflow-x-hidden bg-[#0b1329]">
 
-        <!-- Header -->
-        <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
+        <header class="glass-nav sticky top-0 z-50">
             <div class="container mx-auto flex items-center justify-between flex-wrap p-4">
                 <div class="flex items-center">
-                    <a class="text-2xl font-bold text-slate-900 no-underline" href="#">Tanvir Alam</a>
+                    <a class="text-2xl font-extrabold tracking-tight text-white glow-text no-underline" href="#">
+                        TANVIR<span class="text-sky-400">.ALAM</span>
+                    </a>
                 </div>
-                <nav class="hidden md:flex text-sm font-semibold uppercase tracking-wider space-x-2">
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#about">About</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#experience">Experience</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#skills">Skills</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#projects">Projects</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#contact">Contact</a>
+                <nav class="hidden md:flex text-xs font-bold uppercase tracking-widest space-x-2">
+                    <a class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all" href="#about">About</a>
+                    <a class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all" href="#github-timeline">Verification Timeline</a>
+                    <a class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all" href="#experience">Experience</a>
+                    <a class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all" href="#skills">Skills</a>
+                    <a class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all" href="#projects">Projects</a>
+                    <a class="px-4 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all" href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
 
-        <!-- About Section -->
-        <section id="about" class="py-20 md:py-28 bg-white">
-            <div class="container mx-auto px-4">
+        <section id="about" class="py-24 md:py-32 relative overflow-hidden border-b border-white/5">
+            <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 via-transparent to-transparent pointer-events-none"></div>
+            <div class="container mx-auto px-4 relative z-10">
                 <div class="flex flex-wrap items-center">
-                    <div class="w-full md:w-1/3 text-center mb-8 md:mb-0">
-                        <img src="images/profile.jpg" 
-                             onerror="this.onerror=null;this.src='https://placehold.co/256x256/E2E8F0/4A5568?text=TA';"
-                             alt="Profile Picture of Tanvir Alam" 
-                             class="rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto shadow-lg">
+                    <div class="w-full md:w-1/3 text-center mb-10 md:mb-0">
+                        <div class="relative inline-block">
+                            <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-sky-400 to-blue-600 blur opacity-40 transition duration-1000"></div>
+                            <img src="images/profile.jpg" 
+                                 onerror="this.onerror=null;this.src='https://placehold.co/256x256/1E293B/38BDF8?text=TA';"
+                                 alt="MD. Tanvir Alam Profile" 
+                                 class="relative rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto object-cover border-2 border-white/10 shadow-2xl">
+                        </div>
                     </div>
-                    <div class="w-full md:w-2/3 md:pl-12">
-                        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Software Engineer</h1>
-                        <p class="text-lg text-slate-600 leading-relaxed mb-6">Highly skilled Software Engineer with 5+ years of experience in developing enterprise-level applications, specializing in Java microservices, REST APIs, and digital banking platforms. Proven track record in delivering scalable, secure, and high-performance solutions for major banking clients.</p>
+                    <div class="w-full md:w-2/3 md:pl-12 text-center md:text-left">
+                        <div class="inline-flex items-center space-x-2 bg-sky-500/10 text-sky-400 border border-sky-500/20 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-4">
+                            <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
+                            <span>Executive Tech Leadership</span>
+                        </div>
+                        <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">
+                            MD. TANVIR ALAM
+                        </h1>
+                        <p class="text-xl md:text-2xl font-medium text-slate-400 mb-6">
+                            Chief Technology Officer & Senior Software Engineer
+                        </p>
+                        <p class="text-base md:text-lg text-slate-300 leading-relaxed mb-8 max-w-3xl">
+                            Strategic technology leader with an unbroken 11-year public open-source repository production footprint. Expert in engineering low-latency, high-concurrency software architectures across the Java ecosystem, distributed database frameworks, and state-of-the-art Agentic LLM reasoning workflows with validated deep-tech ecosystem contributions.
+                        </p>
                         
-                        <!-- FIX: The href path now correctly points to the 'download' folder. -->
-                        <a href="download/tanvir_resume_oct_25.pdf" download="Tanvir_Alam_Resume.pdf" class="inline-flex items-center bg-slate-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-slate-700 transition-transform transform hover:scale-105 shadow-lg">
-                            <i class="fas fa-download mr-3"></i>
-                            Download CV
-                        </a>
+                        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                            <a href="download/tanvir_resume_june_2026.pdf" target="_blank" download="Tanvir_Alam_Resume_June_2026.pdf" class="inline-flex items-center bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold py-3.5 px-6 rounded-xl transition-all shadow-lg shadow-sky-500/20 hover:scale-[1.02]">
+                                <i class="fas fa-download mr-3"></i> Download Verified Resume (PDF)
+                            </a>
+                            <a href="#github-timeline" class="inline-flex items-center bg-slate-800 hover:bg-slate-700 text-white border border-white/10 font-semibold py-3.5 px-6 rounded-xl transition-all">
+                                <i class="fab fa-github mr-3 text-sky-400"></i> Audit Codebase Timeline
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="py-20 md:py-24 bg-slate-50">
+        <section id="github-timeline" class="py-20 bg-slate-950/60 border-b border-white/5">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Professional Experience</h2>
-                <div class="max-w-4xl mx-auto">
-                    <!-- Midas Software Solutions -->
-                    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8 card-hover relative border border-slate-200">
-                         <div class="absolute top-4 right-4 text-xs font-bold uppercase text-slate-400">Mar 2023 - Present</div>
-                        <h3 class="text-2xl font-bold text-slate-800 mb-1">Midas Software Solutions Ltd.</h3>
-                        <p class="text-lg text-slate-500 mb-6">Software Engineer (Java)</p>
-                        
-                        <div class="space-y-6">
-                            <div>
-                                <h4 class="font-bold text-slate-700">Project: SMBC (Sumitomo Mitsui Banking Corporation)</h4>
-                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
-                                    <li>Upgraded Oracle FLEXCUBE (FCUBS) to v14.7 and integrated Oracle Banking Payments (OBPM) v14.7.</li>
-                                    <li>Customized FLEXCUBE/OBPM modules using Java, PL/SQL, and extended Java JARs for client-specific workflows.</li>
-                                    <li>Conducted API testing using Insomnia and managed deployments on Oracle WebLogic Server.</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-700">Project: dBankPro (Bank Danamon Indonesia)</h4>
-                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
-                                    <li>Developed and maintained Java microservices using Spring Boot and PostgreSQL.</li>
-                                    <li>Implemented OAuth 2.0, JWT authentication, and RBAC for enhanced API security.</li>
-                                    <li>Deployed containerized services using Docker & Kubernetes and automated CI/CD pipelines with Jenkins & GitHub Actions.</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-700">Project: NGI (Bank Danamon Indonesia)</h4>
-                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
-                                    <li>Developed core banking modules using Java Spring microservices, Oracle FLEXCUBE, and PL/SQL.</li>
-                                    <li>Designed and implemented REST APIs to connect microservices and frontend components.</li>
-                                    <li>Led the transition from monolithic architecture to a fully microservices-based system.</li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Verified Continuous Engineering History</h2>
+                    <p class="text-slate-400 text-sm md:text-base">
+                        A real-time roadmap mapping unalterable public milestone events, validation metrics, and core commits across premium deep-tech open-source ecosystems.
+                    </p>
+                </div>
+
+                <div class="glass-card rounded-2xl p-6 mb-12 border border-white/10">
+                    <div class="text-xs uppercase tracking-widest text-sky-400 font-bold mb-4 flex items-center justify-between">
+                        <span>Interactive Timeline Engine</span>
+                        <span class="text-slate-500 hidden sm:inline"><i class="fas fa-mouse-pointer mr-2"></i>Hover/Tap blocks or badges to check architecture version milestones</span>
                     </div>
-                    <!-- MehvozSoft -->
-                    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 card-hover relative border border-slate-200">
-                         <div class="absolute top-4 right-4 text-xs font-bold uppercase text-slate-400">Sep 2021 - Feb 2023</div>
-                        <h3 class="text-2xl font-bold text-slate-800 mb-1">MehvozSoft</h3>
-                        <p class="text-lg text-slate-500 mb-4">Application Developer</p>
-                        <ul class="list-disc pl-5 text-slate-600 space-y-1">
-                            <li>Developed RESTful backend services using Spring Boot and Node.js for mobile and web applications.</li>
-                            <li>Designed microservice-based architecture for scalable apps like Express Entry Calculator, Adhaan, and BuyOrRent.</li>
-                            <li>Integrated REST APIs into Ionic Angular and Angular apps to deliver real-time data and enhance user experience.</li>
+                    <div id="timeline-viz" class="w-full overflow-x-auto bg-slate-950/40 rounded-xl p-2 border border-white/5"></div>
+                    <div id="timeline-tooltip" class="mt-4 p-4 rounded-xl bg-slate-900/80 border border-sky-500/30 min-h-[76px] flex flex-col justify-center transition-all duration-300">
+                        <p class="text-center text-slate-400 text-xs sm:text-sm">Hover over code blocks inside the visual matrix above to read live project milestones.</p>
+                    </div>
+                </div>
+
+<!-- Cleaned, Single Grid Wrapper with Fixed Max-Width -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto w-full items-stretch">
+    
+    <!-- Card 1: Code Activity Mapping Vector -->
+    <div class="glass-card rounded-2xl p-5 border border-white/5 flex flex-col justify-between h-full">
+        <div class="mb-4">
+            <h4 class="text-white font-bold text-base"><i class="fas fa-chart-line mr-2 text-sky-400"></i> Code Activity Mapping Vector</h4>
+            <p class="text-xs text-slate-400">Click preview vector to inspect full historical deployment graph</p>
+        </div>
+        <div onclick="openLightbox('images/github-timeline-tanvir-ux.png', 'Code Activity Mapping Vector')" class="rounded-xl overflow-hidden bg-slate-950/40 border border-white/5 p-2 cursor-pointer group relative flex items-center justify-center h-[240px] md:h-[280px] w-full">
+            <div class="absolute inset-0 bg-sky-500/0 group-hover:bg-sky-500/10 transition-colors z-10 flex items-center justify-center">
+                <span class="bg-slate-950/90 text-sky-400 text-xs font-bold px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity border border-sky-500/30"><i class="fas fa-expand-alt mr-1.5"></i> Inspect Architecture Matrix</span>
+            </div>
+            <img src="images/github-timeline-tanvir-ux.png" 
+                 onerror="this.onerror=null;this.src='https://placehold.co/600x300/1E293B/38BDF8?text=Activity+Mapping+Vector';" 
+                 alt="Tanvir Alam GitHub Complete History Timeline Graph" 
+                 class="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-all duration-300">
+        </div>
+    </div>
+
+    <!-- Card 2: Core Repository Architecture Ecosystem Metrics -->
+    <div class="glass-card rounded-2xl p-5 border border-white/5 flex flex-col justify-between h-full">
+        <div class="mb-4">
+            <h4 class="text-white font-bold text-base"><i class="fab fa-git-alt mr-2 text-emerald-400"></i> Core Repository Architecture Ecosystem Metrics</h4>
+            <p class="text-xs text-slate-400">Click preview metric card to check cumulative repo system status</p>
+        </div>
+        <div onclick="openLightbox('images/tanvirux_github_stat.png', 'Core Repository Architecture Ecosystem Metrics')" class="rounded-xl overflow-hidden bg-slate-950/40 border border-white/5 p-2 cursor-pointer group relative flex items-center justify-center h-[240px] md:h-[280px] w-full">
+            <div class="absolute inset-0 bg-emerald-500/0 group-hover:bg-emerald-500/10 transition-colors z-10 flex items-center justify-center">
+                <span class="bg-slate-950/90 text-emerald-400 text-xs font-bold px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity border border-emerald-500/30"><i class="fas fa-expand-alt mr-1.5"></i> Inspect Ecosystem Metrics</span>
+            </div>
+            <img src="images/tanvirux_github_stat.png" 
+                 onerror="this.onerror=null;this.src='https://placehold.co/600x300/1E293B/34D399?text=Ecosystem+Metrics';" 
+                 alt="Tanvir Alam GitHub Cumulative Production Statistics" 
+                 class="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-all duration-300">
+        </div>
+    </div>
+
+</div>
+        
+
+
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </section>
+
+        <div id="global-lightbox" onclick="closeLightbox(event)" class="lightbox-overlay fixed inset-0 z-[100] bg-slate-950/90 backdrop-blur-md flex flex-col items-center justify-center p-4 md:p-8 opacity-0 invisible">
+            <button onclick="forceCloseLightbox()" class="absolute top-6 right-6 text-slate-400 hover:text-white text-2xl md:text-3xl transition-colors focus:outline-none bg-white/5 w-12 h-12 rounded-full flex items-center justify-center border border-white/10 hover:bg-white/10 z-50">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="mb-4 text-center max-w-4xl px-4 pointer-events-none">
+                <h3 id="lightbox-title" class="text-white font-bold text-lg md:text-xl tracking-wide">Image Preview</h3>
+                <p class="text-xs text-slate-400 mt-1">Click on image to Zoom. Click outside or tap `✕` to exit.</p>
+            </div>
+            <div class="lightbox-img-wrapper glass-card p-2 rounded-xl flex items-start justify-center max-w-5xl w-full" onclick="event.stopPropagation()">
+                <img id="lightbox-img" src="" alt="Expanded Portfolio Asset" class="lightbox-img-node max-w-full h-auto max-h-[68vh] object-contain rounded-lg" onclick="toggleImageZoom(this)">
+            </div>
+        </div>
+
+        <section id="experience" class="py-20 md:py-24 border-b border-white/5">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-12 text-center tracking-tight">Corporate System Track Record</h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    
+                    <div class="glass-card rounded-2xl p-6 md:p-8 card-hover relative border-l-4 border-l-sky-400">
+                        <div class="flex flex-wrap justify-between items-baseline mb-4">
+                            <h3 class="text-2xl font-bold text-white">Chief Technology Officer (CTO)</h3>
+                            <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-400/10 px-2.5 py-1 rounded-md">April 2026 - Present</span>
+                        </div>
+                        <p class="text-lg text-slate-400 font-semibold mb-4">Jonlab LLC</p>
+                        <ul class="list-none space-y-2 text-slate-300 text-sm md:text-base">
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-sky-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Directing technical vision, cloud strategy, and scaling production engineering frameworks.</li>
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-sky-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Overseeing complex agentic workflows and advanced RAG systems to supercharge platform processing capabilities.</li>
                         </ul>
                     </div>
+
+                    <div class="glass-card rounded-2xl p-6 md:p-8 card-hover relative border-l-4 border-l-purple-400">
+                        <div class="flex flex-wrap justify-between items-baseline mb-4">
+                            <h3 class="text-2xl font-bold text-white">Deputy Assistant Director (IT App Dev)</h3>
+                            <span class="text-xs font-bold uppercase tracking-wider text-purple-400 bg-purple-400/10 px-2.5 py-1 rounded-md">Feb 2026 - April 2026</span>
+                        </div>
+                        <p class="text-lg text-slate-400 font-semibold mb-4">Remark HB Ltd. (Harlen) | Dhaka, Bangladesh</p>
+                        <ul class="list-none space-y-2 text-slate-300 text-sm md:text-base">
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-purple-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Spearheaded software solution pipelines for the region's largest premium authentic cosmetics retail chain.</li>
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-purple-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Integrated robust automation mechanisms within internal application clusters.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 md:p-8 card-hover relative border-l-4 border-l-indigo-400">
+                        <div class="flex flex-wrap justify-between items-baseline mb-4">
+                            <h3 class="text-2xl font-bold text-white">Software Engineer</h3>
+                            <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-400/10 px-2.5 py-1 rounded-md">Nov 2025 - Jan 2026</span>
+                        </div>
+                        <p class="text-lg text-slate-400 font-semibold mb-4">MehvozSoft | Dhaka, Bangladesh</p>
+                        <ul class="list-none space-y-2 text-slate-300 text-sm md:text-base">
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-indigo-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Designed autonomous AI agents using LangChain to handle multi-step reasoning tasks, reducing manual oversight by 40%.</li>
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-indigo-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Implemented robust RAG pipelines allowing LLMs to query internal documentation safely via systematic tool-calling configurations.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 md:p-8 card-hover relative border-l-4 border-l-emerald-400">
+                        <div class="flex flex-wrap justify-between items-baseline mb-4">
+                            <h3 class="text-2xl font-bold text-white">Software Engineer</h3>
+                            <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2.5 py-1 rounded-md">Sep 2025 - Oct 2025</span>
+                        </div>
+                        <p class="text-lg text-slate-400 font-semibold mb-4">Inovace Technologies Ltd. | Dhaka, Bangladesh (On-site)</p>
+                        <ul class="list-none space-y-2 text-slate-300 text-sm md:text-base">
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-emerald-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Maintained distributed HRM systems built on Spring Boot architectures paired with reactive view layers.</li>
+                            <li class="flex items-start"><i class="fas fa-chevron-right text-emerald-400 mt-1.5 mr-3 text-xs flex-shrink-0"></i> Integrated and optimized real-time communication nodes using Kafka, Redis, and Debezium for database transaction synchronization.</li>
+                        </ul>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 md:p-8 card-hover relative border-l-4 border-l-amber-400">
+                        <div class="flex flex-wrap justify-between items-baseline mb-4">
+                            <h3 class="text-2xl font-bold text-white">Software Engineer (Java)</h3>
+                            <span class="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-md">Mar 2023 - Aug 2025</span>
+                        </div>
+                        <p class="text-lg text-slate-400 font-semibold mb-4">Midas Software Solutions Ltd.</p>
+                        
+                        <div class="mt-4 border-l border-white/10 pl-4 mb-4">
+                            <h4 class="font-bold text-white text-sm uppercase tracking-wider"><i class="fas fa-university text-sky-400 mr-2"></i> Digital Banking Ecosystem (Bank Danamon Indonesia)</h4>
+                            <p class="text-sm text-slate-300 mt-1">Migrated legacy monolith infrastructure into Spring Boot microservices, driving continuous integration loops up to 70% faster.</p>
+                        </div>
+                        <div class="border-l border-white/10 pl-4">
+                            <h4 class="font-bold text-white text-sm uppercase tracking-wider"><i class="fas fa-cogs text-amber-400 mr-2"></i> Oracle FLEXCUBE Customization (SMBC Japan)</h4>
+                            <p class="text-sm text-slate-300 mt-1">Engineered customized automated international payment nodes parsing complex secure SWIFT transfers safely.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-2xl p-6 md:p-8 card-hover relative border-l-4 border-l-slate-400">
+                        <div class="flex flex-wrap justify-between items-baseline mb-4">
+                            <h3 class="text-2xl font-bold text-white">Application Developer</h3>
+                            <span class="text-xs font-bold uppercase tracking-wider text-slate-400 bg-slate-400/10 px-2.5 py-1 rounded-md">Sep 2021 - Feb 2023</span>
+                        </div>
+                        <p class="text-lg text-slate-400 font-semibold mb-4">MehvozSoft</p>
+                        <p class="text-slate-300 text-sm md:text-base">
+                            Built and managed multiple cross-platform application systems (Ionic/Angular) targeting automated immigration calculators and structural tracking applications.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="py-20 md:py-24 bg-white">
+        <section id="skills" class="py-20 md:py-24 bg-slate-950/40 border-b border-white/5">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Technical Skills</h2>
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Backend</h3><p class="text-slate-600">Java, Spring Boot, Microservices, REST APIs, SOAP</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Frontend</h3><p class="text-slate-600">Angular, TypeScript, JavaScript, Ionic</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Database</h3><p class="text-slate-600">PostgreSQL, Oracle DB, PL/SQL, NoSQL</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">DevOps</h3><p class="text-slate-600">Docker, Kubernetes, CI/CD, Jenkins, Git</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Security</h3><p class="text-slate-600">OAuth 2.0, JWT, RBAC</p></div>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-12 text-center tracking-tight">Technical Capability Index</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                    <div class="glass-card rounded-xl p-6 card-hover"><div class="text-sky-400 text-2xl mb-3"><i class="fas fa-robot"></i></div><h3 class="font-bold text-lg mb-2 text-white">AI & Deep Learning</h3><p class="text-slate-400 text-sm">Keras, LangChain, RAG Pipelines, Tool-Calling, OpenAI API, Agentic AI</p></div>
+                    <div class="glass-card rounded-xl p-6 card-hover"><div class="text-emerald-400 text-2xl mb-3"><i class="fas fa-server"></i></div><h3 class="font-bold text-lg mb-2 text-white">Backend</h3><p class="text-slate-400 text-sm">Java, Spring Boot, Microservices, Grails, Node.js, Enterprise Architecture</p></div>
+                    <div class="glass-card rounded-xl p-6 card-hover"><div class="text-amber-400 text-2xl mb-3"><i class="fas fa-database"></i></div><h3 class="font-bold text-lg mb-2 text-white">Databases</h3><p class="text-slate-400 text-sm">Oracle PL/SQL (CDB/PDB), PostgreSQL, MySQL, Schema Optimization</p></div>
+                    <div class="glass-card rounded-xl p-6 card-hover"><div class="text-purple-400 text-2xl mb-3"><i class="fas fa-laptop-code"></i></div><h3 class="font-bold text-lg mb-2 text-white">Frontend</h3><p class="text-slate-400 text-sm">Angular, TypeScript, React, Next.js, Vue.js, Ionic Architecture</p></div>
+                    <div class="glass-card rounded-xl p-6 card-hover"><div class="text-rose-400 text-2xl mb-3"><i class="fas fa-network-wired"></i></div><h3 class="font-bold text-lg mb-2 text-white">Infrastructure</h3><p class="text-slate-400 text-sm">Docker, Kubernetes, Kafka, Redis, MQTT Brokers, GitHub Actions</p></div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="py-20 md:py-24 bg-slate-50">
+        <section id="projects" class="py-20 md:py-24 border-b border-white/5">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Projects</h2>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-12 text-center tracking-tight">System Deployments</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
+                    <div class="glass-card rounded-xl flex flex-col card-hover overflow-hidden">
                         <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">BuyOrRent</h3>
-                            <p class="text-slate-600 leading-relaxed">A full-stack property management app using Angular and ASP.NET. Features user authentication, property listings, search, and sorting. </p>
+                            <span class="text-xs font-bold text-sky-400 tracking-wider uppercase mb-1 block">Financial Engine</span>
+                            <h3 class="text-xl font-bold text-white mb-2">DSE Dhaka Stock Engine</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">High-concurrency data parsing module prototype handling live trade logic processing operations mirroring Dhaka Stock Exchange architecture rules.</p>
                         </div>
-                        <div class="p-6 bg-slate-50"><a href="https://buyorrent-angular.web.app/" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
+                        <div class="p-6 bg-white/5 border-t border-white/5 text-xs text-slate-400">Ecosystem: Java / PL/SQL</div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
-                         <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">Express Entry Calculator</h3>
-                            <p class="text-slate-600 leading-relaxed">A hybrid Android app (Ionic/Angular) for Canadian immigration, helping users calculate eligibility scores and access immigration news. </p>
-                        </div>
-                        <div class="p-6 bg-slate-50"><a href="https://steprimo.com/android/us/app/com.ionicframework.expressentrycalculator/Express-Entry-Calculator/" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
+
+                    <div class="glass-card rounded-xl flex flex-col card-hover overflow-hidden">
                         <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">Adhaan</h3>
-                            <p class="text-slate-600 leading-relaxed">A mobile app to locate nearby mosques and calculate accurate prayer times based on the sun's position, initially serving Dhaka. </p>
+                            <span class="text-xs font-bold text-purple-400 tracking-wider uppercase mb-1 block">Full-Stack Cloud</span>
+                            <h3 class="text-xl font-bold text-white mb-2">BuyOrRent</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Enterprise property asset configuration tracking application matching custom analytical data sorting features.</p>
                         </div>
-                        <div class="p-6 bg-slate-50"><a href="https://apkpure.com/adhaan/io.mehvozsoft.adhan" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
+                        <div class="p-6 bg-white/5 border-t border-white/5"><a href="https://buyorrent-angular.web.app/" target="_blank" class="font-semibold text-sky-400 hover:text-sky-300 text-sm flex items-center">View Client Hub &rarr;</a></div>
+                    </div>
+
+                    <div class="glass-card rounded-xl flex flex-col card-hover overflow-hidden">
+                        <div class="p-6 flex-grow">
+                            <span class="text-xs font-bold text-emerald-400 tracking-wider uppercase mb-1 block">Mobile Application</span>
+                            <h3 class="text-xl font-bold text-white mb-2">Express Entry Calculator</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">Hybrid cross-platform Android mobile application assisting global immigration candidates tracking calculated parameters.</p>
+                        </div>
+                        <div class="p-6 bg-white/5 border-t border-white/5"><a href="https://steprimo.com/android/us/app/com.ionicframework.expressentrycalculator/Express-Entry-Calculator/" target="_blank" class="font-semibold text-sky-400 hover:text-sky-300 text-sm flex items-center">View Distribution Portal &rarr;</a></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="py-20 md:py-24 bg-white">
+        <section id="contact" class="py-20 md:py-24 bg-slate-950/20">
             <div class="container mx-auto px-4">
-                <div class="max-w-3xl mx-auto text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Get In Touch</h2>
-                    <p class="text-lg text-slate-600 mb-8">Have a project in mind or just want to say hi? Feel free to send me a message.</p>
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Establish Connection</h2>
+                    <p class="text-slate-400 text-sm md:text-base">Initiate direct messaging for project consultation requests or architectural leadership inquiries.</p>
                 </div>
                 
-                <form id="contact-form" action="https://formspree.io/f/xpwrbzkk" method="POST" class="max-w-xl mx-auto">
-                    <div class="mb-4">
-                        <label class="block text-slate-700 text-sm font-bold mb-2" for="name">Full Name</label>
-                        <input class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="name" name="name" type="text" placeholder="Your Name" required>
+                <form id="contact-form" action="https://formspree.io/f/xpwrbzkk" method="POST" class="max-w-xl mx-auto space-y-5">
+                    <div>
+                        <label class="block text-slate-300 text-xs font-bold uppercase tracking-wider mb-2" for="name">Identity Context</label>
+                        <input class="appearance-none block w-full bg-slate-900 border border-white/10 rounded-xl py-3.5 px-4 text-slate-200 leading-tight focus:outline-none focus:border-sky-500 transition-colors" id="name" name="name" type="text" placeholder="Your Name / Organization" required>
                     </div>
-                    <div class="mb-4">
-                        <label class="block text-slate-700 text-sm font-bold mb-2" for="email">Email Address</label>
-                        <input class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="email" name="email" type="email" placeholder="you@example.com" required>
+                    <div>
+                        <label class="block text-slate-300 text-xs font-bold uppercase tracking-wider mb-2" for="email">Communication Node</label>
+                        <input class="appearance-none block w-full bg-slate-900 border border-white/10 rounded-xl py-3.5 px-4 text-slate-200 leading-tight focus:outline-none focus:border-sky-500 transition-colors" id="email" name="email" type="email" placeholder="client@organization.com" required>
                     </div>
-                    <div class="mb-6">
-                        <label class="block text-slate-700 text-sm font-bold mb-2" for="message">Message</label>
-                        <textarea class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+                    <div>
+                        <label class="block text-slate-300 text-xs font-bold uppercase tracking-wider mb-2" for="message">Message Core Payload</label>
+                        <textarea class="appearance-none block w-full bg-slate-900 border border-white/10 rounded-xl py-3.5 px-4 text-slate-200 leading-tight focus:outline-none focus:border-sky-500 transition-colors" id="message" name="message" rows="5" placeholder="Specify project parameters..." required></textarea>
                     </div>
                     <div class="text-center">
-                        <button class="shadow bg-slate-900 text-white font-bold py-3 px-8 rounded-lg hover:bg-slate-700 transition-transform transform hover:scale-105 focus:outline-none focus:shadow-outline" type="submit">
-                            Send Message
+                        <button class="w-full sm:w-auto shadow-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold py-3.5 px-10 rounded-xl transition-all hover:scale-[1.01]" type="submit">
+                            Transmit System Message
                         </button>
                     </div>
                     <p id="form-status" class="text-center mt-4"></p>
@@ -203,59 +374,219 @@
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class="bg-slate-900 text-slate-400 py-10">
+        <footer class="bg-slate-950 text-slate-500 py-12 border-t border-white/5">
             <div class="container mx-auto px-4 text-center">
-                 <div class="flex items-center justify-center space-x-6 mb-4">
-                    <a href="https://github.com/tanvir-ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mdtanviralam/" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com/tanvir_ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-twitter"></i></a>
-                    <a href="https://stackoverflow.com/users/4763593/tanvir-alam" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-stack-overflow"></i></a>
-                    <a href="https://leetcode.com/tanvir-ux/" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fas fa-code"></i></a>
-                    <a href="https://www.hackerrank.com/tanviralamshuvo" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-hackerrank"></i></a>
-                    <a href="https://dev.to/tanvir_ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-dev"></i></a>
+                <div class="flex items-center justify-center space-x-6 mb-6">
+                    <a href="https://github.com/tanvir-ux" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors text-2xl"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mdtanviralam/" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors text-2xl"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/tanvir_ux" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors text-2xl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://stackoverflow.com/users/4763593/tanvir-alam" target="_blank" class="text-slate-400 hover:text-sky-400 transition-colors text-2xl"><i class="fab fa-stack-overflow"></i></a>
                 </div>
-                <p class="text-sm">&copy; 2025 Tanvir Alam. All Rights Reserved.</p>
-                <p class="text-xs mt-2">Built with <span class="text-red-400">&hearts;</span> and Tailwind CSS.</p>
+                <p class="text-xs tracking-wider uppercase">&copy; 2026 MD. TANVIR ALAM. All rights reserved.</p>
+                <p class="text-[10px] text-slate-600 mt-2">Compiled Architecture Model: June 2026 Edition</p>
             </div>
         </footer>
 
-        <!-- Contact Form Submission Script -->
         <script>
-            var form = document.getElementById("contact-form");
-            
-            async function handleSubmit(event) {
-              event.preventDefault();
-              var status = document.getElementById("form-status");
-              var data = new FormData(event.target);
-              fetch(event.target.action, {
-                method: form.method,
-                body: data,
-                headers: {
-                    'Accept': 'application/json'
-                }
-              }).then(response => {
-                if (response.ok) {
-                  status.innerHTML = "Thanks for your submission!";
-                  status.className = 'text-green-600 font-semibold';
-                  form.reset()
-                } else {
-                  response.json().then(data => {
-                    if (Object.hasOwn(data, 'errors')) {
-                      status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                    } else {
-                      status.innerHTML = "Oops! There was a problem submitting your form"
-                    }
-                    status.className = 'text-red-600 font-semibold';
-                  })
-                }
-              }).catch(error => {
-                status.innerHTML = "Oops! There was a problem submitting your form";
-                status.className = 'text-red-600 font-semibold';
-              });
+            function openLightbox(imgSrc, titleText) {
+                const lightbox = document.getElementById("global-lightbox");
+                const imgNode = document.getElementById("lightbox-img");
+                
+                imgNode.classList.remove("zoomed-state");
+                imgNode.src = imgSrc;
+                document.getElementById("lightbox-title").textContent = titleText;
+                
+                lightbox.classList.remove("invisible", "opacity-0");
+                lightbox.classList.add("opacity-100");
+                document.body.style.overflow = "hidden"; 
             }
-            form.addEventListener("submit", handleSubmit)
+
+            function closeLightbox(event) {
+                if (event.target.id === "global-lightbox" || event.target.closest('.lightbox-img-wrapper') === null) {
+                    forceCloseLightbox();
+                }
+            }
+
+            function forceCloseLightbox() {
+                const lightbox = document.getElementById("global-lightbox");
+                lightbox.classList.remove("opacity-100");
+                lightbox.classList.add("opacity-0");
+                
+                setTimeout(() => {
+                    lightbox.classList.add("invisible");
+                }, 300);
+                document.body.style.overflow = "auto"; 
+            }
+
+            function toggleImageZoom(imgElement) {
+                imgElement.classList.toggle("zoomed-state");
+            }
+
+            window.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') {
+                    forceCloseLightbox();
+                }
+            });
         </script>
 
+        <script>
+            const timelineData = [
+                {year: 2015, label: "March 2015", headline: "Initial Repository Core Deployment", desc: "Launched oldest validated web app codebase (blog_using_ruby_on_rails) verifying development capabilities long before academic exit markers."},
+                {year: 2016, label: "May 2016", headline: "Frontend Framework Scaling Era", desc: "Clustered deployment of early Javascript framework boilerplates including Angular application modules and server configurations."},
+                {year: 2017, label: "August 2017", headline: "Ecosystem Lifespan Initialization", desc: "Initialized 'tanvir-ux.github.io' domain architecture tracking continuously for over 3,059+ days of ongoing production updates."},
+                {year: 2019, label: "September 2019", headline: "Angular Ecosystem Contribution", desc: "Contributed documentation architecture updates to @angular/angularfire framework ecosystem (PR #2176). Verified GitHub Badge Contribution.", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"},
+                {year: 2020, label: "May 2020", headline: "Google Chrome Core Ecosystem Contribution", desc: "Contributed validation tracking logic for Google Chrome Lighthouse engine protocols (Issue #10721). Verified GitHub Badge Contribution.", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg"},
+                {year: 2021, label: "August 2021", headline: "Deep Learning Ecosystem Contribution (Keras)", desc: "Successfully merged 7 graph documentation commits directly into the core keras-team/keras-io master repository (PR #596) reviewed by François Chollet. Verified GitHub Badge Contribution.", logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"},
+                {year: 2023, label: "March 2023", headline: "Enterprise Financial System Engineering", desc: "Retained to build massive secure Spring Boot microservice migrations supporting 50,000+ concurrent banking application loops (Bank Danamon)."},
+                {year: 2025, label: "November 2025", headline: "Agentic AI Integration & Live Trading Modules", desc: "Architected modern autonomous LangChain orchestration nodes handling tool-calling parameters along with specialized Dhaka Stock Exchange logic engine frameworks."},
+                {year: 2026, label: "April 2026", headline: "Executive Scale Transition (CTO)", desc: "Assumed role of Chief Technology Officer at Jonlab LLC directing broad engineering visions and corporate machine learning strategy."}
+            ];
+
+            function renderTimeline() {
+                const container = d3.select("#timeline-viz");
+                container.selectAll("*").remove();
+
+                const containerWidth = document.getElementById("timeline-viz").getBoundingClientRect().width || 800;
+                const width = Math.max(containerWidth, 640);
+                const height = 140;
+                const margin = {top: 30, right: 40, bottom: 40, left: 40};
+
+                const svg = container.append("svg")
+                    .attr("width", "100%")
+                    .attr("height", height)
+                    .attr("viewBox", `0 0 ${width} ${height}`)
+                    .attr("preserveAspectRatio", "xMidYMid meet");
+
+                const xScale = d3.scaleLinear()
+                    .domain([2014.5, 2026.5])
+                    .range([margin.left, width - margin.right]);
+
+                // Base Center-line
+                svg.append("line")
+                    .attr("x1", margin.left)
+                    .attr("y1", height / 2)
+                    .attr("x2", width - margin.right)
+                    .attr("y2", height / 2)
+                    .attr("stroke", "rgba(255,255,255,0.1)")
+                    .attr("stroke-width", 4)
+                    .attr("stroke-linecap", "round");
+
+                const years = [2015, 2016, 2017, 2019, 2020, 2021, 2023, 2025, 2026];
+                svg.selectAll(".year-marker")
+                    .data(years)
+                    .enter()
+                    .append("text")
+                    .attr("x", d => xScale(d))
+                    .attr("y", height - 12)
+                    .attr("text-anchor", "middle")
+                    .attr("fill", "#64748b")
+                    .attr("font-size", "11px")
+                    .attr("font-weight", "600")
+                    .text(d => d);
+
+                // Build Node Containers
+                const nodes = svg.selectAll(".milestone-node")
+                    .data(timelineData)
+                    .enter()
+                    .append("g")
+                    .attr("class", "milestone-node")
+                    .style("cursor", "pointer")
+                    .on("mouseover", function(event, d) {
+                        if (d.logo) {
+                            d3.select(this).select("image")
+                                .attr("width", 36)
+                                .attr("height", 36)
+                                .attr("x", xScale(d.year) - 18)
+                                .attr("y", (height / 2) - 18);
+                        } else {
+                            d3.select(this).select("circle")
+                                .attr("r", 10)
+                                .attr("fill", "#38bdf8")
+                                .attr("stroke", "rgba(56, 189, 248, 0.4)")
+                                .attr("stroke-width", 6);
+                        }
+                            
+                        d3.select("#timeline-tooltip")
+                            .style("border-color", d.logo ? "rgba(56, 189, 248, 0.9)" : "rgba(56, 189, 248, 0.7)")
+                            .style("background", "rgba(15, 23, 42, 0.95)")
+                            .html(`
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between text-left">
+                                    <span class="text-xs text-sky-400 font-bold uppercase tracking-wider font-mono">${d.label}</span>
+                                    <h5 class="text-sm font-bold text-white sm:ml-2">${d.headline}</h5>
+                                </div>
+                                <p class="text-xs text-slate-300 mt-1 text-left">${d.desc}</p>
+                            `);
+                    })
+                    .on("mouseleave", function(event, d) {
+                        if (d.logo) {
+                            d3.select(this).select("image")
+                                .attr("width", 26)
+                                .attr("height", 26)
+                                .attr("x", xScale(d.year) - 13)
+                                .attr("y", (height / 2) - 13);
+                        } else {
+                            d3.select(this).select("circle")
+                                .attr("r", 7)
+                                .attr("fill", d => d.year === 2026 ? "#38bdf8" : "#0b1329")
+                                .attr("stroke", d => d.year === 2026 ? "rgba(56, 189, 248, 0.3)" : "#38bdf8")
+                                .attr("stroke-width", 2.5);
+                        }
+                    });
+
+                // Conditional Element Structural Insertion Loop
+                nodes.each(function(d) {
+                    const group = d3.select(this);
+                    if (d.logo) {
+                        // Render Organization Badge
+                        group.append("image")
+                            .attr("xlink:href", d.logo)
+                            .attr("x", xScale(d.year) - 13)
+                            .attr("y", (height / 2) - 13)
+                            .attr("width", 26)
+                            .attr("height", 26)
+                            .attr("class", "badge-logo")
+                            .style("transition", "all 0.2s cubic-bezier(0.16, 1, 0.3, 1)");
+                    } else {
+                        // Render Standard Matrix Node Dot
+                        group.append("circle")
+                            .attr("cx", xScale(d.year))
+                            .attr("cy", height / 2)
+                            .attr("r", 7)
+                            .attr("fill", d.year === 2026 ? "#38bdf8" : "#0b1329")
+                            .attr("stroke", "#38bdf8")
+                            .attr("stroke-width", 2.5)
+                            .style("transition", "all 0.2s ease");
+                    }
+                });
+            }
+
+            window.addEventListener("load", renderTimeline);
+            window.addEventListener("resize", renderTimeline);
+
+            var form = document.getElementById("contact-form");
+            async function handleSubmit(event) {
+                event.preventDefault();
+                var status = document.getElementById("form-status");
+                var data = new FormData(event.target);
+                fetch(event.target.action, {
+                    method: form.method,
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                }).then(response => {
+                    if (response.ok) {
+                        status.innerHTML = "System Message Transmitted Successfully.";
+                        status.className = 'text-emerald-400 text-xs font-bold uppercase mt-2';
+                        form.reset();
+                    } else {
+                        status.innerHTML = "Transmission Error Encountered.";
+                        status.className = 'text-rose-400 text-xs font-bold uppercase mt-2';
+                    }
+                }).catch(error => {
+                    status.innerHTML = "Transmission Infrastructure Malfunction.";
+                    status.className = 'text-rose-400 text-xs font-bold uppercase mt-2';
+                });
+            }
+            form.addEventListener("submit", handleSubmit);
+        </script>
     </body>
 </html>
