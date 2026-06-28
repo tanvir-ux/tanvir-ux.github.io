@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. TANVIR ALAM - Resume</title>
+    <!-- Loaded Font Awesome 6 to display brand logos natively on the print layout -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* Reset and Base Styles optimized for a strict 2-page PDF print layout */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.35;
+            color: #2d3748;
+            background-color: #ffffff;
+            -webkit-print-color-adjust: exact;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 30px;
+        }
+        
+        /* Header Formatting */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2b6cb0;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            position: relative;
+        }
+        h1 {
+            color: #1a365d;
+            font-size: 24px;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #4a5568;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .timeline-badge {
+            display: inline-block;
+            background-color: #ebf8ff;
+            color: #2b6cb0;
+            font-weight: bold;
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 4px;
+            border: 1px solid #bee3f8;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .contact-info {
+            font-size: 12px;
+            color: #4a5568;
+        }
+        .contact-info a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+
+        /* Section Formatting */
+        h2 {
+            color: #1a365d;
+            font-size: 14px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 2px;
+            margin-top: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Compact Job Layout */
+        .job {
+            margin-bottom: 10px;
+            page-break-inside: avoid;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: bold;
+            color: #2d3748;
+            font-size: 13px;
+        }
+        .job-title {
+            color: #1a365d;
+        }
+        .job-meta {
+            font-style: italic;
+            color: #4a5568;
+            font-size: 12px;
+            margin-bottom: 4px;
+        }
+        .project-title {
+            font-weight: 600;
+            color: #4a5568;
+            margin-top: 4px;
+            margin-bottom: 2px;
+            font-size: 12px;
+            padding-left: 8px;
+            border-left: 2px solid #cbd5e0;
+        }
+        
+        /* Lists */
+        ul {
+            margin-bottom: 4px;
+            padding-left: 18px;
+        }
+        li {
+            font-size: 12.5px;
+            margin-bottom: 2px;
+            color: #2d3748;
+            text-align: justify;
+        }
+
+        /* Technical Skills Table */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 4px;
+        }
+        .skills-table td {
+            padding: 4px 0;
+            vertical-align: top;
+            font-size: 12.5px;
+        }
+        .skills-category {
+            font-weight: bold;
+            color: #4a5568;
+            width: 130px;
+        }
+
+        /* GitHub/Open Source Metrics Section */
+        .metrics-grid {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f7fafc;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 6px;
+        }
+        .metric-item {
+            font-size: 12px;
+            color: #4a5568;
+            text-align: center;
+            flex: 1;
+        }
+        .metric-item strong {
+            color: #1a365d;
+            font-size: 13px;
+        }
+
+        /* Print-Safe Timeline Layout with Brand Icons */
+        .resume-timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 8px;
+            padding-left: 4px;
+        }
+        .timeline-row {
+            display: flex;
+            font-size: 12px;
+            align-items: flex-start;
+        }
+        .timeline-year {
+            font-weight: bold;
+            color: #2b6cb0;
+            width: 110px;
+            flex-shrink: 0;
+        }
+        .timeline-desc {
+            color: #2d3748;
+        }
+        .timeline-desc i {
+            margin-right: 4px;
+            font-size: 12px;
+        }
+        .icon-meta { color: #0668E1; }
+        .icon-angular { color: #dd0031; }
+        .icon-chrome { color: #4285f4; }
+
+        /* Education Layout */
+        .edu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            font-size: 12.5px;
+        }
+        .edu-title {
+            font-weight: bold;
+            color: #2d3748;
+        }
+
+        /* References Side-by-Side Flex Layout */
+        .references-grid {
+            display: flex;
+            gap: 20px;
+            margin-top: 4px;
+        }
+        .reference-card {
+            flex: 1;
+            font-size: 12.5px;
+        }
+
+        /* Print Optimization to target exactly 2 pages */
+        @media print {
+            body {
+                background: none;
+            }
+            .resume-container {
+                padding: 0;
+                max-width: 100%;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header>
+        <h1>MD. TANVIR ALAM</h1>
+        <div class="subtitle">Chief Technology Officer & Senior Software Engineer</div>
+        <div class="timeline-badge">PROVEN 11-YEAR OPEN-SOURCE ENGINEERING TIMELINE (SINCE 2015)</div>
+        <div class="contact-info">
+            Dhaka, Bangladesh | +8801716416679 | <a href="mailto:tanviralamshuvo@gmail.com">tanviralamshuvo@gmail.com</a><br>
+            LinkedIn: <a href="https://linkedin.com/in/mdtanviralam" target="_blank">mdtanviralam</a> | 
+            GitHub: <a href="https://github.com/tanvir-ux" target="_blank">tanvir-ux</a> | 
+            Portfolio: <a href="https://tanvir-ux.github.io" target="_blank">tanvir-ux.github.io</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p style="font-size: 12.5px; margin: 0; text-align: justify;">
+            Strategic technology leader and Senior Software Engineer with a documented 11-year history of engineering complex software systems. Extensive expertise in enterprise architectures within the Java ecosystem (Spring Boot, Grails), high-concurrency database systems, and state-of-the-art AI-driven automation pipelines. Successfully bridges structural hardware logic with enterprise microservices, transforming raw business operations into scalable, automated, and fault-tolerant digital applications.
+        </p>
+    </section>
+
+    <section>
+        <h2>Verified Open-Source History & Engine Milestones</h2>
+        <p style="font-size: 12.5px; margin-bottom: 8px; text-align: justify; color: #4a5568;">
+            In contrast to academic timelines, continuous production-grade software deployment is independently verified via public code metrics tracking back to early 2015:
+        </p>
+        <div class="metrics-grid">
+            <div class="metric-item"><strong>11 Years</strong><br>Active Engineering History</div>
+            <div class="metric-item"><strong>1,778+ Verified Commits</strong><br>Production & Utility Code</div>
+            <div class="metric-item"><strong>86 Public Repositories</strong><br>Frameworks & Engines Built</div>
+            <div class="metric-item"><strong>12+ Tech Ecosystems</strong><br>Polyglot Development Range</div>
+        </div>
+
+        <div class="resume-timeline">
+            <div class="timeline-row">
+                <span class="timeline-year">June 2026</span>
+                <span class="timeline-desc">
+                    <i class="fab fa-meta icon-meta"></i> <strong>Meta Open Source Ecosystem Contribution (Docusaurus):</strong> 
+                    Resolved a critical browser layout race condition in the documentation engine's collapsible layout handler. Implemented programmatic configuration paths bypassing asynchronous transition event loop bottlenecks inside <code>CollapsibleBase</code> <strong>(PR #12196)</strong> reviewed by core maintainers.
+                </span>
+            </div>
+            <div class="timeline-row">
+                <span class="timeline-year">August 2021</span>
+                <span class="timeline-desc" style="display: flex; align-items: flex-start; gap: 4px;">
+                    <svg viewBox="0 0 24 24" width="12" height="12" style="fill: #D00000; margin-top: 2.5px; flex-shrink: 0;" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 0H2C0.9 0 0 0.9 0 2v20c0 1.1 0.9 2 2 2h20c1.1 0 2-0.9 2-2V2c0-1.1-0.9-2-2-2zm-5.5 18.3l-3.8-4.2-1.7 1.8v2.4H9V5.7h2v5.4l5.1-5.4h2.6l-5.3 5.5 5.6 7.1h-2.5z"/>
+                    </svg>
+                    <span>
+                        <strong>Deep Learning Ecosystem Contribution (Keras):</strong> Successfully merged 7 graph documentation commits directly into the core <code>keras-team/keras-io</code> master repository <strong>(PR #596)</strong> reviewed by François Chollet. <span style="color:#718096; font-style:italic;">Verified GitHub Badge Contribution.</span>
+                    </span>
+                </span>
+            </div>
+            <div class="timeline-row">
+                <span class="timeline-year">May 2020</span>
+                <span class="timeline-desc">
+                    <i class="fab fa-chrome icon-chrome"></i> <strong>Google Chrome Core Ecosystem Contribution:</strong> 
+                    Contributed validation tracking logic for Google Chrome Lighthouse engine protocols <strong>(Issue #10721)</strong>. <span style="color:#718096; font-style:italic;">Verified GitHub Badge Contribution.</span>
+                </span>
+            </div>
+            <div class="timeline-row">
+                <span class="timeline-year">September 2019</span>
+                <span class="timeline-desc">
+                    <i class="fab fa-angular icon-angular"></i> <strong>Angular Ecosystem Contribution:</strong> 
+                    Contributed documentation architecture updates to <code>@angular/angularfire</code> framework ecosystem <strong>(PR #2176)</strong>. <span style="color:#718096; font-style:italic;">Verified GitHub Badge Contribution.</span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Chief Technology Officer (CTO)</span>
+                <span>April 2026 - Present</span>
+            </div>
+            <div class="job-meta">Jonlab LLC</div>
+            <ul>
+                <li>Directing technical vision and long-term strategy, leading engineering teams in developing high-performance software architectures.</li>
+                <li>Overseeing the integration of cutting-edge AI-driven solutions and LLM-based automation to scale business growth.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Deputy Assistant Director (IT App Dev)</span>
+                <span>Feb 2026 - April 2026</span>
+            </div>
+            <div class="job-meta">Remark HB Ltd. (Harlen) | Dhaka, Bangladesh</div>
+            <ul>
+                <li>Led technical initiatives for the country's largest authentic cosmetics retail chain, driving digital transformation in retail and supply chain management.</li>
+                <li>Architected enterprise solutions and integrated AI-driven components into internal business engines.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Software Engineer</span>
+                <span>Nov 2025 - Jan 2026</span>
+            </div>
+            <div class="job-meta">MehvozSoft | Dhaka, Bangladesh</div>
+            <ul>
+                <li>Designed autonomous AI agents using LangChain to handle multi-step reasoning tasks, reducing manual oversight by 40%.</li>
+                <li>Implemented RAG pipelines allowing LLMs to query internal documentation and execute API calls via tool-calling.</li>
+                <li>Streamlined backend processes using Java and Spring Boot to optimize overall system performance.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Software Engineer</span>
+                <span>Sep 2025 - Oct 2025</span>
+            </div>
+            <div class="job-meta">Inovace Technologies Ltd. | Dhaka, Bangladesh (On-site)</div>
+            <ul>
+                <li>Design, enhance, and maintain distributed HRM systems built on Spring Boot, Vue.js 2, and AngularJS 1.</li>
+                <li>Integrate and optimize event-driven communication using Kafka, Redis, and Debezium to synchronize data between MySQL and PostgreSQL databases.</li>
+                <li>Maintain high-availability workflows where older biometric devices send data via HTTP and modern devices communicate over MQTT, unified through Node.js, Vernemq, and Nginx into a central system.</li>
+            </ul>
+        </div>
+
+        <div class="job" style="margin-top: 10px;">
+            <div class="job-header">
+                <span class="job-title">Software Engineer (Java)</span>
+                <span>Mar 2023 - Aug 2025</span>
+            </div>
+            <div class="job-meta">Midas Software Solutions Ltd.</div>
+            
+            <div class="project-title">Project: Digital Banking Ecosystem (Bank Danamon Indonesia)</div>
+            <ul>
+                <li>Migrated legacy monolith to Spring Boot microservices, resulting in 70% faster deployment cycles.</li>
+                <li>Developed 100+ secure REST endpoints for 50k+ concurrent users using OAuth2/JWT.</li>
+            </ul>
+
+            <div class="project-title">Project: Oracle FLEXCUBE Customization (SMBC Japan)</div>
+            <ul>
+                <li>Developed custom banking modules using JS/XML and integrated OBPM for international SWIFT transfers.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Application Developer</span>
+                <span>Sep 2021 - Feb 2023</span>
+            </div>
+            <div class="job-meta">MehvozSoft</div>
+            <ul>
+                <li>Launched cross-platform mobile applications including Express Entry Calculator and Adhaan apps on iOS/Android using Ionic and Angular.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <table class="skills-table">
+            <tr>
+                <td class="skills-category">AI & Data</td>
+                <td>Agentic AI, LangChain, RAG, Keras, TensorFlow, LLM Integration, OpenAI</td>
+            </tr>
+            <tr>
+                <td class="skills-category">Backend</td>
+                <td>Java, Spring Boot, Node.js, Microservices, JVM Tuning</td>
+            </tr>
+            <tr>
+                <td class="skills-category">Database</td>
+                <td>Oracle PL/SQL (CDB/PDB), PostgreSQL, MySQL, Flyway</td>
+            </tr>
+            <tr>
+                <td class="skills-category">Frontend</td>
+                <td>Angular (2-21), React, Next.js, Vue.js, TypeScript, Google Chrome Extension API, Ionic</td>
+            </tr>
+            <tr>
+                <td class="skills-category">Infrastructure</td>
+                <td>Docker, Kubernetes, Kafka, Redis, MQTT, GitHub Actions</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="edu-item">
+            <div>
+                <span class="edu-title">Bachelor of Science in Electrical & Electronic Engineering (EEE)</span><br>
+                <span>Stamford University Bangladesh | CGPA: 3.25</span>
+            </div>
+            <div style="font-weight: bold;">Graduated 2021</div>
+        </div>
+        <div class="edu-item" style="margin-bottom: 0;">
+            <div>
+                <span class="edu-title">Higher Secondary Certificate (HSC)</span><br>
+                <span>Notre Dame College, Dhaka | GPA: 4.50/5.00</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Languages & Interests</h2>
+        <p style="font-size: 12.5px; margin: 0;">
+            <strong>Languages:</strong> English (Professional Proficiency), Bengali (Native)<br>
+            <strong>Interests:</strong> AI Orchestration (LangGraph), Agro-Tech (Smart Farming), and Financial Planning.
+        </p>
+    </section>
+
+    <section>
+        <h2>References</h2>
+        <div class="references-grid">
+            <div class="reference-card">
+                <strong>Tushar Goel</strong><br>
+                Technical Program Manager @ Google | ex-Manager<br>
+                Phone: +919867344568 | Email: <a href="mailto:tushargoel100@gmail.com">tushargoel100@gmail.com</a><br>
+                LinkedIn: <a href="https://linkedin.com/in/tvgoel" target="_blank">linkedin.com/in/tvgoel</a><br>                
+            </div>
+            <div class="reference-card">
+                <strong>Kowsar Rahman</strong><br>
+                Senior Software Engineer @ Allianz, Malaysia | ex-Manager<br>
+                Phone: +60146363784 | Email: <a href="mailto:thekowsar@gmail.com">thekowsar@gmail.com</a><br>
+                LinkedIn: <a href="https://linkedin.com/in/kowsar-rahman-75290581" target="_blank">kowsar-rahman-75290581</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
