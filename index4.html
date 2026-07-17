@@ -1,261 +1,281 @@
-<!doctype html>
-<html class="scroll-smooth">
-    <head>
-        <title>Software Engineer | Tanvir Alam</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Tanvir Alam's portfolio website. A Software Engineer specializing in Java, Spring Boot, Microservices, and Cloud Technologies.">
-        <meta name="keywords" content="Tanvir Alam, Software Engineer, Java Developer, Spring Boot, Microservices, Angular, Portfolio">
-        
-        <!-- Tailwind CSS -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-        <!-- Google Fonts: Inter -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Md. Tanvir Alam - Senior Software Engineer &amp; CTO</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.6in 0.6in 0.6in 0.6in;
+        }
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.45;
+            color: #2d3748;
+            margin: 0;
+            padding: 0;
+            font-size: 11px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a365d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 0 3px 0;
+        }
+        .subtitle {
+            font-size: 12px;
+            font-weight: 600;
+            color: #4a5568;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .contact-info {
+            font-size: 10px;
+            color: #4a5568;
+        }
+        .contact-info a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .section-title {
+            font-size: 12px;
+            font-weight: 700;
+            color: #1a365d;
+            border-bottom: 1.5px solid #cbd5e0;
+            padding-bottom: 2px;
+            margin-top: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .summary-text {
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        .job {
+            margin-bottom: 12px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 11.5px;
+            color: #2d3748;
+            margin-bottom: 3px;
+        }
+        .job-company {
+            color: #1a365d;
+        }
+        .job-title {
+            font-style: italic;
+            color: #4a5568;
+            font-weight: 600;
+        }
+        .job-meta {
+            font-size: 10px;
+            color: #718096;
+            font-weight: 600;
+        }
+        .skills-grid {
+            display: table;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+        .skills-row {
+            display: table-row;
+        }
+        .skills-category {
+            display: table-cell;
+            font-weight: 700;
+            color: #1a365d;
+            width: 15%;
+            padding: 2.5px 0;
+            vertical-align: top;
+        }
+        .skills-list {
+            display: table-cell;
+            padding: 2.5px 0;
+            vertical-align: top;
+        }
+        .reference-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4px;
+        }
+        .reference-card {
+            width: 48%;
+            font-size: 10px;
+            line-height: 1.4;
+        }
+        ul {
+            margin: 0;
+            padding-left: 15px;
+        }
+        li {
+            margin-bottom: 3.5px;
+            text-align: justify;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #1a365d;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body>
 
-        <style>
-            /* Use Inter as the default font */
-            body {
-                font-family: 'Inter', sans-serif;
-            }
-            /* Add a subtle transition for hover effects */
-            .card-hover {
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-            }
-            .card-hover:hover {
-                transform: translateY(-8px);
-                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            }
-        </style>
-    </head>
-    <body class="bg-slate-50 text-slate-800 leading-normal tracking-normal">
+    <!-- PAGE 1 START -->
+    <div class="header">
+        <h1 class="name">Md. Tanvir Alam</h1>
+        <div class="subtitle">Chief Technology Officer &amp; Senior Software Engineer</div>
+        <div class="contact-info">
+            Dhaka, Bangladesh | +8801716416679 | 
+            <a href="mailto:tanviralamshuvo@gmail.com">tanviralamshuvo@gmail.com</a> | 
+            <a href="https://www.linkedin.com/in/mdtanviralam/" target="_blank">linkedin</a> | 
+            <a href="https://github.com/tanvir-ux" target="_blank">github</a> | 
+            <a href="https://github.com/tanvir-ux" target="_blank">tanvir-ux.github.io</a>
+        </div>
+    </div>
 
-        <!-- Header -->
-        <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
-            <div class="container mx-auto flex items-center justify-between flex-wrap p-4">
-                <div class="flex items-center">
-                    <a class="text-2xl font-bold text-slate-900 no-underline" href="#">Tanvir Alam</a>
-                </div>
-                <nav class="hidden md:flex text-sm font-semibold uppercase tracking-wider space-x-2">
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#about">About</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#experience">Experience</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#skills">Skills</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#projects">Projects</a>
-                    <a class="nav-link px-4 py-2 rounded-lg text-slate-700 hover:bg-slate-200 transition-colors" href="#contact">Contact</a>
-                </nav>
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+        Strategic, performance-driven <span class="highlight">Chief Technology Officer</span> and <span class="highlight">Senior Software Engineer</span> with a continuous track record of architecting distributed enterprise systems and AI automation engines. Specialized in the Java ecosystem (Spring Boot, Grails), microservices, and event-driven architectures designed to scale up to millions of active users. Proven history of collaborating with top-tier global financial clients, reducing deployment cycles by <span class="highlight">70%</span>, and designing autonomous agentic AI pipelines. Recognized for leading cross-functional teams and actively contributing to open-source core web engines.
+    </div>
+
+    <div class="section-title">Core Technical Capabilities</div>
+    <div class="skills-grid">
+        <div class="skills-row">
+            <div class="skills-category">AI &amp; Data:</div>
+            <div class="skills-list">Agentic AI, LangChain, FastMCP, RAG Pipelines, Keras, TensorFlow, PyTorch, LLM Integration</div>
+        </div>
+        <div class="skills-row">
+            <div class="skills-category">Backend &amp; Arch:</div>
+            <div class="skills-list">Java, Spring Boot, Microservices, Grails, Node.js, Python, FastAPI, OpenAPI, REST API Design, JVM Tuning</div>
+        </div>
+        <div class="skills-row">
+            <div class="skills-category">Database &amp; Data:</div>
+            <div class="skills-list">Oracle PL/SQL (CDB/PDB), PostgreSQL, MySQL, PySpark, Databricks, Flyway, Real-time Data Synchronization</div>
+        </div>
+        <div class="skills-row">
+            <div class="skills-category">Cloud &amp; Infra:</div>
+            <div class="skills-list">AWS, GCP, Azure, EKS, ECS, Lambda, S3, Docker, Kubernetes, Apache Kafka, Redis, MQTT, VerneMQ, Nginx, GitHub Actions</div>
+        </div>
+    </div>
+
+    <div class="section-title">Professional Experience</div>
+
+    <!-- JONLAB LLC -->
+    <div class="job">
+        <div class="job-header">
+            <div>
+                <span class="job-company">Jonlab LLC</span> 
+                <span class="job-title">— Chief Technology Officer (CTO)</span>
             </div>
-        </header>
+            <span class="job-meta">Nov 2025 – Present</span>
+        </div>
+        <ul>
+            <li><span class="highlight">Executive Architecture &amp; Strategy:</span> Define long-term technical vision and strategic roadmaps, orchestrating cross-functional engineering teams to scale robust backend systems.</li>
+            <li><span class="highlight">AI &amp; Automation Integration:</span> Direct the design and production-level integration of enterprise Agentic AI pipelines and custom LLM interfaces, cutting operational costs and accelerating business intelligence.</li>
+            <li><span class="highlight">Technology Modernization:</span> Spearhead system improvements across legacy business layers, establishing high-availability microservices models that optimize system stability and server performance.</li>
+        </ul>
+    </div>
 
-        <!-- About Section -->
-        <section id="about" class="py-20 md:py-28 bg-white">
-            <div class="container mx-auto px-4">
-                <div class="flex flex-wrap items-center">
-                    <div class="w-full md:w-1/3 text-center mb-8 md:mb-0">
-                        <img src="images/profile.jpg" 
-                             onerror="this.onerror=null;this.src='https://placehold.co/256x256/E2E8F0/4A5568?text=TA';"
-                             alt="Profile Picture of Tanvir Alam" 
-                             class="rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto shadow-lg">
-                    </div>
-                    <div class="w-full md:w-2/3 md:pl-12">
-                        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Software Engineer</h1>
-                        <p class="text-lg text-slate-600 leading-relaxed mb-6">Highly skilled Software Engineer with 5+ years of experience in developing enterprise-level applications, specializing in Java microservices, REST APIs, and digital banking platforms. Proven track record in delivering scalable, secure, and high-performance solutions for major banking clients.</p>
-                        
-                        <!-- FIX: The href path now correctly points to the 'download' folder. -->
-                        <a href="download/tanvir_resume_oct_25.pdf" download="Tanvir_Alam_Resume.pdf" class="inline-flex items-center bg-slate-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-slate-700 transition-transform transform hover:scale-105 shadow-lg">
-                            <i class="fas fa-download mr-3"></i>
-                            Download CV
-                        </a>
-                    </div>
-                </div>
+    <!-- MEHVOZSOFT -->
+    <div class="job">
+        <div class="job-header">
+            <div>
+                <span class="job-company">MehvozSoft</span> 
+                <span class="job-title">— Lead Software Engineer / Application Developer</span>
             </div>
-        </section>
+            <span class="job-meta">Aug 2025 – Nov 2025</span>
+        </div>
+        <ul>
+            <li><span class="highlight">Agentic AI &amp; LangChain Orchestration:</span> Designed and developed self-executing AI agents via LangChain, orchestrating multi-step logical reasoning models to eliminate manual oversight by <span class="highlight">40%</span>.</li>
+            <li><span class="highlight">Retrieval-Augmented Generation (RAG):</span> Engineered clean RAG architectures that allow private language models to safely query internal system document repositories and execute external API endpoints via tool-calling.</li>
+            <li><span class="highlight">Distributed Event Systems:</span> Integrated highly resilient messaging pipelines utilizing Kafka and Redis to streamline background processing, drastically optimizing core Java/Spring Boot performance metrics.</li>
+        </ul>
+    </div>
+    <!-- PAGE 1 END -->
 
-        <!-- Experience Section -->
-        <section id="experience" class="py-20 md:py-24 bg-slate-50">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Professional Experience</h2>
-                <div class="max-w-4xl mx-auto">
-                    <!-- Midas Software Solutions -->
-                    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8 card-hover relative border border-slate-200">
-                         <div class="absolute top-4 right-4 text-xs font-bold uppercase text-slate-400">Mar 2023 - Present</div>
-                        <h3 class="text-2xl font-bold text-slate-800 mb-1">Midas Software Solutions Ltd.</h3>
-                        <p class="text-lg text-slate-500 mb-6">Software Engineer (Java)</p>
-                        
-                        <div class="space-y-6">
-                            <div>
-                                <h4 class="font-bold text-slate-700">Project: SMBC (Sumitomo Mitsui Banking Corporation)</h4>
-                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
-                                    <li>Upgraded Oracle FLEXCUBE (FCUBS) to v14.7 and integrated Oracle Banking Payments (OBPM) v14.7.</li>
-                                    <li>Customized FLEXCUBE/OBPM modules using Java, PL/SQL, and extended Java JARs for client-specific workflows.</li>
-                                    <li>Conducted API testing using Insomnia and managed deployments on Oracle WebLogic Server.</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-700">Project: dBankPro (Bank Danamon Indonesia)</h4>
-                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
-                                    <li>Developed and maintained Java microservices using Spring Boot and PostgreSQL.</li>
-                                    <li>Implemented OAuth 2.0, JWT authentication, and RBAC for enhanced API security.</li>
-                                    <li>Deployed containerized services using Docker & Kubernetes and automated CI/CD pipelines with Jenkins & GitHub Actions.</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-700">Project: NGI (Bank Danamon Indonesia)</h4>
-                                <ul class="list-disc pl-5 mt-2 text-slate-600 space-y-1">
-                                    <li>Developed core banking modules using Java Spring microservices, Oracle FLEXCUBE, and PL/SQL.</li>
-                                    <li>Designed and implemented REST APIs to connect microservices and frontend components.</li>
-                                    <li>Led the transition from monolithic architecture to a fully microservices-based system.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- MehvozSoft -->
-                    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 card-hover relative border border-slate-200">
-                         <div class="absolute top-4 right-4 text-xs font-bold uppercase text-slate-400">Sep 2021 - Feb 2023</div>
-                        <h3 class="text-2xl font-bold text-slate-800 mb-1">MehvozSoft</h3>
-                        <p class="text-lg text-slate-500 mb-4">Application Developer</p>
-                        <ul class="list-disc pl-5 text-slate-600 space-y-1">
-                            <li>Developed RESTful backend services using Spring Boot and Node.js for mobile and web applications.</li>
-                            <li>Designed microservice-based architecture for scalable apps like Express Entry Calculator, Adhaan, and BuyOrRent.</li>
-                            <li>Integrated REST APIs into Ionic Angular and Angular apps to deliver real-time data and enhance user experience.</li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="page-break"></div>
+
+    <!-- PAGE 2 START -->
+    <div class="section-title" style="margin-top: 0px;">Professional Experience (Continued)</div>
+
+    <!-- MIDAS SOFTWARE SOLUTIONS LTD -->
+    <div class="job">
+        <div class="job-header">
+            <div>
+                <span class="job-company">Midas Software Solutions Ltd.</span> 
+                <span class="job-title">— Senior Software Engineer (Java)</span>
             </div>
-        </section>
+            <span class="job-meta">Mar 2023 – Aug 2025</span>
+        </div>
+        <ul>
+            <li><span class="highlight">Bank Danamon (Indonesia) — Microservices Modernization:</span> Architected and executed the critical migration of the bank's core digital banking monolith to a distributed Spring Boot microservices structure, delivering <span class="highlight">70% faster deployment cycles</span> for high-concurrency instances.</li>
+            <li><span class="highlight">High-Concurrency API Scaling:</span> Designed, optimized, and maintained over 100 microservice endpoints utilizing OAuth2 and JWT protocols, ensuring stable execution for <span class="highlight">50k+ concurrent users</span>.</li>
+            <li><span class="highlight">SMBC (Singapore) &amp; Oracle — Custom Core Engineering:</span> Customized and deployed high-performance banking modules inside Oracle FLEXCUBE and Oracle Banking Payments (OBPM) architectures using JavaScript, XML, and PL/SQL to securely execute cross-border SWIFT financial transactions.</li>
+        </ul>
+    </div>
 
-        <!-- Skills Section -->
-        <section id="skills" class="py-20 md:py-24 bg-white">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Technical Skills</h2>
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Backend</h3><p class="text-slate-600">Java, Spring Boot, Microservices, REST APIs, SOAP</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Frontend</h3><p class="text-slate-600">Angular, TypeScript, JavaScript, Ionic</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Database</h3><p class="text-slate-600">PostgreSQL, Oracle DB, PL/SQL, NoSQL</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">DevOps</h3><p class="text-slate-600">Docker, Kubernetes, CI/CD, Jenkins, Git</p></div>
-                    <div class="bg-slate-50 rounded-lg p-6 text-center card-hover border border-slate-200"><h3 class="font-bold text-lg mb-2">Security</h3><p class="text-slate-600">OAuth 2.0, JWT, RBAC</p></div>
-                </div>
+    <!-- MEHVOZSOFT (EARLY EXPERIENCE) -->
+    <div class="job">
+        <div class="job-header">
+            <div>
+                <span class="job-company">MehvozSoft</span> 
+                <span class="job-title">— Application Developer</span>
             </div>
-        </section>
+            <span class="job-meta">Sep 2021 – Feb 2023</span>
+        </div>
+        <ul>
+            <li><span class="highlight">Mobile Ecosystem Delivery:</span> Developed and deployed cross-platform responsive mobile utilities (including Express Entry Calculator and Adhaan applications) on iOS/Android platforms using the Ionic and Angular frameworks.</li>
+            <li><span class="highlight">Database Architecture Optimization:</span> Crafted complex database schemas and optimized SQL queries, indexing strategies, and procedures using PostgreSQL and MySQL to accelerate transactional execution times.</li>
+        </ul>
+    </div>
 
-        <!-- Projects Section -->
-        <section id="projects" class="py-20 md:py-24 bg-slate-50">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">Projects</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
-                        <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">BuyOrRent</h3>
-                            <p class="text-slate-600 leading-relaxed">A full-stack property management app using Angular and ASP.NET. Features user authentication, property listings, search, and sorting. </p>
-                        </div>
-                        <div class="p-6 bg-slate-50"><a href="https://buyorrent-angular.web.app/" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
-                         <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">Express Entry Calculator</h3>
-                            <p class="text-slate-600 leading-relaxed">A hybrid Android app (Ionic/Angular) for Canadian immigration, helping users calculate eligibility scores and access immigration news. </p>
-                        </div>
-                        <div class="p-6 bg-slate-50"><a href="https://steprimo.com/android/us/app/com.ionicframework.expressentrycalculator/Express-Entry-Calculator/" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
-                    </div>
-                    <div class="bg-white rounded-xl shadow-md flex flex-col card-hover border border-slate-200 overflow-hidden">
-                        <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-slate-800 mb-2">Adhaan</h3>
-                            <p class="text-slate-600 leading-relaxed">A mobile app to locate nearby mosques and calculate accurate prayer times based on the sun's position, initially serving Dhaka. </p>
-                        </div>
-                        <div class="p-6 bg-slate-50"><a href="https://apkpure.com/adhaan/io.mehvozsoft.adhan" target="_blank" class="font-semibold text-slate-700 hover:text-slate-900">View Project &rarr;</a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="section-title">Verified Open-Source Contributions &amp; Milestones</div>
+    <ul>
+        <li><span class="highlight">Meta Open Source (Docusaurus):</span> Solved a critical race condition within collapsible layout structures by developing direct programmatic bypass routes inside <code style="font-size: 9.5px;">CollapsibleBase</code> (PR #12196).</li>
+        <li><span class="highlight">Google Chrome Core:</span> Contributed system-wide diagnostic parameters for tracking Google Chrome's Lighthouse auditing engines (Issue #10721).</li>
+        <li><span class="highlight">Keras Deep Learning:</span> Authored and merged 7 complex layout logic updates within the main <code style="font-size: 9.5px;">keras-team/keras-io</code> codebase (PR #596), reviewed directly by creator François Chollet.</li>
+    </ul>
 
-        <!-- Contact Section -->
-        <section id="contact" class="py-20 md:py-24 bg-white">
-            <div class="container mx-auto px-4">
-                <div class="max-w-3xl mx-auto text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Get In Touch</h2>
-                    <p class="text-lg text-slate-600 mb-8">Have a project in mind or just want to say hi? Feel free to send me a message.</p>
-                </div>
-                
-                <form id="contact-form" action="https://formspree.io/f/xpwrbzkk" method="POST" class="max-w-xl mx-auto">
-                    <div class="mb-4">
-                        <label class="block text-slate-700 text-sm font-bold mb-2" for="name">Full Name</label>
-                        <input class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="name" name="name" type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="mb-4">
-                        <label class="block text-slate-700 text-sm font-bold mb-2" for="email">Email Address</label>
-                        <input class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="email" name="email" type="email" placeholder="you@example.com" required>
-                    </div>
-                    <div class="mb-6">
-                        <label class="block text-slate-700 text-sm font-bold mb-2" for="message">Message</label>
-                        <textarea class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-200 rounded-lg py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500" id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
-                    </div>
-                    <div class="text-center">
-                        <button class="shadow bg-slate-900 text-white font-bold py-3 px-8 rounded-lg hover:bg-slate-700 transition-transform transform hover:scale-105 focus:outline-none focus:shadow-outline" type="submit">
-                            Send Message
-                        </button>
-                    </div>
-                    <p id="form-status" class="text-center mt-4"></p>
-                </form>
-            </div>
-        </section>
+    <div class="section-title">Education</div>
+    <div class="job-header">
+        <div>
+            <span class="job-company">Stamford University Bangladesh</span> 
+            <span class="job-title">— B.Sc. in Electrical &amp; Electronic Engineering (EEE)</span>
+        </div>
+        <span class="job-meta">Graduated Sep 2021 | CGPA: 3.25</span>
+    </div>
 
-        <!-- Footer -->
-        <footer class="bg-slate-900 text-slate-400 py-10">
-            <div class="container mx-auto px-4 text-center">
-                 <div class="flex items-center justify-center space-x-6 mb-4">
-                    <a href="https://github.com/tanvir-ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mdtanviralam/" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com/tanvir_ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-twitter"></i></a>
-                    <a href="https://stackoverflow.com/users/4763593/tanvir-alam" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-stack-overflow"></i></a>
-                    <a href="https://leetcode.com/tanvir-ux/" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fas fa-code"></i></a>
-                    <a href="https://www.hackerrank.com/tanviralamshuvo" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-hackerrank"></i></a>
-                    <a href="https://dev.to/tanvir_ux" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-dev"></i></a>
-                </div>
-                <p class="text-sm">&copy; 2025 Tanvir Alam. All Rights Reserved.</p>
-                <p class="text-xs mt-2">Built with <span class="text-red-400">&hearts;</span> and Tailwind CSS.</p>
-            </div>
-        </footer>
+    <div class="section-title">Professional References</div>
+    <div class="reference-grid">
+        <div class="reference-card">
+            <span class="highlight">Tushar Goel</span><br>
+            Technical Program Manager @ Google | ex-Manager<br>
+            Email: <a href="mailto:tushargoel100@gmail.com">tushargoel100@gmail.com</a> | Tel: +919867344568<br>
+            LinkedIn: <a href="https://www.linkedin.com/in/tvgoel/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="reference-card">
+            <span class="highlight">Kowsar Rahman</span><br>
+            Senior Software Engineer @ Allianz, Malaysia | ex-Manager<br>
+            Email: <a href="mailto:thekowsar@gmail.com">thekowsar@gmail.com</a> | Tel: +60146363784<br>
+            LinkedIn: <a href="https://www.linkedin.com/in/kowsar-rahman-75290581/" target="_blank">LinkedIn</a>
+        </div>
+    </div>
 
-        <!-- Contact Form Submission Script -->
-        <script>
-            var form = document.getElementById("contact-form");
-            
-            async function handleSubmit(event) {
-              event.preventDefault();
-              var status = document.getElementById("form-status");
-              var data = new FormData(event.target);
-              fetch(event.target.action, {
-                method: form.method,
-                body: data,
-                headers: {
-                    'Accept': 'application/json'
-                }
-              }).then(response => {
-                if (response.ok) {
-                  status.innerHTML = "Thanks for your submission!";
-                  status.className = 'text-green-600 font-semibold';
-                  form.reset()
-                } else {
-                  response.json().then(data => {
-                    if (Object.hasOwn(data, 'errors')) {
-                      status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                    } else {
-                      status.innerHTML = "Oops! There was a problem submitting your form"
-                    }
-                    status.className = 'text-red-600 font-semibold';
-                  })
-                }
-              }).catch(error => {
-                status.innerHTML = "Oops! There was a problem submitting your form";
-                status.className = 'text-red-600 font-semibold';
-              });
-            }
-            form.addEventListener("submit", handleSubmit)
-        </script>
-
-    </body>
+</body>
 </html>
