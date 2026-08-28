@@ -15,6 +15,7 @@
     <div class="wrap nav-inner">
       <a class="brand" href="#top">Tanvir<span>.Alam</span></a>
       <nav class="nav-links" aria-label="Primary">
+        <a href="#activity">Activity</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
@@ -32,7 +33,7 @@
         <p class="kicker">Dhaka, Bangladesh · Open to remote / APAC</p>
         <h1>Md Tanvir Alam</h1>
         <p class="role">Senior Software Engineer · Senior Backend Java · Agentic AI</p>
-        <p class="lede">CTO and hands-on senior engineer with 5+ years on high-concurrency banking backends and production Agentic AI platforms. I design Java/Spring microservices, Kafka pipelines, and MCP/RAG services that hold up in regulated environments.</p>
+        <p class="lede">CTO and hands-on senior engineer with 5+ years on high-concurrency banking backends and production Agentic AI platforms. I design Java/Spring microservices, Kafka pipelines, and MCP/RAG services that hold up in regulated environments. Recent merged PRs landed in Google Gson, Facebook Infer, Apache Maven, Apache Commons IO, and Netflix DGS.</p>
         <div class="actions">
           <a class="btn btn-primary" href="https://github.com/tanvir-ux">GitHub</a>
           <a class="btn btn-ghost" href="mailto:tanviralamshuvo@gmail.com">Email</a>
@@ -44,6 +45,17 @@
           <span>+880 1716 416679</span>
           <span>Singapore EP · Jakarta · India</span>
         </div>
+      </div>
+    </section>
+
+
+    <section id="activity" class="wrap">
+      <div class="section-head">
+        <h2>Latest on GitHub</h2>
+        <p>Live public activity from <a href="https://github.com/tanvir-ux">tanvir-ux</a>. Merged upstream work is listed under Open source.</p>
+      </div>
+      <div class="card" id="gh-activity">
+        <p class="activity-fallback">Loading recent GitHub activity…</p>
       </div>
     </section>
 
@@ -223,47 +235,47 @@
     <section id="oss" class="wrap">
       <div class="section-head">
         <h2>Open source</h2>
-        <p>Upstream pull requests and issues — links go to the original org, not forks.</p>
+        <p>Merged upstream pull requests. Links go to the original org, not a fork.</p>
       </div>
       <div class="card oss">
         <table>
           <thead>
             <tr>
               <th>Organization</th>
-              <th>Contribution</th>
-              <th>Link</th>
+              <th>Merged contribution</th>
+              <th>PR</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="org">Google Auto</td>
-              <td>Pull request to google/auto</td>
-              <td><a href="https://github.com/google/auto/pull/2123">PR #2123</a></td>
+              <td class="org">Google Gson</td>
+              <td>Update JSON path after promoteNameToValue</td>
+              <td><a href="https://github.com/google/gson/pull/3098">PR #3098</a></td>
             </tr>
             <tr>
-              <td class="org">Hugging Face</td>
-              <td>Pull request to transformers</td>
-              <td><a href="https://github.com/huggingface/transformers/pull/48218">PR #48218</a></td>
+              <td class="org">Facebook Infer</td>
+              <td>Fix BufferOverrun false positive on String.split with a non-positive limit</td>
+              <td><a href="https://github.com/facebook/infer/pull/2094">PR #2094</a></td>
             </tr>
             <tr>
-              <td class="org">Microsoft</td>
-              <td>Pull request to ONNX Runtime</td>
-              <td><a href="https://github.com/microsoft/onnxruntime/pull/32217">PR #32217</a></td>
+              <td class="org">Apache Maven</td>
+              <td>Fix ArtifactCoordinates.getId() double colon when classifier is empty</td>
+              <td><a href="https://github.com/apache/maven/pull/12813">PR #12813</a></td>
             </tr>
             <tr>
-              <td class="org">Meta</td>
-              <td>Race condition in collapsible layout: programmatic bypass in CollapsibleBase when animation duration is zero</td>
-              <td><a href="https://github.com/facebook/docusaurus/pull/12196">Docusaurus PR #12196</a></td>
+              <td class="org">Apache Commons IO</td>
+              <td>Do not discard CharsetEncoder errors in ReaderInputStream (IO-780)</td>
+              <td><a href="https://github.com/apache/commons-io/pull/874">PR #874</a></td>
             </tr>
             <tr>
-              <td class="org">Google Chrome</td>
-              <td>Lighthouse PROTOCOL_TIMEOUT diagnostic report (closed as duplicate of #6512)</td>
-              <td><a href="https://github.com/GoogleChrome/lighthouse/issues/10721">Issue #10721</a></td>
+              <td class="org">Netflix DGS</td>
+              <td>Preserve user spring.autoconfigure.exclude lists</td>
+              <td><a href="https://github.com/Netflix/dgs-framework/pull/2339">PR #2339</a></td>
             </tr>
             <tr>
-              <td class="org">Keras</td>
-              <td>Merged typo and layout fixes on keras-io graph example</td>
-              <td><a href="https://github.com/keras-team/keras-io/pull/596">keras-io PR #596</a></td>
+              <td class="org">Checkstyle</td>
+              <td>Quote UnusedLocalVariable messages in examples</td>
+              <td><a href="https://github.com/checkstyle/checkstyle/pull/21362">PR #21362</a>, <a href="https://github.com/checkstyle/checkstyle/pull/21363">#21363</a></td>
             </tr>
           </tbody>
         </table>
@@ -298,8 +310,101 @@
   <footer>
     <div class="wrap">
       <span>Md Tanvir Alam · Dhaka</span>
-      <span>Static GitHub Pages · tanvir-ux.github.io</span>
+      <span>GitHub Pages · live activity from tanvir-ux</span>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var root = document.getElementById("gh-activity");
+      if (!root) return;
+      fetch("https://api.github.com/users/tanvir-ux/events/public?per_page=20", {
+        headers: { Accept: "application/vnd.github+json" }
+      })
+        .then(function (r) {
+          if (!r.ok) throw new Error("status " + r.status);
+          return r.json();
+        })
+        .then(function (events) {
+          var html = (events || []).map(formatEvent).filter(Boolean).slice(0, 8);
+          if (!html.length) throw new Error("empty");
+          root.innerHTML = '<ul class="activity-list">' + html.join("") + "</ul>";
+        })
+        .catch(function () {
+          root.innerHTML = '<p class="activity-fallback">Live feed is temporarily unavailable. Merged PRs are listed under Open source.</p>';
+        });
+
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function relTime(iso) {
+        var s = (Date.now() - new Date(iso).getTime()) / 1000;
+        if (s < 60) return "just now";
+        if (s < 3600) return Math.floor(s / 60) + "m ago";
+        if (s < 86400) return Math.floor(s / 3600) + "h ago";
+        if (s < 604800) return Math.floor(s / 86400) + "d ago";
+        return new Date(iso).toISOString().slice(0, 10);
+      }
+
+      function formatEvent(ev) {
+        var repo = ev.repo && ev.repo.name;
+        var when = relTime(ev.created_at);
+        var title = "";
+        var href = "https://github.com/" + repo;
+        var p = ev.payload || {};
+        switch (ev.type) {
+          case "PullRequestEvent": {
+            var pr = p.pull_request || {};
+            var action = p.action === "closed" && pr.merged ? "Merged" : p.action;
+            title = action + " PR: " + (pr.title || "");
+            href = pr.html_url || href;
+            break;
+          }
+          case "PushEvent": {
+            var n = (p.commits || []).length;
+            var ref = (p.ref || "").replace("refs/heads/", "");
+            title = "Pushed " + n + " commit" + (n === 1 ? "" : "s") + (ref ? " to " + ref : "");
+            href = "https://github.com/" + repo + (p.head ? "/commit/" + p.head : "");
+            break;
+          }
+          case "IssuesEvent":
+            title = p.action + " issue: " + (p.issue && p.issue.title);
+            href = (p.issue && p.issue.html_url) || href;
+            break;
+          case "IssueCommentEvent":
+            title = "Commented on " + ((p.issue && p.issue.title) || repo);
+            href = (p.comment && p.comment.html_url) || href;
+            break;
+          case "PullRequestReviewCommentEvent":
+            title = "Commented on PR " + ((p.pull_request && p.pull_request.title) || repo);
+            href = (p.comment && p.comment.html_url) || href;
+            break;
+          case "PullRequestReviewEvent":
+            title = "Reviewed PR: " + (p.pull_request && p.pull_request.title);
+            href = (p.pull_request && p.pull_request.html_url) || href;
+            break;
+          case "CreateEvent":
+            title = "Created " + p.ref_type + (p.ref ? " " + p.ref : "");
+            break;
+          case "WatchEvent":
+            title = "Starred " + repo;
+            break;
+          case "ForkEvent":
+            title = "Forked " + repo;
+            break;
+          default:
+            return "";
+        }
+        return (
+          "<li><a href=\"" + esc(href) + "\">" + esc(title) + "</a>" +
+          '<span class="activity-meta">' + esc(repo) + " · " + esc(when) + "</span></li>"
+        );
+      }
+    })();
+  </script>
 </body>
 </html>
