@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-08-29T00:46:26Z",
+  "items": [
+    {
+      "title": "Pushed to main",
+      "href": "https://github.com/tanvir-ux/mehvozsoft/commit/3b1d7fca00b5221a0dcffb818068f7fedfd36227",
+      "repo": "tanvir-ux/mehvozsoft",
+      "when": "5m ago",
+      "created_at": "2026-08-29T00:40:34Z"
+    },
+    {
+      "title": "Reviewed PR: Return configured block size from FileStore.getBlockSize()",
+      "href": "https://github.com/google/jimfs/pull/511",
+      "repo": "google/jimfs",
+      "when": "36m ago",
+      "created_at": "2026-08-29T00:09:51Z"
+    },
+    {
+      "title": "opened PR: Issue #20954: Quote UnusedLocalVariable remaining input messages",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21383",
+      "repo": "checkstyle/checkstyle",
+      "when": "2h ago",
+      "created_at": "2026-08-28T22:21:15Z"
+    },
+    {
+      "title": "Pushed to filestore-getblocksize",
+      "href": "https://github.com/tanvir-ux/jimfs/commit/22fdf633712fe8ff3b63271c58f63ec710757a57",
+      "repo": "tanvir-ux/jimfs",
+      "when": "1d ago",
+      "created_at": "2026-08-27T18:40:28Z"
+    },
+    {
+      "title": "Commented on Accept comma-separated optimization.disable_specified_optimizers lists",
+      "href": "https://github.com/microsoft/onnxruntime/pull/32217#issuecomment-5451426728",
+      "repo": "microsoft/onnxruntime",
+      "when": "14h ago",
+      "created_at": "2026-08-28T10:29:33Z"
+    },
+    {
+      "title": "Pushed to fix/subpath-emitter-options",
+      "href": "https://github.com/tanvir-ux/typespec/commit/20532392e68d709257fd45921e3cc6e504a99100",
+      "repo": "tanvir-ux/typespec",
+      "when": "1d ago",
+      "created_at": "2026-08-27T12:45:57Z"
+    },
+    {
+      "title": "opened PR: [COMPRESS-725] Use ArchiveEntry.resolveIn in ArchiveStreamFactory decompress example",
+      "href": "https://github.com/apache/commons-compress/pull/810",
+      "repo": "apache/commons-compress",
+      "when": "17h ago",
+      "created_at": "2026-08-28T07:40:59Z"
+    },
+    {
+      "title": "Forked apache/commons-compress",
+      "href": "https://github.com/apache/commons-compress",
+      "repo": "apache/commons-compress",
+      "when": "17h ago",
+      "created_at": "2026-08-28T07:40:31Z"
+    }
+  ]
+}
