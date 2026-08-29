@@ -55,7 +55,16 @@
         <p>What I have been pushing on GitHub. Merged PRs are under Open source.</p>
       </div>
       <div class="card" id="gh-activity">
-        <p class="activity-fallback">Loading…</p>
+        <ul class="activity-list">
+          <li><a href="https://github.com/tanvir-ux/mehvozsoft/commit/3b1d7fca00b5221a0dcffb818068f7fedfd36227">Pushed to main</a><span class="activity-meta" data-created="2026-08-29T00:40:34Z">tanvir-ux/mehvozsoft · 5m ago</span></li>
+          <li><a href="https://github.com/google/jimfs/pull/511">Reviewed PR: Return configured block size from FileStore.getBlockSize()</a><span class="activity-meta" data-created="2026-08-29T00:09:51Z">google/jimfs · 36m ago</span></li>
+          <li><a href="https://github.com/checkstyle/checkstyle/pull/21383">opened PR: Issue #20954: Quote UnusedLocalVariable remaining input messages</a><span class="activity-meta" data-created="2026-08-28T22:21:15Z">checkstyle/checkstyle · 2h ago</span></li>
+          <li><a href="https://github.com/tanvir-ux/jimfs/commit/22fdf633712fe8ff3b63271c58f63ec710757a57">Pushed to filestore-getblocksize</a><span class="activity-meta" data-created="2026-08-27T18:40:28Z">tanvir-ux/jimfs · 1d ago</span></li>
+          <li><a href="https://github.com/microsoft/onnxruntime/pull/32217#issuecomment-5451426728">Commented on Accept comma-separated optimization.disable_specified_optimizers lists</a><span class="activity-meta" data-created="2026-08-28T10:29:33Z">microsoft/onnxruntime · 14h ago</span></li>
+          <li><a href="https://github.com/tanvir-ux/typespec/commit/20532392e68d709257fd45921e3cc6e504a99100">Pushed to fix/subpath-emitter-options</a><span class="activity-meta" data-created="2026-08-27T12:45:57Z">tanvir-ux/typespec · 1d ago</span></li>
+          <li><a href="https://github.com/apache/commons-compress/pull/810">opened PR: [COMPRESS-725] Use ArchiveEntry.resolveIn in ArchiveStreamFactory decompress example</a><span class="activity-meta" data-created="2026-08-28T07:40:59Z">apache/commons-compress · 17h ago</span></li>
+          <li><a href="https://github.com/apache/commons-compress">Forked apache/commons-compress</a><span class="activity-meta" data-created="2026-08-28T07:40:31Z">apache/commons-compress · 17h ago</span></li>
+        </ul>
       </div>
     </section>
 
@@ -318,21 +327,6 @@
     (function () {
       var root = document.getElementById("gh-activity");
       if (!root) return;
-      fetch("https://api.github.com/users/tanvir-ux/events/public?per_page=20", {
-        headers: { Accept: "application/vnd.github+json" }
-      })
-        .then(function (r) {
-          if (!r.ok) throw new Error("status " + r.status);
-          return r.json();
-        })
-        .then(function (events) {
-          var html = (events || []).map(formatEvent).filter(Boolean).slice(0, 8);
-          if (!html.length) throw new Error("empty");
-          root.innerHTML = '<ul class="activity-list">' + html.join("") + "</ul>";
-        })
-        .catch(function () {
-          root.innerHTML = '<p class="activity-fallback">Could not load GitHub just now. Merged PRs are under Open source.</p>';
-        });
 
       function esc(s) {
         return String(s || "")
@@ -350,60 +344,38 @@
         return new Date(iso).toISOString().slice(0, 10);
       }
 
-      function formatEvent(ev) {
-        var repo = ev.repo && ev.repo.name;
-        var when = relTime(ev.created_at);
-        var title = "";
-        var href = "https://github.com/" + repo;
-        var p = ev.payload || {};
-        switch (ev.type) {
-          case "PullRequestEvent": {
-            var pr = p.pull_request || {};
-            var action = p.action === "closed" && pr.merged ? "Merged" : p.action;
-            title = action + " PR: " + (pr.title || "");
-            href = pr.html_url || href;
-            break;
-          }
-          case "PushEvent": {
-            var n = (p.commits || []).length;
-            var ref = (p.ref || "").replace("refs/heads/", "");
-            title = "Pushed " + n + " commit" + (n === 1 ? "" : "s") + (ref ? " to " + ref : "");
-            href = "https://github.com/" + repo + (p.head ? "/commit/" + p.head : "");
-            break;
-          }
-          case "IssuesEvent":
-            title = p.action + " issue: " + (p.issue && p.issue.title);
-            href = (p.issue && p.issue.html_url) || href;
-            break;
-          case "IssueCommentEvent":
-            title = "Commented on " + ((p.issue && p.issue.title) || repo);
-            href = (p.comment && p.comment.html_url) || href;
-            break;
-          case "PullRequestReviewCommentEvent":
-            title = "Commented on PR " + ((p.pull_request && p.pull_request.title) || repo);
-            href = (p.comment && p.comment.html_url) || href;
-            break;
-          case "PullRequestReviewEvent":
-            title = "Reviewed PR: " + (p.pull_request && p.pull_request.title);
-            href = (p.pull_request && p.pull_request.html_url) || href;
-            break;
-          case "CreateEvent":
-            title = "Created " + p.ref_type + (p.ref ? " " + p.ref : "");
-            break;
-          case "WatchEvent":
-            title = "Starred " + repo;
-            break;
-          case "ForkEvent":
-            title = "Forked " + repo;
-            break;
-          default:
-            return "";
-        }
-        return (
-          "<li><a href=\"" + esc(href) + "\">" + esc(title) + "</a>" +
-          '<span class="activity-meta">' + esc(repo) + " · " + esc(when) + "</span></li>"
-        );
+      function render(items) {
+        var html = (items || []).slice(0, 8).map(function (it) {
+          return (
+            "<li><a href=\"" + esc(it.href) + "\">" + esc(it.title) + "</a>" +
+            '<span class="activity-meta">' + esc(it.repo) + " · " + esc(relTime(it.created_at)) + "</span></li>"
+          );
+        }).join("");
+        if (!html) return false;
+        root.innerHTML = '<ul class="activity-list">' + html + "</ul>";
+        return true;
       }
+
+      fetch("activity.json", { headers: { Accept: "application/json" } })
+        .then(function (r) {
+          if (!r.ok) throw new Error("status " + r.status);
+          return r.json();
+        })
+        .then(function (data) {
+          if (!render(data && data.items)) throw new Error("empty");
+        })
+        .catch(function () {
+          var metas = root.querySelectorAll(".activity-meta[data-created]");
+          if (metas.length) {
+            metas.forEach(function (el) {
+              var iso = el.getAttribute("data-created");
+              var repo = (el.textContent || "").split(" · ")[0];
+              el.textContent = repo + " · " + relTime(iso);
+            });
+            return;
+          }
+          root.innerHTML = '<p class="activity-fallback"><a href="https://github.com/tanvir-ux">See recent work on GitHub</a>. Merged PRs are under Open source.</p>';
+        });
     })();
   </script>
 </body>
