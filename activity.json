@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-08-30T11:59:01Z",
+  "updated_at": "2026-08-30T16:44:55Z",
   "items": [
     {
-      "title": "Pushed to issue-20954-underscore-used-in-names",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/a04349643104b10f566e3aef830e0c7aa282311e",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-29T23:05:06Z"
-    },
-    {
-      "title": "opened PR: Issue #21229: Align LineEnding examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21396",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-30T07:01:41Z"
-    },
-    {
-      "title": "Commented on Fix modules with incorrect example count in  EXAMPLE_COUNT_SUPPRESSED_MODULES",
-      "href": "https://github.com/checkstyle/checkstyle/issues/21229#issuecomment-5467205357",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-30T06:42:25Z"
-    },
-    {
-      "title": "Pushed to issue-20954-ulv-xdocs-example1",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/a93e7ba8ab678843e6bda676de908f1114478bdb",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-30T02:48:25Z"
-    },
-    {
-      "title": "Pushed to issue-21199-javadocpackage-module-info",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/24e1086bad738a9e0df08f2585e86c878abbdad0",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-29T13:44:16Z"
-    },
-    {
-      "title": "Pushed to issue-20954-ulv-xdocs-example1",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/299c5fa64c321e786315ec399819414f28ca2900",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-30T03:21:28Z"
-    },
-    {
-      "title": "Commented on Issue #20954: Quote UnusedLocalVariable xdocs Example1 messages",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21394#issuecomment-5466317355",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-30T02:48:31Z"
-    },
-    {
-      "title": "opened PR: Issue #20954: Quote UnusedLocalVariable xdocs Example1 messages",
+      "title": "merged PR: Issue #20954: Quote UnusedLocalVariable xdocs Example1 messages",
       "href": "https://github.com/checkstyle/checkstyle/pull/21394",
       "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-30T00:39:11Z"
+      "created_at": "2026-08-30T15:25:57Z"
+    },
+    {
+      "title": "merged PR: Issue #20954: Quote UnderscoreUsedInNames violation messages",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21392",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-30T15:24:38Z"
+    },
+    {
+      "title": "Commented on [java] Fix #5732: UnnecessaryCast false positive for package-private members",
+      "href": "https://github.com/pmd/pmd/pull/6993#issuecomment-5469246415",
+      "repo": "pmd/pmd",
+      "created_at": "2026-08-30T14:24:42Z"
+    },
+    {
+      "title": "merged PR: Issue #21229: Align AtclauseOrder examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21399",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-30T14:13:08Z"
+    },
+    {
+      "title": "merged PR: Issue #21229: Align LineEnding examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21396",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-30T13:49:20Z"
+    },
+    {
+      "title": "Commented on Issue #21229: Align AtclauseOrder examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21399#issuecomment-5469029798",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-30T13:40:38Z"
+    },
+    {
+      "title": "Pushed to issue-21229-lineending",
+      "href": "https://github.com/tanvir-ux/checkstyle/commit/fd65b73d0178654e7acc715f0b7765cc7747d246",
+      "repo": "tanvir-ux/checkstyle",
+      "created_at": "2026-08-30T13:17:38Z"
+    },
+    {
+      "title": "Commented on Issue #21229: Align LineEnding examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21396#issuecomment-5468912796",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-30T13:16:21Z"
     }
   ]
 }
