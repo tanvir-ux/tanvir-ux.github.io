@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-08-31T14:00:07Z",
+  "updated_at": "2026-08-31T22:54:00Z",
   "items": [
+    {
+      "title": "merged PR: Issue #21229: Align SuppressWarningsFilter examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21406",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-31T20:30:47Z"
+    },
+    {
+      "title": "Pushed to issue-21229-suppresswarningsfilter",
+      "href": "https://github.com/tanvir-ux/checkstyle/commit/bae12f224beb56c11efcf9fa8468e70892216dcc",
+      "repo": "tanvir-ux/checkstyle",
+      "created_at": "2026-08-31T18:45:19Z"
+    },
+    {
+      "title": "Pushed to issue-21229-emptylineseparator",
+      "href": "https://github.com/tanvir-ux/checkstyle/commit/b289e451b9aa23d3bcee7f69c3d5082efddf6efe",
+      "repo": "tanvir-ux/checkstyle",
+      "created_at": "2026-08-31T12:34:42Z"
+    },
+    {
+      "title": "Commented on Issue #21229: Align SuppressWarningsFilter examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21406#issuecomment-5481560892",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-31T16:51:38Z"
+    },
+    {
+      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5480185183",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-08-31T14:59:04Z"
+    },
     {
       "title": "Created branch issue-19803-illegaltoken",
       "href": "https://github.com/tanvir-ux/checkstyle",
@@ -18,36 +48,6 @@
       "href": "https://github.com/checkstyle/checkstyle/issues/19803#issuecomment-5478999885",
       "repo": "checkstyle/checkstyle",
       "created_at": "2026-08-31T13:23:00Z"
-    },
-    {
-      "title": "Pushed to issue-21229-emptylineseparator",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/b1c8bd4c3135d78cbeabed2656f993d8889ea16d",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-31T12:59:13Z"
-    },
-    {
-      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5478715246",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T12:59:23Z"
-    },
-    {
-      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5478443444",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T12:34:49Z"
-    },
-    {
-      "title": "Pushed to issue-21229-emptylineseparator",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/d1154acd37cd07b8fa833a21fe53e5ebf8bf2432",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-31T12:22:01Z"
-    },
-    {
-      "title": "Pushed to issue-21229-emptylineseparator",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/6554060a730dd3d9417f20391eae44807d1c4f67",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-31T12:07:12Z"
     }
   ]
 }
