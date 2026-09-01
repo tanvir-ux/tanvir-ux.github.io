@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-09-01T11:44:03Z",
+  "updated_at": "2026-09-01T16:43:25Z",
   "items": [
+    {
+      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5496654627",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-01T15:53:41Z"
+    },
+    {
+      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5486506867",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-01T00:02:27Z"
+    },
     {
       "title": "Created branch issue-19803-magicnumber",
       "href": "https://github.com/tanvir-ux/checkstyle",
@@ -36,18 +48,6 @@
       "href": "https://github.com/checkstyle/checkstyle/pull/21425",
       "repo": "checkstyle/checkstyle",
       "created_at": "2026-09-01T04:28:37Z"
-    },
-    {
-      "title": "Commented on Issue #21229: Align SuppressWarningsFilter examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21406#issuecomment-5482886748",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T18:45:31Z"
-    },
-    {
-      "title": "opened PR: Issue #19803: Move MagicNumber violation comments above annotations",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21425",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-01T03:00:07Z"
     }
   ]
 }
