@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-08-31T22:54:00Z",
+  "updated_at": "2026-09-01T05:16:19Z",
   "items": [
     {
-      "title": "merged PR: Issue #21229: Align SuppressWarningsFilter examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21406",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T20:30:47Z"
-    },
-    {
-      "title": "Pushed to issue-21229-suppresswarningsfilter",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/bae12f224beb56c11efcf9fa8468e70892216dcc",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-31T18:45:19Z"
-    },
-    {
       "title": "Pushed to issue-21229-emptylineseparator",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/b289e451b9aa23d3bcee7f69c3d5082efddf6efe",
+      "href": "https://github.com/tanvir-ux/checkstyle/commit/53223d39c40d12be603d911c06e129d2ba3b470a",
       "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-31T12:34:42Z"
+      "created_at": "2026-09-01T02:21:13Z"
+    },
+    {
+      "title": "merged PR: Issue #19803: Move MagicNumber violation comments above annotations",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21425",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-01T04:28:37Z"
     },
     {
       "title": "Commented on Issue #21229: Align SuppressWarningsFilter examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21406#issuecomment-5481560892",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21406#issuecomment-5482886748",
       "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T16:51:38Z"
+      "created_at": "2026-08-31T18:45:31Z"
     },
     {
-      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5480185183",
+      "title": "opened PR: Issue #19803: Move MagicNumber violation comments above annotations",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21425",
       "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T14:59:04Z"
-    },
-    {
-      "title": "Created branch issue-19803-illegaltoken",
-      "href": "https://github.com/tanvir-ux/checkstyle",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-08-31T13:22:56Z"
-    },
-    {
-      "title": "opened PR: Issue #19803: Move IllegalToken BlockCommentEnd violation above Javadoc",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21412",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T13:23:02Z"
+      "created_at": "2026-09-01T03:00:07Z"
     },
     {
       "title": "Commented on Move violation comments above of annotated methods",
-      "href": "https://github.com/checkstyle/checkstyle/issues/19803#issuecomment-5478999885",
+      "href": "https://github.com/checkstyle/checkstyle/issues/19803#issuecomment-5488111194",
       "repo": "checkstyle/checkstyle",
-      "created_at": "2026-08-31T13:23:00Z"
+      "created_at": "2026-09-01T02:46:09Z"
+    },
+    {
+      "title": "Commented on Issue #21229: Align EmptyLineSeparator examples with property count",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21407#issuecomment-5487824656",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-01T02:21:24Z"
+    },
+    {
+      "title": "merged PR: Issue #19803: Move IllegalToken BlockCommentEnd violation above Javadoc",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21412",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-01T02:18:26Z"
+    },
+    {
+      "title": "Pushed to issue-21229-emptylineseparator",
+      "href": "https://github.com/tanvir-ux/checkstyle/commit/f8f205b395151f943a088c8fd3f0156e270ee0e1",
+      "repo": "tanvir-ux/checkstyle",
+      "created_at": "2026-09-01T00:02:22Z"
     }
   ]
 }
