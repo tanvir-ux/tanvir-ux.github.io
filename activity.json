@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-01T21:06:11Z",
+  "updated_at": "2026-09-02T04:41:46Z",
   "items": [
+    {
+      "title": "merged PR: Issue #19803: Move AnnotationUseStyle violation comments above annotations",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21437",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-02T03:39:09Z"
+    },
+    {
+      "title": "opened PR: Issue #19803: Move AnnotationUseStyle violation comments above annotations",
+      "href": "https://github.com/checkstyle/checkstyle/pull/21437",
+      "repo": "checkstyle/checkstyle",
+      "created_at": "2026-09-02T00:58:24Z"
+    },
+    {
+      "title": "Created branch fix-1075-hashcode-ignore-parent",
+      "href": "https://github.com/tanvir-ux/maven-doxia",
+      "repo": "tanvir-ux/maven-doxia",
+      "created_at": "2026-09-01T19:08:31Z"
+    },
     {
       "title": "Commented on Move violation comments above of annotated methods",
       "href": "https://github.com/checkstyle/checkstyle/issues/19803#issuecomment-5494199157",
@@ -30,24 +48,6 @@
       "href": "https://github.com/apache/maven-doxia/pull/1091",
       "repo": "apache/maven-doxia",
       "created_at": "2026-09-01T19:09:00Z"
-    },
-    {
-      "title": "opened PR: Make only-mvnw.cmd pick the first matching extracted directory (#442)",
-      "href": "https://github.com/apache/maven-wrapper/pull/447",
-      "repo": "apache/maven-wrapper",
-      "created_at": "2026-09-01T19:08:48Z"
-    },
-    {
-      "title": "Forked apache/maven-doxia",
-      "href": "https://github.com/apache/maven-doxia",
-      "repo": "apache/maven-doxia",
-      "created_at": "2026-09-01T19:06:17Z"
-    },
-    {
-      "title": "Forked apache/maven-wrapper",
-      "href": "https://github.com/apache/maven-wrapper",
-      "repo": "apache/maven-wrapper",
-      "created_at": "2026-09-01T19:06:15Z"
     }
   ]
 }
