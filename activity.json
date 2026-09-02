@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-02T04:41:46Z",
+  "updated_at": "2026-09-02T11:25:24Z",
   "items": [
+    {
+      "title": "opened PR: Fix FileLogger NPE when log file has no parent directory (#204)",
+      "href": "https://github.com/apache/maven-script-interpreter/pull/207",
+      "repo": "apache/maven-script-interpreter",
+      "created_at": "2026-09-02T07:27:49Z"
+    },
+    {
+      "title": "opened PR: [CONFIGURATION-820] Treat dotted INI section names as literal sections",
+      "href": "https://github.com/apache/commons-configuration/pull/648",
+      "repo": "apache/commons-configuration",
+      "created_at": "2026-09-02T07:26:09Z"
+    },
+    {
+      "title": "Forked apache/commons-configuration",
+      "href": "https://github.com/apache/commons-configuration",
+      "repo": "apache/commons-configuration",
+      "created_at": "2026-09-02T07:25:26Z"
+    },
+    {
+      "title": "Forked apache/maven-script-interpreter",
+      "href": "https://github.com/apache/maven-script-interpreter",
+      "repo": "apache/maven-script-interpreter",
+      "created_at": "2026-09-02T07:02:44Z"
+    },
+    {
+      "title": "opened PR: Fix TXT report counts for outer class with only @Nested tests (#3356)",
+      "href": "https://github.com/apache/maven-surefire/pull/3454",
+      "repo": "apache/maven-surefire",
+      "created_at": "2026-09-02T07:00:19Z"
+    },
+    {
+      "title": "Forked apache/maven-surefire",
+      "href": "https://github.com/apache/maven-surefire",
+      "repo": "apache/maven-surefire",
+      "created_at": "2026-09-02T06:59:20Z"
+    },
     {
       "title": "merged PR: Issue #19803: Move AnnotationUseStyle violation comments above annotations",
       "href": "https://github.com/checkstyle/checkstyle/pull/21437",
@@ -12,42 +48,6 @@
       "href": "https://github.com/checkstyle/checkstyle/pull/21437",
       "repo": "checkstyle/checkstyle",
       "created_at": "2026-09-02T00:58:24Z"
-    },
-    {
-      "title": "Created branch fix-1075-hashcode-ignore-parent",
-      "href": "https://github.com/tanvir-ux/maven-doxia",
-      "repo": "tanvir-ux/maven-doxia",
-      "created_at": "2026-09-01T19:08:31Z"
-    },
-    {
-      "title": "Commented on Move violation comments above of annotated methods",
-      "href": "https://github.com/checkstyle/checkstyle/issues/19803#issuecomment-5494199157",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-01T12:49:58Z"
-    },
-    {
-      "title": "merged PR: Issue #21229: Align EmptyLineSeparator examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21407",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-01T20:11:51Z"
-    },
-    {
-      "title": "Commented on PR: Issue #21229: Align EmptyLineSeparator examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21407#discussion_r3906436208",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-01T16:56:57Z"
-    },
-    {
-      "title": "Pushed to issue-21229-emptylineseparator",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/1e084848ad36839ce5d303e503cf3681071f29f4",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-09-01T15:53:41Z"
-    },
-    {
-      "title": "opened PR: Make SinkEventAttributeSet.hashCode ignore resolveParent (#1075)",
-      "href": "https://github.com/apache/maven-doxia/pull/1091",
-      "repo": "apache/maven-doxia",
-      "created_at": "2026-09-01T19:09:00Z"
     }
   ]
 }
