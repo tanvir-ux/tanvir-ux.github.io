@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-09-02T11:25:24Z",
+  "updated_at": "2026-09-02T16:39:09Z",
   "items": [
+    {
+      "title": "Created branch fix-442-first-match-extracted-dir",
+      "href": "https://github.com/tanvir-ux/maven-wrapper",
+      "repo": "tanvir-ux/maven-wrapper",
+      "created_at": "2026-09-01T19:08:29Z"
+    },
+    {
+      "title": "Forked apache/maven-javadoc-plugin",
+      "href": "https://github.com/apache/maven-javadoc-plugin",
+      "repo": "apache/maven-javadoc-plugin",
+      "created_at": "2026-09-02T13:02:27Z"
+    },
+    {
+      "title": "Commented on Fix TXT report counts for outer class with only @Nested tests (#3356)",
+      "href": "https://github.com/apache/maven-surefire/pull/3454#issuecomment-5509951811",
+      "repo": "apache/maven-surefire",
+      "created_at": "2026-09-02T13:02:25Z"
+    },
+    {
+      "title": "Commented on Fix TXT report counts for outer class with only @Nested tests (#3356)",
+      "href": "https://github.com/apache/maven-surefire/pull/3454#issuecomment-5509937690",
+      "repo": "apache/maven-surefire",
+      "created_at": "2026-09-02T13:01:19Z"
+    },
     {
       "title": "opened PR: Fix FileLogger NPE when log file has no parent directory (#204)",
       "href": "https://github.com/apache/maven-script-interpreter/pull/207",
@@ -24,30 +48,6 @@
       "href": "https://github.com/apache/maven-script-interpreter",
       "repo": "apache/maven-script-interpreter",
       "created_at": "2026-09-02T07:02:44Z"
-    },
-    {
-      "title": "opened PR: Fix TXT report counts for outer class with only @Nested tests (#3356)",
-      "href": "https://github.com/apache/maven-surefire/pull/3454",
-      "repo": "apache/maven-surefire",
-      "created_at": "2026-09-02T07:00:19Z"
-    },
-    {
-      "title": "Forked apache/maven-surefire",
-      "href": "https://github.com/apache/maven-surefire",
-      "repo": "apache/maven-surefire",
-      "created_at": "2026-09-02T06:59:20Z"
-    },
-    {
-      "title": "merged PR: Issue #19803: Move AnnotationUseStyle violation comments above annotations",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21437",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-02T03:39:09Z"
-    },
-    {
-      "title": "opened PR: Issue #19803: Move AnnotationUseStyle violation comments above annotations",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21437",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-02T00:58:24Z"
     }
   ]
 }
