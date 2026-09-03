@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-03T16:29:57Z",
+  "updated_at": "2026-09-03T21:05:53Z",
   "items": [
+    {
+      "title": "Pushed to fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/servicecomb-toolkit/commit/d2debaebf7c771a057ba99d32d21a2eaafb981c3",
+      "repo": "tanvir-ux/servicecomb-toolkit",
+      "created_at": "2026-09-03T00:46:20Z"
+    },
     {
       "title": "merged PR: Make SinkEventAttributeSet.hashCode ignore resolveParent (#1075)",
       "href": "https://github.com/apache/maven-doxia/pull/1091",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob/commit/78213c1380eeedeb26f8a6ab4641321454aeb052",
       "repo": "tanvir-ux/shardingsphere-elasticjob",
       "created_at": "2026-09-03T00:45:44Z"
-    },
-    {
-      "title": "Created branch fix/rat-excldue-typo",
-      "href": "https://github.com/tanvir-ux/shardingsphere",
-      "repo": "tanvir-ux/shardingsphere",
-      "created_at": "2026-09-03T00:45:14Z"
     }
   ]
 }
