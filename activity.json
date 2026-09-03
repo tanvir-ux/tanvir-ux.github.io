@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-03T04:39:31Z",
+  "updated_at": "2026-09-03T11:21:36Z",
   "items": [
     {
-      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shenyu/pull/7028",
-      "repo": "apache/shenyu",
-      "created_at": "2026-09-03T04:05:30Z"
+      "title": "Pushed to fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob/commit/78213c1380eeedeb26f8a6ab4641321454aeb052",
+      "repo": "tanvir-ux/shardingsphere-elasticjob",
+      "created_at": "2026-09-03T00:45:44Z"
+    },
+    {
+      "title": "Created branch fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shardingsphere",
+      "repo": "tanvir-ux/shardingsphere",
+      "created_at": "2026-09-03T00:45:14Z"
+    },
+    {
+      "title": "Created branch fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob",
+      "repo": "tanvir-ux/shardingsphere-elasticjob",
+      "created_at": "2026-09-03T00:45:42Z"
+    },
+    {
+      "title": "Pushed to fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shardingsphere/commit/5ce4f37c75fcee17b6a9d9d3692b847c417ebfe1",
+      "repo": "tanvir-ux/shardingsphere",
+      "created_at": "2026-09-03T00:45:16Z"
+    },
+    {
+      "title": "Pushed to fix-3356-nested-txt-report-counts",
+      "href": "https://github.com/tanvir-ux/maven-surefire/commit/befffbe192d12557fe6f4e3509128497f528ba30",
+      "repo": "tanvir-ux/maven-surefire",
+      "created_at": "2026-09-02T13:01:18Z"
     },
     {
       "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shenyu-wasm/pull/17",
-      "repo": "apache/shenyu-wasm",
-      "created_at": "2026-09-03T02:50:16Z"
-    },
-    {
-      "title": "Created branch fix-204-filelogger-null-parent",
-      "href": "https://github.com/tanvir-ux/maven-script-interpreter",
-      "repo": "tanvir-ux/maven-script-interpreter",
-      "created_at": "2026-09-02T07:03:02Z"
-    },
-    {
-      "title": "Created branch fix-CONFIGURATION-820-dotted-section-names",
-      "href": "https://github.com/tanvir-ux/commons-configuration",
-      "repo": "tanvir-ux/commons-configuration",
-      "created_at": "2026-09-02T07:25:54Z"
-    },
-    {
-      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/servicecomb-toolkit/pull/87",
-      "repo": "apache/servicecomb-toolkit",
-      "created_at": "2026-09-03T00:47:35Z"
+      "href": "https://github.com/apache/shardingsphere/pull/39702",
+      "repo": "apache/shardingsphere",
+      "created_at": "2026-09-03T08:20:55Z"
     },
     {
       "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shenyu-wasm/pull/17",
-      "repo": "apache/shenyu-wasm",
-      "created_at": "2026-09-03T00:46:37Z"
+      "href": "https://github.com/apache/shardingsphere-elasticjob-ui/pull/196",
+      "repo": "apache/shardingsphere-elasticjob-ui",
+      "created_at": "2026-09-03T06:43:48Z"
     },
     {
-      "title": "Forked apache/shenyu-wasm",
-      "href": "https://github.com/apache/shenyu-wasm",
-      "repo": "apache/shenyu-wasm",
-      "created_at": "2026-09-03T00:46:25Z"
-    },
-    {
-      "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/servicecomb-toolkit/pull/87",
-      "repo": "apache/servicecomb-toolkit",
-      "created_at": "2026-09-03T00:46:23Z"
+      "title": "Forked apache/dolphinscheduler-maven-plugin",
+      "href": "https://github.com/apache/dolphinscheduler-maven-plugin",
+      "repo": "apache/dolphinscheduler-maven-plugin",
+      "created_at": "2026-09-03T06:42:37Z"
     }
   ]
 }
