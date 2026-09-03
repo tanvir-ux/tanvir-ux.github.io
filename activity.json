@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-02T21:06:43Z",
+  "updated_at": "2026-09-03T04:39:31Z",
   "items": [
     {
-      "title": "Created branch issue-19803-annotationusestyle",
-      "href": "https://github.com/tanvir-ux/checkstyle",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-09-02T00:57:47Z"
+      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/shenyu/pull/7028",
+      "repo": "apache/shenyu",
+      "created_at": "2026-09-03T04:05:30Z"
     },
     {
-      "title": "Pushed to issue-21229-emptylineseparator",
-      "href": "https://github.com/tanvir-ux/checkstyle/commit/8f3efeab82461d169a911c1ee41874f49a10991e",
-      "repo": "tanvir-ux/checkstyle",
-      "created_at": "2026-09-01T16:56:37Z"
+      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/shenyu-wasm/pull/17",
+      "repo": "apache/shenyu-wasm",
+      "created_at": "2026-09-03T02:50:16Z"
+    },
+    {
+      "title": "Created branch fix-204-filelogger-null-parent",
+      "href": "https://github.com/tanvir-ux/maven-script-interpreter",
+      "repo": "tanvir-ux/maven-script-interpreter",
+      "created_at": "2026-09-02T07:03:02Z"
+    },
+    {
+      "title": "Created branch fix-CONFIGURATION-820-dotted-section-names",
+      "href": "https://github.com/tanvir-ux/commons-configuration",
+      "repo": "tanvir-ux/commons-configuration",
+      "created_at": "2026-09-02T07:25:54Z"
+    },
+    {
+      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/servicecomb-toolkit/pull/87",
+      "repo": "apache/servicecomb-toolkit",
+      "created_at": "2026-09-03T00:47:35Z"
     },
     {
       "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shenyu/pull/7028",
-      "repo": "apache/shenyu",
-      "created_at": "2026-09-02T18:39:47Z"
+      "href": "https://github.com/apache/shenyu-wasm/pull/17",
+      "repo": "apache/shenyu-wasm",
+      "created_at": "2026-09-03T00:46:37Z"
     },
     {
-      "title": "Forked apache/shenyu",
-      "href": "https://github.com/apache/shenyu",
-      "repo": "apache/shenyu",
-      "created_at": "2026-09-02T18:39:27Z"
+      "title": "Forked apache/shenyu-wasm",
+      "href": "https://github.com/apache/shenyu-wasm",
+      "repo": "apache/shenyu-wasm",
+      "created_at": "2026-09-03T00:46:25Z"
     },
     {
-      "title": "Commented on PR: Issue #21229: Align EmptyLineSeparator examples with property count",
-      "href": "https://github.com/checkstyle/checkstyle/pull/21407#discussion_r3906435574",
-      "repo": "checkstyle/checkstyle",
-      "created_at": "2026-09-01T16:56:52Z"
-    },
-    {
-      "title": "Created branch fix-442-first-match-extracted-dir",
-      "href": "https://github.com/tanvir-ux/maven-wrapper",
-      "repo": "tanvir-ux/maven-wrapper",
-      "created_at": "2026-09-01T19:08:29Z"
-    },
-    {
-      "title": "Forked apache/maven-javadoc-plugin",
-      "href": "https://github.com/apache/maven-javadoc-plugin",
-      "repo": "apache/maven-javadoc-plugin",
-      "created_at": "2026-09-02T13:02:27Z"
-    },
-    {
-      "title": "Commented on Fix TXT report counts for outer class with only @Nested tests (#3356)",
-      "href": "https://github.com/apache/maven-surefire/pull/3454#issuecomment-5509951811",
-      "repo": "apache/maven-surefire",
-      "created_at": "2026-09-02T13:02:25Z"
+      "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/servicecomb-toolkit/pull/87",
+      "repo": "apache/servicecomb-toolkit",
+      "created_at": "2026-09-03T00:46:23Z"
     }
   ]
 }
