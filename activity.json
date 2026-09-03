@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-03T11:21:36Z",
+  "updated_at": "2026-09-03T16:29:57Z",
   "items": [
+    {
+      "title": "merged PR: Make SinkEventAttributeSet.hashCode ignore resolveParent (#1075)",
+      "href": "https://github.com/apache/maven-doxia/pull/1091",
+      "repo": "apache/maven-doxia",
+      "created_at": "2026-09-03T15:22:21Z"
+    },
+    {
+      "title": "Pushed to fix-3356-nested-txt-report-counts",
+      "href": "https://github.com/tanvir-ux/maven-surefire/commit/77fb5c1c3883cfc1a504769e0846bf81346b3ea1",
+      "repo": "tanvir-ux/maven-surefire",
+      "created_at": "2026-09-02T13:02:24Z"
+    },
+    {
+      "title": "Created branch fix-3356-nested-txt-report-counts",
+      "href": "https://github.com/tanvir-ux/maven-surefire",
+      "repo": "tanvir-ux/maven-surefire",
+      "created_at": "2026-09-02T07:00:11Z"
+    },
+    {
+      "title": "Commented on Make SinkEventAttributeSet.hashCode ignore resolveParent (#1075)",
+      "href": "https://github.com/apache/maven-doxia/pull/1091#issuecomment-5526790620",
+      "repo": "apache/maven-doxia",
+      "created_at": "2026-09-03T13:49:01Z"
+    },
+    {
+      "title": "Pushed to fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shenyu-wasm/commit/8b4f0f0831d68c675785a703ab9502bf85d1fd96",
+      "repo": "tanvir-ux/shenyu-wasm",
+      "created_at": "2026-09-03T00:46:34Z"
+    },
+    {
+      "title": "Created branch fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shenyu-wasm",
+      "repo": "tanvir-ux/shenyu-wasm",
+      "created_at": "2026-09-03T00:46:32Z"
+    },
     {
       "title": "Pushed to fix/rat-excldue-typo",
       "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob/commit/78213c1380eeedeb26f8a6ab4641321454aeb052",
@@ -12,42 +48,6 @@
       "href": "https://github.com/tanvir-ux/shardingsphere",
       "repo": "tanvir-ux/shardingsphere",
       "created_at": "2026-09-03T00:45:14Z"
-    },
-    {
-      "title": "Created branch fix/rat-excldue-typo",
-      "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob",
-      "repo": "tanvir-ux/shardingsphere-elasticjob",
-      "created_at": "2026-09-03T00:45:42Z"
-    },
-    {
-      "title": "Pushed to fix/rat-excldue-typo",
-      "href": "https://github.com/tanvir-ux/shardingsphere/commit/5ce4f37c75fcee17b6a9d9d3692b847c417ebfe1",
-      "repo": "tanvir-ux/shardingsphere",
-      "created_at": "2026-09-03T00:45:16Z"
-    },
-    {
-      "title": "Pushed to fix-3356-nested-txt-report-counts",
-      "href": "https://github.com/tanvir-ux/maven-surefire/commit/befffbe192d12557fe6f4e3509128497f528ba30",
-      "repo": "tanvir-ux/maven-surefire",
-      "created_at": "2026-09-02T13:01:18Z"
-    },
-    {
-      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shardingsphere/pull/39702",
-      "repo": "apache/shardingsphere",
-      "created_at": "2026-09-03T08:20:55Z"
-    },
-    {
-      "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shardingsphere-elasticjob-ui/pull/196",
-      "repo": "apache/shardingsphere-elasticjob-ui",
-      "created_at": "2026-09-03T06:43:48Z"
-    },
-    {
-      "title": "Forked apache/dolphinscheduler-maven-plugin",
-      "href": "https://github.com/apache/dolphinscheduler-maven-plugin",
-      "repo": "apache/dolphinscheduler-maven-plugin",
-      "created_at": "2026-09-03T06:42:37Z"
     }
   ]
 }
