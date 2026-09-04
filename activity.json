@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-04T04:40:14Z",
+  "updated_at": "2026-09-04T11:24:42Z",
   "items": [
+    {
+      "title": "Pushed to fix-1075-hashcode-ignore-parent",
+      "href": "https://github.com/tanvir-ux/maven-doxia/commit/91bafc839564ba36effdfe5c34dc9ce3a8305bac",
+      "repo": "tanvir-ux/maven-doxia",
+      "created_at": "2026-09-03T13:47:49Z"
+    },
+    {
+      "title": "Created branch fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shenyu",
+      "repo": "tanvir-ux/shenyu",
+      "created_at": "2026-09-02T18:39:38Z"
+    },
+    {
+      "title": "Pushed to fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/servicecomb-java-chassis/commit/314214b03ab9022b55545798796a43395c397fff",
+      "repo": "tanvir-ux/servicecomb-java-chassis",
+      "created_at": "2026-09-03T00:45:31Z"
+    },
     {
       "title": "Pushed to fix/rat-excldue-typo",
       "href": "https://github.com/tanvir-ux/servicecomb-toolkit/commit/d2debaebf7c771a057ba99d32d21a2eaafb981c3",
@@ -30,24 +48,6 @@
       "href": "https://github.com/apache/maven-doxia/pull/1091#issuecomment-5526790620",
       "repo": "apache/maven-doxia",
       "created_at": "2026-09-03T13:49:01Z"
-    },
-    {
-      "title": "Pushed to fix/rat-excldue-typo",
-      "href": "https://github.com/tanvir-ux/shenyu-wasm/commit/8b4f0f0831d68c675785a703ab9502bf85d1fd96",
-      "repo": "tanvir-ux/shenyu-wasm",
-      "created_at": "2026-09-03T00:46:34Z"
-    },
-    {
-      "title": "Created branch fix/rat-excldue-typo",
-      "href": "https://github.com/tanvir-ux/shenyu-wasm",
-      "repo": "tanvir-ux/shenyu-wasm",
-      "created_at": "2026-09-03T00:46:32Z"
-    },
-    {
-      "title": "Pushed to fix/rat-excldue-typo",
-      "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob/commit/78213c1380eeedeb26f8a6ab4641321454aeb052",
-      "repo": "tanvir-ux/shardingsphere-elasticjob",
-      "created_at": "2026-09-03T00:45:44Z"
     }
   ]
 }
