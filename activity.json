@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-09-04T11:24:42Z",
+  "updated_at": "2026-09-04T16:26:07Z",
   "items": [
+    {
+      "title": "merged PR: Encode Gson request bodies using the runtime class",
+      "href": "https://github.com/OpenFeign/feign/pull/3535",
+      "repo": "OpenFeign/feign",
+      "created_at": "2026-09-04T16:25:33Z"
+    },
+    {
+      "title": "Created branch fix/rat-excldue-typo",
+      "href": "https://github.com/tanvir-ux/servicecomb-java-chassis",
+      "repo": "tanvir-ux/servicecomb-java-chassis",
+      "created_at": "2026-09-03T00:45:28Z"
+    },
+    {
+      "title": "merged PR: Fix FileLogger NPE when log file has no parent directory (#204)",
+      "href": "https://github.com/apache/maven-script-interpreter/pull/207",
+      "repo": "apache/maven-script-interpreter",
+      "created_at": "2026-09-04T13:00:18Z"
+    },
+    {
+      "title": "Pushed to master",
+      "href": "https://github.com/tanvir-ux/maven-doxia/commit/e83c5a2ba86db6531edcd9bd1ebb062a5c6dd74b",
+      "repo": "tanvir-ux/maven-doxia",
+      "created_at": "2026-09-03T13:46:17Z"
+    },
     {
       "title": "Pushed to fix-1075-hashcode-ignore-parent",
       "href": "https://github.com/tanvir-ux/maven-doxia/commit/91bafc839564ba36effdfe5c34dc9ce3a8305bac",
@@ -24,30 +48,6 @@
       "href": "https://github.com/tanvir-ux/servicecomb-toolkit/commit/d2debaebf7c771a057ba99d32d21a2eaafb981c3",
       "repo": "tanvir-ux/servicecomb-toolkit",
       "created_at": "2026-09-03T00:46:20Z"
-    },
-    {
-      "title": "merged PR: Make SinkEventAttributeSet.hashCode ignore resolveParent (#1075)",
-      "href": "https://github.com/apache/maven-doxia/pull/1091",
-      "repo": "apache/maven-doxia",
-      "created_at": "2026-09-03T15:22:21Z"
-    },
-    {
-      "title": "Pushed to fix-3356-nested-txt-report-counts",
-      "href": "https://github.com/tanvir-ux/maven-surefire/commit/77fb5c1c3883cfc1a504769e0846bf81346b3ea1",
-      "repo": "tanvir-ux/maven-surefire",
-      "created_at": "2026-09-02T13:02:24Z"
-    },
-    {
-      "title": "Created branch fix-3356-nested-txt-report-counts",
-      "href": "https://github.com/tanvir-ux/maven-surefire",
-      "repo": "tanvir-ux/maven-surefire",
-      "created_at": "2026-09-02T07:00:11Z"
-    },
-    {
-      "title": "Commented on Make SinkEventAttributeSet.hashCode ignore resolveParent (#1075)",
-      "href": "https://github.com/apache/maven-doxia/pull/1091#issuecomment-5526790620",
-      "repo": "apache/maven-doxia",
-      "created_at": "2026-09-03T13:49:01Z"
     }
   ]
 }
