@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-05T04:36:13Z",
+  "updated_at": "2026-09-05T10:40:59Z",
   "items": [
+    {
+      "title": "Pushed to fix-excldue-typo",
+      "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob-ui/commit/0c16cf5cf52cfd58fed65c3e53be39da09f98a2a",
+      "repo": "tanvir-ux/shardingsphere-elasticjob-ui",
+      "created_at": "2026-09-03T06:43:47Z"
+    },
     {
       "title": "Created branch main",
       "href": "https://github.com/tanvir-ux/java-backend-api-feature-demo",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/maven-doxia/commit/e83c5a2ba86db6531edcd9bd1ebb062a5c6dd74b",
       "repo": "tanvir-ux/maven-doxia",
       "created_at": "2026-09-03T13:46:17Z"
-    },
-    {
-      "title": "Pushed to fix-1075-hashcode-ignore-parent",
-      "href": "https://github.com/tanvir-ux/maven-doxia/commit/91bafc839564ba36effdfe5c34dc9ce3a8305bac",
-      "repo": "tanvir-ux/maven-doxia",
-      "created_at": "2026-09-03T13:47:49Z"
     }
   ]
 }
