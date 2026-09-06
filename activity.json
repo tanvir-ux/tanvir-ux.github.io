@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-06T04:45:37Z",
+  "updated_at": "2026-09-06T11:03:16Z",
   "items": [
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/rag-langchain-demo",
+      "repo": "tanvir-ux/rag-langchain-demo",
+      "created_at": "2026-09-04T06:21:35Z"
+    },
     {
       "title": "Pushed to main",
       "href": "https://github.com/tanvir-ux/discord-ai-bot-skeleton/commit/fc93c4519bafdf55b8e48c150b9ee27d0a653731",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/shardingsphere-elasticjob-ui/commit/0c16cf5cf52cfd58fed65c3e53be39da09f98a2a",
       "repo": "tanvir-ux/shardingsphere-elasticjob-ui",
       "created_at": "2026-09-03T06:43:47Z"
-    },
-    {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/java-backend-api-feature-demo",
-      "repo": "tanvir-ux/java-backend-api-feature-demo",
-      "created_at": "2026-09-04T05:13:44Z"
     }
   ]
 }
