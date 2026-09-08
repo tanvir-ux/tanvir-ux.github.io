@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-09-08T04:45:04Z",
+  "updated_at": "2026-09-08T11:25:06Z",
   "items": [
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/typescript-mcp-server-demo",
+      "repo": "tanvir-ux/typescript-mcp-server-demo",
+      "created_at": "2026-09-06T17:51:25Z"
+    },
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/spring-ai-rag-mcp-demo",
+      "repo": "tanvir-ux/spring-ai-rag-mcp-demo",
+      "created_at": "2026-09-06T17:37:22Z"
+    },
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/nextjs-ai-chat-starter",
+      "repo": "tanvir-ux/nextjs-ai-chat-starter",
+      "created_at": "2026-09-06T17:49:43Z"
+    },
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/telegram-ai-bot-skeleton",
+      "repo": "tanvir-ux/telegram-ai-bot-skeleton",
+      "created_at": "2026-09-06T17:35:59Z"
+    },
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/fastapi-celery-redis-jobs-demo",
+      "repo": "tanvir-ux/fastapi-celery-redis-jobs-demo",
+      "created_at": "2026-09-06T18:27:58Z"
+    },
     {
       "title": "Created branch master",
       "href": "https://github.com/tanvir-ux/jobsite-voice-cm-demo",
@@ -18,36 +48,6 @@
       "href": "https://github.com/tanvir-ux/finance-rag-eval-agents-demo",
       "repo": "tanvir-ux/finance-rag-eval-agents-demo",
       "created_at": "2026-09-07T15:53:52Z"
-    },
-    {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/rag-langchain-demo/commit/384fc0aa5c8dd855c66b6685c94a3060ce4493a1",
-      "repo": "tanvir-ux/rag-langchain-demo",
-      "created_at": "2026-09-05T13:24:18Z"
-    },
-    {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/spring-oauth2-keycloak-demo/commit/fbbeb830747b989cd0f38a2ad7a07bb266bc5637",
-      "repo": "tanvir-ux/spring-oauth2-keycloak-demo",
-      "created_at": "2026-09-05T13:24:12Z"
-    },
-    {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/n8n-webhook-agent-bridge",
-      "repo": "tanvir-ux/n8n-webhook-agent-bridge",
-      "created_at": "2026-09-05T12:36:21Z"
-    },
-    {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/n8n-webhook-agent-bridge/commit/835bd35ce3cea7c2fdf955dce7576ccdd0302fd2",
-      "repo": "tanvir-ux/n8n-webhook-agent-bridge",
-      "created_at": "2026-09-05T13:24:14Z"
-    },
-    {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/ai-automation-workflow-demo",
-      "repo": "tanvir-ux/ai-automation-workflow-demo",
-      "created_at": "2026-09-07T11:53:06Z"
     }
   ]
 }
