@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-10T20:54:58Z",
+  "updated_at": "2026-09-11T04:47:05Z",
   "items": [
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/n8n-cs-email-workflow-demo",
-      "repo": "tanvir-ux/n8n-cs-email-workflow-demo",
-      "created_at": "2026-09-08T05:28:30Z"
+      "title": "Commented on Use TypeName class names for JSON converter field suffixes",
+      "href": "https://github.com/helidon-io/helidon/pull/12316#issuecomment-5629331915",
+      "repo": "helidon-io/helidon",
+      "created_at": "2026-09-11T04:10:26Z"
     },
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/governed-ai-composer-demo",
-      "repo": "tanvir-ux/governed-ai-composer-demo",
-      "created_at": "2026-09-07T16:04:51Z"
+      "title": "Commented on fix: avoid template local clash for primitive completions",
+      "href": "https://github.com/microsoft/vscode-js-debug/pull/2411#issuecomment-5629331594",
+      "repo": "microsoft/vscode-js-debug",
+      "created_at": "2026-09-11T04:10:24Z"
     },
     {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/finance-rag-eval-agents-demo/commit/a4e891eec507a51a38460134ae291486990cbd69",
-      "repo": "tanvir-ux/finance-rag-eval-agents-demo",
-      "created_at": "2026-09-07T16:01:06Z"
+      "title": "opened PR: Point AutoValue invoker at value/src/it for functional tests",
+      "href": "https://github.com/google/auto/pull/2135",
+      "repo": "google/auto",
+      "created_at": "2026-09-11T04:10:10Z"
     },
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/precode-voice-assistant-demo",
-      "repo": "tanvir-ux/precode-voice-assistant-demo",
-      "created_at": "2026-09-07T08:58:29Z"
+      "title": "opened PR: fix: avoid template local clash for primitive completions",
+      "href": "https://github.com/microsoft/vscode-js-debug/pull/2411",
+      "repo": "microsoft/vscode-js-debug",
+      "created_at": "2026-09-11T04:10:08Z"
     },
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/google-workspace-ai-assistant-demo",
-      "repo": "tanvir-ux/google-workspace-ai-assistant-demo",
-      "created_at": "2026-09-07T09:47:45Z"
+      "title": "Forked microsoft/vscode-js-debug",
+      "href": "https://github.com/microsoft/vscode-js-debug",
+      "repo": "microsoft/vscode-js-debug",
+      "created_at": "2026-09-11T04:09:35Z"
     },
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/typescript-mcp-server-demo",
-      "repo": "tanvir-ux/typescript-mcp-server-demo",
-      "created_at": "2026-09-06T17:51:25Z"
+      "title": "Commented on PR: fix(compiler): resolve emitter options for subpath exports",
+      "href": "https://github.com/microsoft/typespec/pull/11746#discussion_r3985830403",
+      "repo": "microsoft/typespec",
+      "created_at": "2026-09-11T04:06:49Z"
     },
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/spring-ai-rag-mcp-demo",
-      "repo": "tanvir-ux/spring-ai-rag-mcp-demo",
-      "created_at": "2026-09-06T17:37:22Z"
+      "title": "Reviewed PR: fix(compiler): resolve emitter options for subpath exports",
+      "href": "https://github.com/microsoft/typespec/pull/11746",
+      "repo": "microsoft/typespec",
+      "created_at": "2026-09-11T04:06:50Z"
     },
     {
-      "title": "Created branch main",
-      "href": "https://github.com/tanvir-ux/nextjs-ai-chat-starter",
-      "repo": "tanvir-ux/nextjs-ai-chat-starter",
-      "created_at": "2026-09-06T17:49:43Z"
+      "title": "Commented on Recognize split declaration/assignment in UnnecessaryAsync",
+      "href": "https://github.com/google/error-prone/pull/6070#issuecomment-5629299276",
+      "repo": "google/error-prone",
+      "created_at": "2026-09-11T04:06:48Z"
     }
   ]
 }
