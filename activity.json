@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-11T11:28:41Z",
+  "updated_at": "2026-09-11T16:33:08Z",
   "items": [
     {
-      "title": "Created branch fix/primitive-completion-name-clash",
-      "href": "https://github.com/tanvir-ux/vscode-js-debug",
-      "repo": "tanvir-ux/vscode-js-debug",
-      "created_at": "2026-09-11T04:09:59Z"
+      "title": "Commented on Point AutoValue invoker at value/src/it for functional tests",
+      "href": "https://github.com/google/auto/pull/2135#issuecomment-5637532225",
+      "repo": "google/auto",
+      "created_at": "2026-09-11T16:30:51Z"
     },
     {
-      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shenyu-client-java/pull/14",
-      "repo": "apache/shenyu-client-java",
-      "created_at": "2026-09-11T10:18:29Z"
+      "title": "Commented on Point AutoValue invoker at value/src/it for functional tests",
+      "href": "https://github.com/google/auto/pull/2135#issuecomment-5635585081",
+      "repo": "google/auto",
+      "created_at": "2026-09-11T14:04:17Z"
     },
     {
-      "title": "Commented on Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shardingsphere-elasticjob-ui/pull/196#issuecomment-5630761437",
-      "repo": "apache/shardingsphere-elasticjob-ui",
-      "created_at": "2026-09-11T07:04:42Z"
+      "title": "Commented on Point AutoValue invoker at value/src/it for functional tests",
+      "href": "https://github.com/google/auto/pull/2135#issuecomment-5635124387",
+      "repo": "google/auto",
+      "created_at": "2026-09-11T13:27:41Z"
     },
     {
-      "title": "opened PR: Fix spelling of lastSuccessfulCycle in comment",
-      "href": "https://github.com/Netflix/hollow/pull/852",
-      "repo": "Netflix/hollow",
-      "created_at": "2026-09-11T06:45:31Z"
+      "title": "Commented on Point AutoValue invoker at value/src/it for functional tests",
+      "href": "https://github.com/google/auto/pull/2135#issuecomment-5635111289",
+      "repo": "google/auto",
+      "created_at": "2026-09-11T13:26:36Z"
     },
     {
-      "title": "Forked Netflix/hollow",
-      "href": "https://github.com/Netflix/hollow",
-      "repo": "Netflix/hollow",
-      "created_at": "2026-09-11T06:45:24Z"
+      "title": "opened PR: Fix spelling of occurred in ProfilingReport header",
+      "href": "https://github.com/google/closure-compiler/pull/4340",
+      "repo": "google/closure-compiler",
+      "created_at": "2026-09-11T12:57:01Z"
     },
     {
-      "title": "opened PR: Fix spelling of occurred in RecursionDepth javadoc",
-      "href": "https://github.com/google/flogger/pull/476",
-      "repo": "google/flogger",
-      "created_at": "2026-09-11T06:44:59Z"
+      "title": "Forked google/closure-compiler",
+      "href": "https://github.com/google/closure-compiler",
+      "repo": "google/closure-compiler",
+      "created_at": "2026-09-11T12:56:53Z"
     },
     {
-      "title": "Forked google/flogger",
-      "href": "https://github.com/google/flogger",
-      "repo": "google/flogger",
-      "created_at": "2026-09-11T06:44:49Z"
+      "title": "opened PR: Fix spelling of receiver in injector comments",
+      "href": "https://github.com/google/guice/pull/1948",
+      "repo": "google/guice",
+      "created_at": "2026-09-11T12:56:36Z"
     },
     {
-      "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
-      "href": "https://github.com/apache/shenyu-client-java/pull/14",
-      "repo": "apache/shenyu-client-java",
-      "created_at": "2026-09-11T06:44:29Z"
+      "title": "Created branch fix/receiver-typo-comment",
+      "href": "https://github.com/tanvir-ux/guice",
+      "repo": "tanvir-ux/guice",
+      "created_at": "2026-09-11T12:56:32Z"
     }
   ]
 }
