@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-11T04:47:05Z",
+  "updated_at": "2026-09-11T11:28:41Z",
   "items": [
     {
-      "title": "Commented on Use TypeName class names for JSON converter field suffixes",
-      "href": "https://github.com/helidon-io/helidon/pull/12316#issuecomment-5629331915",
-      "repo": "helidon-io/helidon",
-      "created_at": "2026-09-11T04:10:26Z"
+      "title": "Created branch fix/primitive-completion-name-clash",
+      "href": "https://github.com/tanvir-ux/vscode-js-debug",
+      "repo": "tanvir-ux/vscode-js-debug",
+      "created_at": "2026-09-11T04:09:59Z"
     },
     {
-      "title": "Commented on fix: avoid template local clash for primitive completions",
-      "href": "https://github.com/microsoft/vscode-js-debug/pull/2411#issuecomment-5629331594",
-      "repo": "microsoft/vscode-js-debug",
-      "created_at": "2026-09-11T04:10:24Z"
+      "title": "merged PR: Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/shenyu-client-java/pull/14",
+      "repo": "apache/shenyu-client-java",
+      "created_at": "2026-09-11T10:18:29Z"
     },
     {
-      "title": "opened PR: Point AutoValue invoker at value/src/it for functional tests",
-      "href": "https://github.com/google/auto/pull/2135",
-      "repo": "google/auto",
-      "created_at": "2026-09-11T04:10:10Z"
+      "title": "Commented on Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/shardingsphere-elasticjob-ui/pull/196#issuecomment-5630761437",
+      "repo": "apache/shardingsphere-elasticjob-ui",
+      "created_at": "2026-09-11T07:04:42Z"
     },
     {
-      "title": "opened PR: fix: avoid template local clash for primitive completions",
-      "href": "https://github.com/microsoft/vscode-js-debug/pull/2411",
-      "repo": "microsoft/vscode-js-debug",
-      "created_at": "2026-09-11T04:10:08Z"
+      "title": "opened PR: Fix spelling of lastSuccessfulCycle in comment",
+      "href": "https://github.com/Netflix/hollow/pull/852",
+      "repo": "Netflix/hollow",
+      "created_at": "2026-09-11T06:45:31Z"
     },
     {
-      "title": "Forked microsoft/vscode-js-debug",
-      "href": "https://github.com/microsoft/vscode-js-debug",
-      "repo": "microsoft/vscode-js-debug",
-      "created_at": "2026-09-11T04:09:35Z"
+      "title": "Forked Netflix/hollow",
+      "href": "https://github.com/Netflix/hollow",
+      "repo": "Netflix/hollow",
+      "created_at": "2026-09-11T06:45:24Z"
     },
     {
-      "title": "Commented on PR: fix(compiler): resolve emitter options for subpath exports",
-      "href": "https://github.com/microsoft/typespec/pull/11746#discussion_r3985830403",
-      "repo": "microsoft/typespec",
-      "created_at": "2026-09-11T04:06:49Z"
+      "title": "opened PR: Fix spelling of occurred in RecursionDepth javadoc",
+      "href": "https://github.com/google/flogger/pull/476",
+      "repo": "google/flogger",
+      "created_at": "2026-09-11T06:44:59Z"
     },
     {
-      "title": "Reviewed PR: fix(compiler): resolve emitter options for subpath exports",
-      "href": "https://github.com/microsoft/typespec/pull/11746",
-      "repo": "microsoft/typespec",
-      "created_at": "2026-09-11T04:06:50Z"
+      "title": "Forked google/flogger",
+      "href": "https://github.com/google/flogger",
+      "repo": "google/flogger",
+      "created_at": "2026-09-11T06:44:49Z"
     },
     {
-      "title": "Commented on Recognize split declaration/assignment in UnnecessaryAsync",
-      "href": "https://github.com/google/error-prone/pull/6070#issuecomment-5629299276",
-      "repo": "google/error-prone",
-      "created_at": "2026-09-11T04:06:48Z"
+      "title": "opened PR: Fix excldue typo in apache-rat exclude patterns",
+      "href": "https://github.com/apache/shenyu-client-java/pull/14",
+      "repo": "apache/shenyu-client-java",
+      "created_at": "2026-09-11T06:44:29Z"
     }
   ]
 }
