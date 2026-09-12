@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-12T15:35:45Z",
+  "updated_at": "2026-09-12T20:37:45Z",
   "items": [
+    {
+      "title": "Pushed to fix/indirectlight-paramter-javadoc",
+      "href": "https://github.com/tanvir-ux/filament/commit/10ddd08d56f5abbab7d953910351be47bfed1b8c",
+      "repo": "tanvir-ux/filament",
+      "created_at": "2026-09-12T12:44:14Z"
+    },
     {
       "title": "Pushed to fix/autovalue-functional-invoker-path",
       "href": "https://github.com/tanvir-ux/auto/commit/5b88238de7a1ff2ca1532d9249655fd8322dbe7e",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/guice/commit/52d4dab2f28e84a37b855d2dc5ea442fc27c8ae0",
       "repo": "tanvir-ux/guice",
       "created_at": "2026-09-11T12:56:35Z"
-    },
-    {
-      "title": "Pushed to fix/receiver-typo-comment",
-      "href": "https://github.com/tanvir-ux/guice/commit/f57afe11f871747750e9460cb6431fe8cbfb8f5d",
-      "repo": "tanvir-ux/guice",
-      "created_at": "2026-09-11T12:56:33Z"
     }
   ]
 }
