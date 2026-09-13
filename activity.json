@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-13T04:54:37Z",
+  "updated_at": "2026-09-13T11:58:22Z",
   "items": [
     {
-      "title": "Pushed to fix/catalog-overridden-javadoc",
-      "href": "https://github.com/tanvir-ux/googlesql/commit/9f81c12982763edd7fc5bf29ace40ae88d8f260f",
-      "repo": "tanvir-ux/googlesql",
-      "created_at": "2026-09-13T00:42:45Z"
+      "title": "Pushed to fix/autovalue-functional-invoker-path",
+      "href": "https://github.com/tanvir-ux/auto/commit/84e5fd7f616b586245062d29731d6660ac8c6c31",
+      "repo": "tanvir-ux/auto",
+      "created_at": "2026-09-11T13:26:32Z"
     },
     {
-      "title": "opened PR: Fix spelling of existence in Node javadoc",
-      "href": "https://github.com/google/closure-compiler/pull/4342",
-      "repo": "google/closure-compiler",
-      "created_at": "2026-09-13T00:43:22Z"
+      "title": "Pushed to fix-excldue-typo",
+      "href": "https://github.com/tanvir-ux/dolphinscheduler-maven-plugin/commit/5f622618d474ad1cbcb38416a8680d0e1cc7a2a0",
+      "repo": "tanvir-ux/dolphinscheduler-maven-plugin",
+      "created_at": "2026-09-11T06:43:59Z"
     },
     {
-      "title": "Created branch fix/node-existence-javadoc",
+      "title": "Created branch fix/reports-occurred-typo",
       "href": "https://github.com/tanvir-ux/closure-compiler",
       "repo": "tanvir-ux/closure-compiler",
-      "created_at": "2026-09-13T00:43:20Z"
+      "created_at": "2026-09-11T12:56:58Z"
     },
     {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/closure-compiler/commit/b51e516e794cb4fd4e1a2d5247eaf3dea63a33a7",
-      "repo": "tanvir-ux/closure-compiler",
-      "created_at": "2026-09-13T00:43:06Z"
+      "title": "Commented on Fix spelling of the in dimacs_assignment comment",
+      "href": "https://github.com/google/or-tools/pull/5386#issuecomment-5652218925",
+      "repo": "google/or-tools",
+      "created_at": "2026-09-13T08:28:56Z"
     },
     {
-      "title": "opened PR: Fix spelling of the in DisplayHelper javadoc",
-      "href": "https://github.com/google/filament/pull/10417",
-      "repo": "google/filament",
-      "created_at": "2026-09-13T00:43:04Z"
+      "title": "Pushed to fix-spelling-the-dimacs-assignment",
+      "href": "https://github.com/tanvir-ux/or-tools/commit/14bb28007150360ff9fab14045d7f33cb3d364fe",
+      "repo": "tanvir-ux/or-tools",
+      "created_at": "2026-09-13T08:28:42Z"
     },
     {
-      "title": "Pushed to fix/displayhelper-the-javadoc",
-      "href": "https://github.com/tanvir-ux/filament/commit/f12a55155ad335ecd67fec59e6ca03bb8cf4a4e7",
-      "repo": "tanvir-ux/filament",
-      "created_at": "2026-09-13T00:43:04Z"
+      "title": "opened PR: Add digest-locked HITL (ASCP) for MCP tool calls",
+      "href": "https://github.com/tanvir-ux/agentic-mcp-gateway/pull/1",
+      "repo": "tanvir-ux/agentic-mcp-gateway",
+      "created_at": "2026-09-13T07:43:07Z"
     },
     {
-      "title": "opened PR: Fix spelling of overridden in Catalog javadoc",
-      "href": "https://github.com/google/googlesql/pull/182",
-      "repo": "google/googlesql",
-      "created_at": "2026-09-13T00:42:46Z"
+      "title": "Created branch feat/ascp-digest-hitl",
+      "href": "https://github.com/tanvir-ux/agentic-mcp-gateway",
+      "repo": "tanvir-ux/agentic-mcp-gateway",
+      "created_at": "2026-09-13T07:43:06Z"
     },
     {
-      "title": "Forked google/googlesql",
-      "href": "https://github.com/google/googlesql",
-      "repo": "google/googlesql",
-      "created_at": "2026-09-13T00:42:38Z"
+      "title": "Created branch fix-occured-typo",
+      "href": "https://github.com/tanvir-ux/flogger",
+      "repo": "tanvir-ux/flogger",
+      "created_at": "2026-09-11T06:44:57Z"
     }
   ]
 }
