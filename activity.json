@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-13T11:58:22Z",
+  "updated_at": "2026-09-13T16:24:29Z",
   "items": [
+    {
+      "title": "opened PR: Clear negotiate_in_use on all s2n_negotiate error paths",
+      "href": "https://github.com/aws/s2n-tls/pull/6088",
+      "repo": "aws/s2n-tls",
+      "created_at": "2026-09-13T12:55:25Z"
+    },
+    {
+      "title": "Created branch fix/negotiate-in-use-cleanup",
+      "href": "https://github.com/tanvir-ux/s2n-tls",
+      "repo": "tanvir-ux/s2n-tls",
+      "created_at": "2026-09-13T12:55:15Z"
+    },
+    {
+      "title": "Forked aws/s2n-tls",
+      "href": "https://github.com/aws/s2n-tls",
+      "repo": "aws/s2n-tls",
+      "created_at": "2026-09-13T12:51:09Z"
+    },
+    {
+      "title": "Commented on Detect inherited extra fields under recursive comparison strict type checking",
+      "href": "https://github.com/assertj/assertj/pull/4369#issuecomment-5653340569",
+      "repo": "assertj/assertj",
+      "created_at": "2026-09-13T12:44:46Z"
+    },
+    {
+      "title": "closed PR: Detect inherited extra fields under recursive comparison strict type checking",
+      "href": "https://github.com/assertj/assertj/pull/4369",
+      "repo": "assertj/assertj",
+      "created_at": "2026-09-13T11:40:11Z"
+    },
+    {
+      "title": "Commented on Detect inherited extra fields under recursive comparison strict type checking",
+      "href": "https://github.com/assertj/assertj/pull/4369#issuecomment-5653340472",
+      "repo": "assertj/assertj",
+      "created_at": "2026-09-13T12:44:44Z"
+    },
     {
       "title": "Pushed to fix/autovalue-functional-invoker-path",
       "href": "https://github.com/tanvir-ux/auto/commit/84e5fd7f616b586245062d29731d6660ac8c6c31",
@@ -12,42 +48,6 @@
       "href": "https://github.com/tanvir-ux/dolphinscheduler-maven-plugin/commit/5f622618d474ad1cbcb38416a8680d0e1cc7a2a0",
       "repo": "tanvir-ux/dolphinscheduler-maven-plugin",
       "created_at": "2026-09-11T06:43:59Z"
-    },
-    {
-      "title": "Created branch fix/reports-occurred-typo",
-      "href": "https://github.com/tanvir-ux/closure-compiler",
-      "repo": "tanvir-ux/closure-compiler",
-      "created_at": "2026-09-11T12:56:58Z"
-    },
-    {
-      "title": "Commented on Fix spelling of the in dimacs_assignment comment",
-      "href": "https://github.com/google/or-tools/pull/5386#issuecomment-5652218925",
-      "repo": "google/or-tools",
-      "created_at": "2026-09-13T08:28:56Z"
-    },
-    {
-      "title": "Pushed to fix-spelling-the-dimacs-assignment",
-      "href": "https://github.com/tanvir-ux/or-tools/commit/14bb28007150360ff9fab14045d7f33cb3d364fe",
-      "repo": "tanvir-ux/or-tools",
-      "created_at": "2026-09-13T08:28:42Z"
-    },
-    {
-      "title": "opened PR: Add digest-locked HITL (ASCP) for MCP tool calls",
-      "href": "https://github.com/tanvir-ux/agentic-mcp-gateway/pull/1",
-      "repo": "tanvir-ux/agentic-mcp-gateway",
-      "created_at": "2026-09-13T07:43:07Z"
-    },
-    {
-      "title": "Created branch feat/ascp-digest-hitl",
-      "href": "https://github.com/tanvir-ux/agentic-mcp-gateway",
-      "repo": "tanvir-ux/agentic-mcp-gateway",
-      "created_at": "2026-09-13T07:43:06Z"
-    },
-    {
-      "title": "Created branch fix-occured-typo",
-      "href": "https://github.com/tanvir-ux/flogger",
-      "repo": "tanvir-ux/flogger",
-      "created_at": "2026-09-11T06:44:57Z"
     }
   ]
 }
