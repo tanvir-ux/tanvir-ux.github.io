@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-17T17:04:55Z",
+  "updated_at": "2026-09-17T21:26:54Z",
   "items": [
+    {
+      "title": "merged PR: Fix spelling of the in DisplayHelper javadoc",
+      "href": "https://github.com/google/filament/pull/10417",
+      "repo": "google/filament",
+      "created_at": "2026-09-17T17:56:38Z"
+    },
     {
       "title": "merged PR: Fix spelling of occurred in cross-project panic handling",
       "href": "https://github.com/microsoft/TypeScript/pull/64258",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/tink",
       "repo": "tanvir-ux/tink",
       "created_at": "2026-09-14T00:41:13Z"
-    },
-    {
-      "title": "Pushed to fix/overridden-spelling-comments",
-      "href": "https://github.com/tanvir-ux/graal/commit/513816dc3e8e65106532f4208112729fa55a17a8",
-      "repo": "tanvir-ux/graal",
-      "created_at": "2026-09-14T00:40:16Z"
     }
   ]
 }
