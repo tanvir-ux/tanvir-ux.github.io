@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-20T16:12:20Z",
+  "updated_at": "2026-09-20T20:53:18Z",
   "items": [
+    {
+      "title": "Pushed to fix/t5-empty-precompiled-charsmap",
+      "href": "https://github.com/tanvir-ux/transformers/commit/f74a5e0c7b310497332c6fba8290d934386083ae",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-20T17:19:08Z"
+    },
     {
       "title": "opened PR: Allow image_transforms.resize on normalized (out-of-range) images",
       "href": "https://github.com/huggingface/transformers/pull/48959",
@@ -42,12 +48,6 @@
       "href": "https://github.com/google/filament/pull/10417",
       "repo": "google/filament",
       "created_at": "2026-09-17T17:56:38Z"
-    },
-    {
-      "title": "merged PR: Fix spelling of occurred in cross-project panic handling",
-      "href": "https://github.com/microsoft/TypeScript/pull/64258",
-      "repo": "microsoft/TypeScript",
-      "created_at": "2026-09-17T16:29:25Z"
     }
   ]
 }
