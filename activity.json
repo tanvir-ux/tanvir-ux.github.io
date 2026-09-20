@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-19T20:46:03Z",
+  "updated_at": "2026-09-20T04:58:43Z",
   "items": [
+    {
+      "title": "opened PR: Allow image_transforms.resize on normalized (out-of-range) images",
+      "href": "https://github.com/huggingface/transformers/pull/48959",
+      "repo": "huggingface/transformers",
+      "created_at": "2026-09-20T01:08:42Z"
+    },
+    {
+      "title": "Created branch fix/resize-normalized-images",
+      "href": "https://github.com/tanvir-ux/transformers",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-20T01:08:42Z"
+    },
+    {
+      "title": "opened PR: Fix T5 SentencePiece load when precompiled_charsmap is empty",
+      "href": "https://github.com/huggingface/transformers/pull/48958",
+      "repo": "huggingface/transformers",
+      "created_at": "2026-09-20T01:07:44Z"
+    },
+    {
+      "title": "Created branch fix/t5-empty-precompiled-charsmap",
+      "href": "https://github.com/tanvir-ux/transformers",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-20T01:07:38Z"
+    },
+    {
+      "title": "Commented on core: Responses file-URL test overwrites its expected result without asserting it",
+      "href": "https://github.com/langchain-ai/langchain/issues/40678#issuecomment-5746594848",
+      "repo": "langchain-ai/langchain",
+      "created_at": "2026-09-20T01:06:37Z"
+    },
+    {
+      "title": "Commented on anthropic: `FilesystemClaudeTextEditorMiddleware` reads and writes files with the locale encoding so non ascii content breaks on non utf8 systems",
+      "href": "https://github.com/langchain-ai/langchain/issues/40675#issuecomment-5746594749",
+      "repo": "langchain-ai/langchain",
+      "created_at": "2026-09-20T01:06:35Z"
+    },
     {
       "title": "merged PR: Fix spelling of the in DisplayHelper javadoc",
       "href": "https://github.com/google/filament/pull/10417",
@@ -12,42 +48,6 @@
       "href": "https://github.com/microsoft/TypeScript/pull/64258",
       "repo": "microsoft/TypeScript",
       "created_at": "2026-09-17T16:29:25Z"
-    },
-    {
-      "title": "merged PR: Fix spelling of compatibility in RecvByteBufferAllocator",
-      "href": "https://github.com/apple/swift-nio/pull/3742",
-      "repo": "apple/swift-nio",
-      "created_at": "2026-09-17T13:17:57Z"
-    },
-    {
-      "title": "Pushed to fix/credentials-resotring-typo",
-      "href": "https://github.com/tanvir-ux/playwright/commit/fd208c610a932c5f59906b8252880b10f5482eeb",
-      "repo": "tanvir-ux/playwright",
-      "created_at": "2026-09-15T01:00:40Z"
-    },
-    {
-      "title": "Created branch fix/credentials-resotring-typo",
-      "href": "https://github.com/tanvir-ux/playwright",
-      "repo": "tanvir-ux/playwright",
-      "created_at": "2026-09-14T21:29:06Z"
-    },
-    {
-      "title": "merged PR: Fix spelling of restoring in credentials docs",
-      "href": "https://github.com/microsoft/playwright/pull/42718",
-      "repo": "microsoft/playwright",
-      "created_at": "2026-09-15T19:21:50Z"
-    },
-    {
-      "title": "Pushed to fix/occurred-spelling",
-      "href": "https://github.com/tanvir-ux/msquic/commit/f8637c3c701323d3847b9c73e89d0c4f571651d7",
-      "repo": "tanvir-ux/msquic",
-      "created_at": "2026-09-14T00:41:35Z"
-    },
-    {
-      "title": "Created branch fix/occurred-decryption-spelling",
-      "href": "https://github.com/tanvir-ux/tink",
-      "repo": "tanvir-ux/tink",
-      "created_at": "2026-09-14T00:41:13Z"
     }
   ]
 }
