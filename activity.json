@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-09-21T12:56:00Z",
+  "updated_at": "2026-09-21T22:01:09Z",
   "items": [
+    {
+      "title": "Created branch fix-svd-weighted-conv1d-conv3d",
+      "href": "https://github.com/tanvir-ux/peft",
+      "repo": "tanvir-ux/peft",
+      "created_at": "2026-09-21T08:32:25Z"
+    },
+    {
+      "title": "Commented on LoRA and HiRA get_delta_weight take the conv2d 1x1 shortcut for Conv3d layers with kernel_size 1 and crash",
+      "href": "https://github.com/huggingface/peft/issues/3768#issuecomment-5762866639",
+      "repo": "huggingface/peft",
+      "created_at": "2026-09-21T15:16:41Z"
+    },
+    {
+      "title": "Created branch fix/vercel-ai-preserve-message-id",
+      "href": "https://github.com/tanvir-ux/pydantic-ai",
+      "repo": "tanvir-ux/pydantic-ai",
+      "created_at": "2026-09-21T13:05:05Z"
+    },
+    {
+      "title": "Commented on Vercel AI Stream adapter loses message id during roundtrip",
+      "href": "https://github.com/pydantic/pydantic-ai/issues/8571#issuecomment-5760961242",
+      "repo": "pydantic/pydantic-ai",
+      "created_at": "2026-09-21T13:06:05Z"
+    },
+    {
+      "title": "opened PR: Preserve Vercel AI `UIMessage.id` across `load_messages`/`dump_messages` round-trip",
+      "href": "https://github.com/pydantic/pydantic-ai/pull/8573",
+      "repo": "pydantic/pydantic-ai",
+      "created_at": "2026-09-21T13:05:13Z"
+    },
     {
       "title": "Forked pydantic/pydantic-ai",
       "href": "https://github.com/pydantic/pydantic-ai",
@@ -18,36 +48,6 @@
       "href": "https://github.com/huggingface/transformers/pull/48959#issuecomment-5758427571",
       "repo": "huggingface/transformers",
       "created_at": "2026-09-21T09:39:19Z"
-    },
-    {
-      "title": "Pushed to fix-svd-weighted-conv1d-conv3d",
-      "href": "https://github.com/tanvir-ux/peft/commit/f559b3306896ef2398447d76596d6e03025d11e8",
-      "repo": "tanvir-ux/peft",
-      "created_at": "2026-09-21T08:37:25Z"
-    },
-    {
-      "title": "opened PR: Fix SVD add_weighted_adapter for Conv1d and Conv3d LoRA",
-      "href": "https://github.com/huggingface/peft/pull/3776",
-      "repo": "huggingface/peft",
-      "created_at": "2026-09-21T08:32:47Z"
-    },
-    {
-      "title": "Commented on add_weighted_adapter with SVD based combination types fails for LoRA on Conv1d and Conv3d layers",
-      "href": "https://github.com/huggingface/peft/issues/3769#issuecomment-5757601390",
-      "repo": "huggingface/peft",
-      "created_at": "2026-09-21T08:29:49Z"
-    },
-    {
-      "title": "Commented on fix(caching): don't require fastapi on plain SDK cache hits",
-      "href": "https://github.com/BerriAI/litellm/pull/42198#issuecomment-5755406731",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-21T04:29:06Z"
-    },
-    {
-      "title": "opened PR: fix(caching): don't require fastapi on plain SDK cache hits",
-      "href": "https://github.com/BerriAI/litellm/pull/42198",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-21T04:28:47Z"
     }
   ]
 }
