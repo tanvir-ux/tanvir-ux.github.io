@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-09-22T05:05:00Z",
+  "updated_at": "2026-09-22T11:45:32Z",
   "items": [
+    {
+      "title": "Commented on Fix hotswap zeroing adapters that share a name prefix",
+      "href": "https://github.com/huggingface/peft/pull/3784#issuecomment-5774551862",
+      "repo": "huggingface/peft",
+      "created_at": "2026-09-22T09:59:08Z"
+    },
+    {
+      "title": "opened PR: Fix hotswap zeroing adapters that share a name prefix",
+      "href": "https://github.com/huggingface/peft/pull/3784",
+      "repo": "huggingface/peft",
+      "created_at": "2026-09-22T08:30:54Z"
+    },
+    {
+      "title": "Pushed to fix/hotswap-adapter-name-prefix-match",
+      "href": "https://github.com/tanvir-ux/peft/commit/003039eb44e2f5f53d18369a1f693291e8d2bba2",
+      "repo": "tanvir-ux/peft",
+      "created_at": "2026-09-22T08:30:53Z"
+    },
+    {
+      "title": "Created branch fix/hotswap-adapter-name-prefix-match",
+      "href": "https://github.com/tanvir-ux/peft",
+      "repo": "tanvir-ux/peft",
+      "created_at": "2026-09-22T08:30:44Z"
+    },
     {
       "title": "Commented on bug(azure-ai): FoundryCheckpointSaver can select an older checkpoint as latest",
       "href": "https://github.com/langchain-ai/langchain-azure/issues/1057#issuecomment-5771253303",
@@ -24,30 +48,6 @@
       "href": "https://github.com/langchain-ai/langchain-azure",
       "repo": "langchain-ai/langchain-azure",
       "created_at": "2026-09-22T04:30:47Z"
-    },
-    {
-      "title": "merged PR: fix: avoid template local clash for primitive completions",
-      "href": "https://github.com/microsoft/vscode-js-debug/pull/2411",
-      "repo": "microsoft/vscode-js-debug",
-      "created_at": "2026-09-21T22:54:32Z"
-    },
-    {
-      "title": "Created branch fix-svd-weighted-conv1d-conv3d",
-      "href": "https://github.com/tanvir-ux/peft",
-      "repo": "tanvir-ux/peft",
-      "created_at": "2026-09-21T08:32:25Z"
-    },
-    {
-      "title": "Commented on LoRA and HiRA get_delta_weight take the conv2d 1x1 shortcut for Conv3d layers with kernel_size 1 and crash",
-      "href": "https://github.com/huggingface/peft/issues/3768#issuecomment-5762866639",
-      "repo": "huggingface/peft",
-      "created_at": "2026-09-21T15:16:41Z"
-    },
-    {
-      "title": "Created branch fix/vercel-ai-preserve-message-id",
-      "href": "https://github.com/tanvir-ux/pydantic-ai",
-      "repo": "tanvir-ux/pydantic-ai",
-      "created_at": "2026-09-21T13:05:05Z"
     }
   ]
 }
