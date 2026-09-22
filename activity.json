@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T17:00:51Z",
+  "updated_at": "2026-09-22T21:23:47Z",
   "items": [
     {
       "title": "Commented on A boolean `$defs` entry crashes `JsonSchemaTransformer` when inlining definitions",
