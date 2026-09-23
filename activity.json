@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-23T04:50:25Z",
+  "updated_at": "2026-09-23T11:45:25Z",
   "items": [
+    {
+      "title": "Created branch fix/gaussian-actor-use-tanh-squash",
+      "href": "https://github.com/tanvir-ux/lerobot",
+      "repo": "tanvir-ux/lerobot",
+      "created_at": "2026-09-23T08:33:02Z"
+    },
+    {
+      "title": "opened PR: fix(gaussian_actor): honor use_tanh_squash when building action dist",
+      "href": "https://github.com/huggingface/lerobot/pull/4728",
+      "repo": "huggingface/lerobot",
+      "created_at": "2026-09-23T08:33:03Z"
+    },
+    {
+      "title": "Commented on InMemoryStore ignores the root path in per-item index overrides",
+      "href": "https://github.com/langchain-ai/langgraph/issues/9059#issuecomment-5791642105",
+      "repo": "langchain-ai/langgraph",
+      "created_at": "2026-09-23T08:32:48Z"
+    },
+    {
+      "title": "opened PR: fix(checkpoint): honor root path in per-item InMemoryStore index",
+      "href": "https://github.com/langchain-ai/langgraph/pull/9060",
+      "repo": "langchain-ai/langgraph",
+      "created_at": "2026-09-23T08:31:53Z"
+    },
+    {
+      "title": "Created branch fix/inmemorystore-per-item-root-index",
+      "href": "https://github.com/tanvir-ux/langgraph",
+      "repo": "tanvir-ux/langgraph",
+      "created_at": "2026-09-23T08:31:46Z"
+    },
+    {
+      "title": "Forked langchain-ai/langgraph",
+      "href": "https://github.com/langchain-ai/langgraph",
+      "repo": "langchain-ai/langgraph",
+      "created_at": "2026-09-23T08:28:39Z"
+    },
     {
       "title": "Created branch fix/check-ai-utf8-read",
       "href": "https://github.com/tanvir-ux/diffusers",
@@ -12,42 +48,6 @@
       "href": "https://github.com/huggingface/diffusers/pull/14846",
       "repo": "huggingface/diffusers",
       "created_at": "2026-09-23T04:39:21Z"
-    },
-    {
-      "title": "opened PR: fix(cost): bill undetailed Anthropic cache-write tokens at the 5m rate",
-      "href": "https://github.com/BerriAI/litellm/pull/42674",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-23T04:37:16Z"
-    },
-    {
-      "title": "Created branch fix/cache-writing-cost-undetailed-remainder",
-      "href": "https://github.com/tanvir-ux/litellm",
-      "repo": "tanvir-ux/litellm",
-      "created_at": "2026-09-23T04:36:59Z"
-    },
-    {
-      "title": "Forked langchain-ai/langchain",
-      "href": "https://github.com/langchain-ai/langchain",
-      "repo": "langchain-ai/langchain",
-      "created_at": "2026-09-23T04:27:35Z"
-    },
-    {
-      "title": "Created branch fix/anthropic-openai-tool-result-user-role",
-      "href": "https://github.com/tanvir-ux/litellm",
-      "repo": "tanvir-ux/litellm",
-      "created_at": "2026-09-22T12:54:07Z"
-    },
-    {
-      "title": "Commented on A boolean `$defs` entry crashes `JsonSchemaTransformer` when inlining definitions",
-      "href": "https://github.com/pydantic/pydantic-ai/issues/8621#issuecomment-5776880516",
-      "repo": "pydantic/pydantic-ai",
-      "created_at": "2026-09-22T12:54:28Z"
-    },
-    {
-      "title": "opened PR: fix(anthropic): keep OpenAI messages valid after tool-result translation (#42432)",
-      "href": "https://github.com/BerriAI/litellm/pull/42473",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-22T12:54:18Z"
     }
   ]
 }
