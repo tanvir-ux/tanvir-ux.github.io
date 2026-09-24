@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-23T21:33:39Z",
+  "updated_at": "2026-09-24T04:58:37Z",
   "items": [
     {
-      "title": "Created branch fix/midstream-fallback-none-stream-42724",
-      "href": "https://github.com/tanvir-ux/litellm",
-      "repo": "tanvir-ux/litellm",
-      "created_at": "2026-09-23T12:59:24Z"
+      "title": "closed PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
+      "href": "https://github.com/huggingface/trl/pull/7371",
+      "repo": "huggingface/trl",
+      "created_at": "2026-09-24T04:29:09Z"
     },
     {
-      "title": "opened PR: fix(router): fake-stream non-streaming mid-stream fallbacks",
-      "href": "https://github.com/BerriAI/litellm/pull/42736",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-23T12:59:42Z"
+      "title": "Commented on [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
+      "href": "https://github.com/huggingface/trl/pull/7371#issuecomment-5807712044",
+      "repo": "huggingface/trl",
+      "created_at": "2026-09-24T04:29:53Z"
     },
     {
-      "title": "Forked keras-team/keras",
-      "href": "https://github.com/keras-team/keras",
-      "repo": "keras-team/keras",
-      "created_at": "2026-09-23T12:50:18Z"
+      "title": "opened PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
+      "href": "https://github.com/huggingface/trl/pull/7371",
+      "repo": "huggingface/trl",
+      "created_at": "2026-09-24T04:28:51Z"
     },
     {
-      "title": "Created branch fix/gaussian-actor-use-tanh-squash",
-      "href": "https://github.com/tanvir-ux/lerobot",
-      "repo": "tanvir-ux/lerobot",
-      "created_at": "2026-09-23T08:33:02Z"
+      "title": "opened PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
+      "href": "https://github.com/huggingface/trl/pull/7370",
+      "repo": "huggingface/trl",
+      "created_at": "2026-09-24T04:27:14Z"
     },
     {
-      "title": "opened PR: fix(gaussian_actor): honor use_tanh_squash when building action dist",
-      "href": "https://github.com/huggingface/lerobot/pull/4728",
-      "repo": "huggingface/lerobot",
-      "created_at": "2026-09-23T08:33:03Z"
+      "title": "opened PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
+      "href": "https://github.com/huggingface/trl/pull/7369",
+      "repo": "huggingface/trl",
+      "created_at": "2026-09-24T04:26:19Z"
     },
     {
-      "title": "Commented on InMemoryStore ignores the root path in per-item index overrides",
-      "href": "https://github.com/langchain-ai/langgraph/issues/9059#issuecomment-5791642105",
-      "repo": "langchain-ai/langgraph",
-      "created_at": "2026-09-23T08:32:48Z"
+      "title": "Created branch fix/openreward-unrewarded-none-7364",
+      "href": "https://github.com/tanvir-ux/trl",
+      "repo": "tanvir-ux/trl",
+      "created_at": "2026-09-24T04:26:08Z"
     },
     {
-      "title": "opened PR: fix(checkpoint): honor root path in per-item InMemoryStore index",
-      "href": "https://github.com/langchain-ai/langgraph/pull/9060",
-      "repo": "langchain-ai/langgraph",
-      "created_at": "2026-09-23T08:31:53Z"
+      "title": "Forked huggingface/trl",
+      "href": "https://github.com/huggingface/trl",
+      "repo": "huggingface/trl",
+      "created_at": "2026-09-24T04:24:34Z"
     },
     {
-      "title": "Created branch fix/inmemorystore-per-item-root-index",
-      "href": "https://github.com/tanvir-ux/langgraph",
-      "repo": "tanvir-ux/langgraph",
-      "created_at": "2026-09-23T08:31:46Z"
+      "title": "Forked huggingface/accelerate",
+      "href": "https://github.com/huggingface/accelerate",
+      "repo": "huggingface/accelerate",
+      "created_at": "2026-09-24T04:22:47Z"
     }
   ]
 }
