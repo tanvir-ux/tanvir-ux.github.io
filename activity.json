@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-24T11:53:54Z",
+  "updated_at": "2026-09-24T17:16:26Z",
   "items": [
+    {
+      "title": "opened PR: fix(headroom): don't let trailing cache_control make compression a no-op",
+      "href": "https://github.com/BerriAI/litellm/pull/42948",
+      "repo": "BerriAI/litellm",
+      "created_at": "2026-09-24T12:46:33Z"
+    },
+    {
+      "title": "Created branch fix/headroom-trailing-cache-control-noop",
+      "href": "https://github.com/tanvir-ux/litellm",
+      "repo": "tanvir-ux/litellm",
+      "created_at": "2026-09-24T12:46:14Z"
+    },
+    {
+      "title": "Created branch fix/qwen2-honor-pretokenize-regex",
+      "href": "https://github.com/tanvir-ux/transformers",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-24T08:43:26Z"
+    },
     {
       "title": "Pushed to fix/foundry-checkpoint-latest-by-id",
       "href": "https://github.com/tanvir-ux/langchain-azure/commit/5a7bf1ff1e092d44ddd303f56966a2011745f33d",
@@ -30,24 +48,6 @@
       "href": "https://github.com/huggingface/trl/pull/7371",
       "repo": "huggingface/trl",
       "created_at": "2026-09-24T04:29:09Z"
-    },
-    {
-      "title": "Commented on [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
-      "href": "https://github.com/huggingface/trl/pull/7371#issuecomment-5807712044",
-      "repo": "huggingface/trl",
-      "created_at": "2026-09-24T04:29:53Z"
-    },
-    {
-      "title": "opened PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
-      "href": "https://github.com/huggingface/trl/pull/7371",
-      "repo": "huggingface/trl",
-      "created_at": "2026-09-24T04:28:51Z"
-    },
-    {
-      "title": "opened PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
-      "href": "https://github.com/huggingface/trl/pull/7370",
-      "repo": "huggingface/trl",
-      "created_at": "2026-09-24T04:27:14Z"
     }
   ]
 }
