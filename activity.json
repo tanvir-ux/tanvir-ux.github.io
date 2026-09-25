@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-24T21:34:29Z",
+  "updated_at": "2026-09-25T05:03:13Z",
   "items": [
+    {
+      "title": "opened PR: Fix MusicGen forward(labels=...) when decoder.decoder_start_token_id is None",
+      "href": "https://github.com/huggingface/transformers/pull/49100",
+      "repo": "huggingface/transformers",
+      "created_at": "2026-09-25T04:23:40Z"
+    },
     {
       "title": "opened PR: fix(headroom): don't let trailing cache_control make compression a no-op",
       "href": "https://github.com/BerriAI/litellm/pull/42948",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/trl",
       "repo": "tanvir-ux/trl",
       "created_at": "2026-09-24T04:27:13Z"
-    },
-    {
-      "title": "closed PR: [OpenReward] Return None for unrewarded rollouts (fixes #7364)",
-      "href": "https://github.com/huggingface/trl/pull/7371",
-      "repo": "huggingface/trl",
-      "created_at": "2026-09-24T04:29:09Z"
     }
   ]
 }
