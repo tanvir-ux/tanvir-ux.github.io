@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-25T17:16:54Z",
+  "updated_at": "2026-09-25T21:38:29Z",
   "items": [
+    {
+      "title": "Commented on fix(headroom): don't let trailing cache_control make compression a no-op",
+      "href": "https://github.com/BerriAI/litellm/pull/42948#issuecomment-5838330698",
+      "repo": "BerriAI/litellm",
+      "created_at": "2026-09-25T19:27:56Z"
+    },
+    {
+      "title": "Commented on fix(headroom): don't let trailing cache_control make compression a no-op",
+      "href": "https://github.com/BerriAI/litellm/pull/42948#issuecomment-5837042576",
+      "repo": "BerriAI/litellm",
+      "created_at": "2026-09-25T17:58:45Z"
+    },
+    {
+      "title": "Pushed to fix/headroom-trailing-cache-control-noop",
+      "href": "https://github.com/tanvir-ux/litellm/commit/e67ca822a32eb58e431ca7a0fdd539244c49aeb9",
+      "repo": "tanvir-ux/litellm",
+      "created_at": "2026-09-25T17:58:34Z"
+    },
     {
       "title": "Pushed to fix/headroom-trailing-cache-control-noop",
       "href": "https://github.com/tanvir-ux/litellm/commit/c2b7c98779e23c262df9dd65bf621bab53d82b11",
@@ -30,24 +48,6 @@
       "href": "https://github.com/huggingface/transformers/pull/49100#issuecomment-5834635060",
       "repo": "huggingface/transformers",
       "created_at": "2026-09-25T15:05:08Z"
-    },
-    {
-      "title": "Commented on sanitize_input_schema_for_anthropic drops root anyOf/$ref and ships empty properties for union tools",
-      "href": "https://github.com/BerriAI/litellm/issues/43157#issuecomment-5832512499",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-25T12:39:29Z"
-    },
-    {
-      "title": "Commented on sanitize_input_schema_for_anthropic drops root anyOf/$ref and ships empty properties for union tools",
-      "href": "https://github.com/BerriAI/litellm/issues/43157#issuecomment-5832485091",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-25T12:37:22Z"
-    },
-    {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/litellm/commit/c19ce71bcdad234ca87a7af10cee45375ce811a8",
-      "repo": "tanvir-ux/litellm",
-      "created_at": "2026-09-25T12:34:42Z"
     }
   ]
 }
