@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-25T05:03:13Z",
+  "updated_at": "2026-09-25T11:56:29Z",
   "items": [
     {
-      "title": "opened PR: Fix MusicGen forward(labels=...) when decoder.decoder_start_token_id is None",
-      "href": "https://github.com/huggingface/transformers/pull/49100",
-      "repo": "huggingface/transformers",
-      "created_at": "2026-09-25T04:23:40Z"
-    },
-    {
-      "title": "opened PR: fix(headroom): don't let trailing cache_control make compression a no-op",
-      "href": "https://github.com/BerriAI/litellm/pull/42948",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-09-24T12:46:33Z"
-    },
-    {
-      "title": "Created branch fix/headroom-trailing-cache-control-noop",
+      "title": "Created branch fix/gemini-stream-exception-mapping",
       "href": "https://github.com/tanvir-ux/litellm",
       "repo": "tanvir-ux/litellm",
-      "created_at": "2026-09-24T12:46:14Z"
+      "created_at": "2026-09-25T08:28:59Z"
     },
     {
-      "title": "Created branch fix/qwen2-honor-pretokenize-regex",
+      "title": "Pushed to main",
+      "href": "https://github.com/tanvir-ux/transformers/commit/5880561ab3ea92cb2d8943ffd58891d0bc085fe1",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-25T08:23:22Z"
+    },
+    {
+      "title": "Pushed to fix-musicgen-decoder-start-token-id",
+      "href": "https://github.com/tanvir-ux/transformers/commit/871a1ab998a9b10e15c9df9d9c15c9ae285401aa",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-25T04:28:13Z"
+    },
+    {
+      "title": "Created branch fix-musicgen-decoder-start-token-id",
       "href": "https://github.com/tanvir-ux/transformers",
       "repo": "tanvir-ux/transformers",
-      "created_at": "2026-09-24T08:43:26Z"
+      "created_at": "2026-09-25T04:23:24Z"
     },
     {
-      "title": "Pushed to fix/foundry-checkpoint-latest-by-id",
-      "href": "https://github.com/tanvir-ux/langchain-azure/commit/5a7bf1ff1e092d44ddd303f56966a2011745f33d",
-      "repo": "tanvir-ux/langchain-azure",
-      "created_at": "2026-09-24T08:10:16Z"
-    },
-    {
-      "title": "opened PR: Fix Qwen2Tokenizer ignoring pretokenize_regex (Qwen3.6 / Qwen3.8 wrong token IDs)",
-      "href": "https://github.com/huggingface/transformers/pull/49077",
+      "title": "Commented on MusicGen: hub configs set decoder dropout=0.1 but the checkpoints were trained with 0 \u2014 train() doubles the loss and silently breaks fine-tuning",
+      "href": "https://github.com/huggingface/transformers/issues/49094#issuecomment-5829428136",
       "repo": "huggingface/transformers",
-      "created_at": "2026-09-24T08:44:04Z"
+      "created_at": "2026-09-25T08:34:25Z"
     },
     {
-      "title": "Commented on fix(azure-ai): pick latest Foundry checkpoint by checkpoint id",
-      "href": "https://github.com/langchain-ai/langchain-azure/pull/1070#issuecomment-5810375342",
-      "repo": "langchain-ai/langchain-azure",
-      "created_at": "2026-09-24T08:10:16Z"
+      "title": "opened PR: Fix MusicGen default decoder dropout and warn on train()",
+      "href": "https://github.com/huggingface/transformers/pull/49104",
+      "repo": "huggingface/transformers",
+      "created_at": "2026-09-25T08:34:18Z"
     },
     {
-      "title": "Created branch fix/openreward-unrewarded-none-issue-7364",
-      "href": "https://github.com/tanvir-ux/trl",
-      "repo": "tanvir-ux/trl",
-      "created_at": "2026-09-24T04:27:13Z"
+      "title": "Created branch fix/musicgen-dropout-default",
+      "href": "https://github.com/tanvir-ux/transformers",
+      "repo": "tanvir-ux/transformers",
+      "created_at": "2026-09-25T08:34:11Z"
+    },
+    {
+      "title": "Commented on [Bug]: Gemini errors on streaming /v1/chat/completions bypass exception mapping (raw bytes message, no ContextWindowExceededError)",
+      "href": "https://github.com/BerriAI/litellm/issues/43014#issuecomment-5829376113",
+      "repo": "BerriAI/litellm",
+      "created_at": "2026-09-25T08:30:11Z"
     }
   ]
 }
