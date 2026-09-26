@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-09-25T21:38:29Z",
+  "updated_at": "2026-09-26T05:06:09Z",
   "items": [
+    {
+      "title": "Starred microsoft/msquic",
+      "href": "https://github.com/microsoft/msquic",
+      "repo": "microsoft/msquic",
+      "created_at": "2026-09-26T01:12:15Z"
+    },
+    {
+      "title": "Pushed to fix/headroom-trailing-cache-control-noop",
+      "href": "https://github.com/tanvir-ux/litellm/commit/b58858774d086521888f713ca3b248ca64f32152",
+      "repo": "tanvir-ux/litellm",
+      "created_at": "2026-09-25T19:02:41Z"
+    },
     {
       "title": "Commented on fix(headroom): don't let trailing cache_control make compression a no-op",
       "href": "https://github.com/BerriAI/litellm/pull/42948#issuecomment-5838330698",
@@ -36,18 +48,6 @@
       "href": "https://github.com/microsoft/msquic/pull/6321",
       "repo": "microsoft/msquic",
       "created_at": "2026-09-25T16:34:51Z"
-    },
-    {
-      "title": "Created branch fix/anthropic-sanitize-union-schema",
-      "href": "https://github.com/tanvir-ux/litellm",
-      "repo": "tanvir-ux/litellm",
-      "created_at": "2026-09-25T12:33:06Z"
-    },
-    {
-      "title": "Commented on Fix MusicGen forward(labels=...) when decoder.decoder_start_token_id is None",
-      "href": "https://github.com/huggingface/transformers/pull/49100#issuecomment-5834635060",
-      "repo": "huggingface/transformers",
-      "created_at": "2026-09-25T15:05:08Z"
     }
   ]
 }
