@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-09-29T22:21:03Z",
+  "updated_at": "2026-09-30T05:39:02Z",
   "items": [
+    {
+      "title": "opened PR: Fix MaterialInstance setConstant/duplicate over-releasing MaterialDefinition",
+      "href": "https://github.com/google/filament/pull/10501",
+      "repo": "google/filament",
+      "created_at": "2026-09-30T04:38:30Z"
+    },
+    {
+      "title": "opened PR: Fix Python bindings for absl::Span RoutingModel APIs (fixes #5415)",
+      "href": "https://github.com/google/or-tools/pull/5447",
+      "repo": "google/or-tools",
+      "created_at": "2026-09-30T04:24:33Z"
+    },
+    {
+      "title": "Created branch fix-autofactory-unmatched-implementing-method",
+      "href": "https://github.com/tanvir-ux/auto",
+      "repo": "tanvir-ux/auto",
+      "created_at": "2026-09-29T04:30:25Z"
+    },
+    {
+      "title": "Commented on Fix MP metrics docs: use @Initialized(ApplicationScoped) instead of @RuntimeStart",
+      "href": "https://github.com/helidon-io/helidon/pull/12571#issuecomment-5900735663",
+      "repo": "helidon-io/helidon",
+      "created_at": "2026-09-29T23:03:06Z"
+    },
     {
       "title": "Created branch fix/immutable-ignore-default-builder-setter",
       "href": "https://github.com/tanvir-ux/aws-sdk-java-v2",
@@ -24,30 +48,6 @@
       "href": "https://github.com/tanvir-ux/aws-sdk-java-v2",
       "repo": "tanvir-ux/aws-sdk-java-v2",
       "created_at": "2026-09-29T08:32:34Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/aws-sdk-java-v2/commit/4d68c1774867f29bffcf7e1995e90890879bd6a3",
-      "repo": "tanvir-ux/aws-sdk-java-v2",
-      "created_at": "2026-09-29T08:26:42Z"
-    },
-    {
-      "title": "opened PR: Error when AutoFactory implementing methods cannot match create()",
-      "href": "https://github.com/google/auto/pull/2152",
-      "repo": "google/auto",
-      "created_at": "2026-09-29T04:30:34Z"
-    },
-    {
-      "title": "Created branch fix-trace-policy-messages-stream",
-      "href": "https://github.com/tanvir-ux/langgraph",
-      "repo": "tanvir-ux/langgraph",
-      "created_at": "2026-09-28T12:44:45Z"
-    },
-    {
-      "title": "Pushed to fix/11163-metrics-initialized-docs",
-      "href": "https://github.com/tanvir-ux/helidon/commit/73897a6adf5d039ae3a32228cd8fd5755e2ad2df",
-      "repo": "tanvir-ux/helidon",
-      "created_at": "2026-09-28T20:10:43Z"
     }
   ]
 }
