@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-09-30T05:39:02Z",
+  "updated_at": "2026-09-30T12:42:30Z",
   "items": [
     {
-      "title": "opened PR: Fix MaterialInstance setConstant/duplicate over-releasing MaterialDefinition",
-      "href": "https://github.com/google/filament/pull/10501",
+      "title": "opened PR: fix(compiler): avoid ICE for @example with large int64",
+      "href": "https://github.com/microsoft/typespec/pull/12085",
+      "repo": "microsoft/typespec",
+      "created_at": "2026-09-30T12:25:00Z"
+    },
+    {
+      "title": "Created branch fix-example-int64-precision-ice",
+      "href": "https://github.com/tanvir-ux/typespec",
+      "repo": "tanvir-ux/typespec",
+      "created_at": "2026-09-30T12:24:46Z"
+    },
+    {
+      "title": "Commented on Fix MaterialInstance setConstant/duplicate over-releasing MaterialDefinition",
+      "href": "https://github.com/google/filament/pull/10501#issuecomment-5908518854",
       "repo": "google/filament",
-      "created_at": "2026-09-30T04:38:30Z"
+      "created_at": "2026-09-30T09:39:16Z"
     },
     {
-      "title": "opened PR: Fix Python bindings for absl::Span RoutingModel APIs (fixes #5415)",
-      "href": "https://github.com/google/or-tools/pull/5447",
-      "repo": "google/or-tools",
-      "created_at": "2026-09-30T04:24:33Z"
+      "title": "Pushed to fix/ts-empty-serializer-guards",
+      "href": "https://github.com/tanvir-ux/kiota/commit/e0e022d7a15326fc1267d0dd7ca2432fd9bf7b98",
+      "repo": "tanvir-ux/kiota",
+      "created_at": "2026-09-30T08:31:06Z"
     },
     {
-      "title": "Created branch fix-autofactory-unmatched-implementing-method",
-      "href": "https://github.com/tanvir-ux/auto",
-      "repo": "tanvir-ux/auto",
-      "created_at": "2026-09-29T04:30:25Z"
+      "title": "opened PR: Fix os.name for Windows Server 2025 in native image",
+      "href": "https://github.com/oracle/graal/pull/14572",
+      "repo": "oracle/graal",
+      "created_at": "2026-09-30T08:28:57Z"
     },
     {
-      "title": "Commented on Fix MP metrics docs: use @Initialized(ApplicationScoped) instead of @RuntimeStart",
-      "href": "https://github.com/helidon-io/helidon/pull/12571#issuecomment-5900735663",
-      "repo": "helidon-io/helidon",
-      "created_at": "2026-09-29T23:03:06Z"
+      "title": "opened PR: fix(typescript): omit empty serializer registration guards",
+      "href": "https://github.com/microsoft/kiota/pull/8305",
+      "repo": "microsoft/kiota",
+      "created_at": "2026-09-30T08:28:47Z"
     },
     {
-      "title": "Created branch fix/immutable-ignore-default-builder-setter",
-      "href": "https://github.com/tanvir-ux/aws-sdk-java-v2",
-      "repo": "tanvir-ux/aws-sdk-java-v2",
-      "created_at": "2026-09-29T12:39:10Z"
+      "title": "Pushed to fix/ts-empty-serializer-guards",
+      "href": "https://github.com/tanvir-ux/kiota/commit/ef019d31f701b36772f42ab8b30a32b097c81c34",
+      "repo": "tanvir-ux/kiota",
+      "created_at": "2026-09-30T08:28:09Z"
     },
     {
-      "title": "opened PR: fix: ignore unpaired builder setters for @DynamoDbIgnore getters",
-      "href": "https://github.com/aws/aws-sdk-java-v2/pull/7409",
-      "repo": "aws/aws-sdk-java-v2",
-      "created_at": "2026-09-29T12:39:19Z"
-    },
-    {
-      "title": "opened PR: fix: reuse pooled connections for Apache mTLS clients",
-      "href": "https://github.com/aws/aws-sdk-java-v2/pull/7408",
-      "repo": "aws/aws-sdk-java-v2",
-      "created_at": "2026-09-29T08:32:42Z"
-    },
-    {
-      "title": "Created branch fix/apache-mtls-connection-reuse",
-      "href": "https://github.com/tanvir-ux/aws-sdk-java-v2",
-      "repo": "tanvir-ux/aws-sdk-java-v2",
-      "created_at": "2026-09-29T08:32:34Z"
+      "title": "Created branch fix/ts-empty-serializer-guards",
+      "href": "https://github.com/tanvir-ux/kiota",
+      "repo": "tanvir-ux/kiota",
+      "created_at": "2026-09-30T08:27:54Z"
     }
   ]
 }
