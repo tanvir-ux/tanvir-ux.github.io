@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-01T22:44:41Z",
+  "updated_at": "2026-10-02T05:47:15Z",
   "items": [
+    {
+      "title": "opened PR: [java] Model PrintWriter print/println for Pulse resource leaks",
+      "href": "https://github.com/facebook/infer/pull/2136",
+      "repo": "facebook/infer",
+      "created_at": "2026-10-02T04:27:05Z"
+    },
     {
       "title": "Created branch fix-1260-brace-trailing-comment-indent",
       "href": "https://github.com/tanvir-ux/google-java-format",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/or-tools",
       "repo": "tanvir-ux/or-tools",
       "created_at": "2026-09-30T04:24:25Z"
-    },
-    {
-      "title": "opened PR: Indent trailing comments on \"{\" consistently (fixes #1260)",
-      "href": "https://github.com/google/google-java-format/pull/1464",
-      "repo": "google/google-java-format",
-      "created_at": "2026-10-01T08:29:06Z"
     }
   ]
 }
