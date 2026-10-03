@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-03T16:26:47Z",
+  "updated_at": "2026-10-03T21:23:06Z",
   "items": [
+    {
+      "title": "Commented on Fix Python bindings for absl::Span RoutingModel APIs (fixes #5415)",
+      "href": "https://github.com/google/or-tools/pull/5447#issuecomment-5972791114",
+      "repo": "google/or-tools",
+      "created_at": "2026-10-03T19:38:41Z"
+    },
     {
       "title": "Pushed to fix/pulse-socket-allocate",
       "href": "https://github.com/tanvir-ux/infer/commit/6f7caf66c4b5818e2785398e695d4c871edf09c9",
@@ -42,12 +48,6 @@
       "href": "https://github.com/facebook/infer/pull/2145#issuecomment-5952385627",
       "repo": "facebook/infer",
       "created_at": "2026-10-02T12:31:44Z"
-    },
-    {
-      "title": "opened PR: fix: use non-blocking digest cache (#6590)",
-      "href": "https://github.com/aws/aws-sdk-java-v2/pull/7421",
-      "repo": "aws/aws-sdk-java-v2",
-      "created_at": "2026-10-02T12:31:07Z"
     }
   ]
 }
