@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-03T21:23:06Z",
+  "updated_at": "2026-10-04T05:59:56Z",
   "items": [
+    {
+      "title": "Pushed to fix/python-add-same-activity-group-span",
+      "href": "https://github.com/tanvir-ux/or-tools/commit/12e0281f1ff5d63d462b92fa234834d7149acddd",
+      "repo": "tanvir-ux/or-tools",
+      "created_at": "2026-10-03T19:38:41Z"
+    },
+    {
+      "title": "Pushed to fix/pulse-socket-allocate",
+      "href": "https://github.com/tanvir-ux/infer/commit/4317d29c3de44ca3337f2825e7dce51c9fccefbd",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-10-02T15:37:04Z"
+    },
+    {
+      "title": "Pushed to fix/pulse-printwriter-println",
+      "href": "https://github.com/tanvir-ux/infer/commit/db6e18309d4da94217c83f94e3c19af63e735fe2",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-10-02T11:09:01Z"
+    },
+    {
+      "title": "Created branch fix/pulse-randomaccessfile-allocate",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-10-02T08:28:04Z"
+    },
+    {
+      "title": "Commented on Fix Python bindings for absl::Span RoutingModel APIs (fixes #5415)",
+      "href": "https://github.com/google/or-tools/pull/5447#issuecomment-5974829335",
+      "repo": "google/or-tools",
+      "created_at": "2026-10-04T00:03:47Z"
+    },
+    {
+      "title": "Created branch fix/digest-algorithm-nonblocking-cache",
+      "href": "https://github.com/tanvir-ux/aws-sdk-java-v2",
+      "repo": "tanvir-ux/aws-sdk-java-v2",
+      "created_at": "2026-10-02T12:30:54Z"
+    },
     {
       "title": "Commented on Fix Python bindings for absl::Span RoutingModel APIs (fixes #5415)",
       "href": "https://github.com/google/or-tools/pull/5447#issuecomment-5972791114",
@@ -12,42 +48,6 @@
       "href": "https://github.com/tanvir-ux/infer/commit/6f7caf66c4b5818e2785398e695d4c871edf09c9",
       "repo": "tanvir-ux/infer",
       "created_at": "2026-10-02T12:31:41Z"
-    },
-    {
-      "title": "merged PR: [java] Model Socket constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2145",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-02T17:56:37Z"
-    },
-    {
-      "title": "Created branch fix/pulse-printwriter-println",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-10-02T04:26:57Z"
-    },
-    {
-      "title": "Commented on [java] Model Socket constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2145#issuecomment-5955834924",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-02T15:38:07Z"
-    },
-    {
-      "title": "Commented on [java] Model Socket constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2145#issuecomment-5953602523",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-02T13:36:42Z"
-    },
-    {
-      "title": "merged PR: [java] Model RandomAccessFile constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2144",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-02T13:28:44Z"
-    },
-    {
-      "title": "Commented on [java] Model Socket constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2145#issuecomment-5952385627",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-02T12:31:44Z"
     }
   ]
 }
