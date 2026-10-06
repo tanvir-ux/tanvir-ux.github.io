@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-05T14:50:11Z",
+  "updated_at": "2026-10-06T00:06:51Z",
   "items": [
+    {
+      "title": "Pushed to fix/subpath-emitter-options",
+      "href": "https://github.com/tanvir-ux/typespec/commit/4a1f1a181bb8c3e85de94b48f6e542d45adc5549",
+      "repo": "tanvir-ux/typespec",
+      "created_at": "2026-10-04T12:12:50Z"
+    },
     {
       "title": "merged PR: [java] Model ServerSocket constructors for Pulse resource leaks",
       "href": "https://github.com/facebook/infer/pull/2213",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/infer",
       "repo": "tanvir-ux/infer",
       "created_at": "2026-10-05T04:27:37Z"
-    },
-    {
-      "title": "opened PR: [java] Model ServerSocket constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2213",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-05T04:27:48Z"
     }
   ]
 }
