@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-06T00:06:51Z",
+  "updated_at": "2026-10-06T06:28:12Z",
   "items": [
+    {
+      "title": "opened PR: [java] Model DriverManager.getConnection for Pulse resource leaks",
+      "href": "https://github.com/facebook/infer/pull/2219",
+      "repo": "facebook/infer",
+      "created_at": "2026-10-06T04:30:32Z"
+    },
+    {
+      "title": "opened PR: [java] Model ZipFile/JarFile constructors for Pulse resource leaks",
+      "href": "https://github.com/facebook/infer/pull/2218",
+      "repo": "facebook/infer",
+      "created_at": "2026-10-06T04:28:40Z"
+    },
     {
       "title": "Pushed to fix/subpath-emitter-options",
       "href": "https://github.com/tanvir-ux/typespec/commit/4a1f1a181bb8c3e85de94b48f6e542d45adc5549",
@@ -36,18 +48,6 @@
       "href": "https://github.com/tanvir-ux/infer",
       "repo": "tanvir-ux/infer",
       "created_at": "2026-10-05T08:31:11Z"
-    },
-    {
-      "title": "opened PR: [java] Model java.nio.file.Files stream factories for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2214",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-05T08:31:28Z"
-    },
-    {
-      "title": "Created branch fix/pulse-serversocket",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-10-05T04:27:37Z"
     }
   ]
 }
