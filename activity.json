@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-07T06:07:12Z",
+  "updated_at": "2026-10-07T13:32:08Z",
   "items": [
+    {
+      "title": "Created branch fix/gcc-capitalized-severity",
+      "href": "https://github.com/tanvir-ux/vscode-cmake-tools",
+      "repo": "tanvir-ux/vscode-cmake-tools",
+      "created_at": "2026-10-06T08:24:24Z"
+    },
+    {
+      "title": "Pushed to fix/pulse-jdbc-connection",
+      "href": "https://github.com/tanvir-ux/infer/commit/6e54e621221dbf48f839e34194000c4e5644203f",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-10-06T04:33:17Z"
+    },
     {
       "title": "Created branch fix/pulse-zipfile",
       "href": "https://github.com/tanvir-ux/infer",
@@ -36,18 +48,6 @@
       "href": "https://github.com/microsoft/vscode-cmake-tools/pull/5121",
       "repo": "microsoft/vscode-cmake-tools",
       "created_at": "2026-10-06T08:24:37Z"
-    },
-    {
-      "title": "Forked microsoft/vscode-cmake-tools",
-      "href": "https://github.com/microsoft/vscode-cmake-tools",
-      "repo": "microsoft/vscode-cmake-tools",
-      "created_at": "2026-10-06T08:18:47Z"
-    },
-    {
-      "title": "opened PR: [java] Model DriverManager.getConnection for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2219",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-06T04:30:32Z"
     }
   ]
 }
