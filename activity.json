@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-06T18:26:24Z",
+  "updated_at": "2026-10-07T06:07:12Z",
   "items": [
+    {
+      "title": "Created branch fix/pulse-zipfile",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-10-06T04:28:28Z"
+    },
+    {
+      "title": "Created branch fix-deleted-watched-dir-signal",
+      "href": "https://github.com/tanvir-ux/jimfs",
+      "repo": "tanvir-ux/jimfs",
+      "created_at": "2026-10-05T12:37:31Z"
+    },
     {
       "title": "merged PR: [java] Model DriverManager.getConnection for Pulse resource leaks",
       "href": "https://github.com/facebook/infer/pull/2219",
@@ -36,18 +48,6 @@
       "href": "https://github.com/facebook/infer/pull/2219",
       "repo": "facebook/infer",
       "created_at": "2026-10-06T04:30:32Z"
-    },
-    {
-      "title": "opened PR: [java] Model ZipFile/JarFile constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2218",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-06T04:28:40Z"
-    },
-    {
-      "title": "Pushed to fix/subpath-emitter-options",
-      "href": "https://github.com/tanvir-ux/typespec/commit/4a1f1a181bb8c3e85de94b48f6e542d45adc5549",
-      "repo": "tanvir-ux/typespec",
-      "created_at": "2026-10-04T12:12:50Z"
     }
   ]
 }
