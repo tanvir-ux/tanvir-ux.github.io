@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-08T23:24:42Z",
+  "updated_at": "2026-10-09T06:16:18Z",
   "items": [
+    {
+      "title": "Starred Tessie27/Live-Caption-Saver",
+      "href": "https://github.com/Tessie27/Live-Caption-Saver",
+      "repo": "Tessie27/Live-Caption-Saver",
+      "created_at": "2026-10-09T06:09:01Z"
+    },
     {
       "title": "Created branch fix/gcc-capitalized-severity",
       "href": "https://github.com/tanvir-ux/vscode-cmake-tools",
@@ -42,12 +48,6 @@
       "href": "https://github.com/facebook/infer/pull/2218",
       "repo": "facebook/infer",
       "created_at": "2026-10-06T09:44:05Z"
-    },
-    {
-      "title": "opened PR: Recognize gfortran's capitalized severities in the GCC output parser",
-      "href": "https://github.com/microsoft/vscode-cmake-tools/pull/5121",
-      "repo": "microsoft/vscode-cmake-tools",
-      "created_at": "2026-10-06T08:24:37Z"
     }
   ]
 }
