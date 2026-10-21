@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-20T21:41:21Z",
+  "updated_at": "2026-10-21T04:56:39Z",
   "items": [
+    {
+      "title": "Starred debpalash/VoiceStudio",
+      "href": "https://github.com/debpalash/VoiceStudio",
+      "repo": "debpalash/VoiceStudio",
+      "created_at": "2026-10-20T23:42:35Z"
+    },
     {
       "title": "Starred Tessie27/Live-Caption-Saver",
       "href": "https://github.com/Tessie27/Live-Caption-Saver",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/infer",
       "repo": "tanvir-ux/infer",
       "created_at": "2026-10-06T04:30:20Z"
-    },
-    {
-      "title": "merged PR: [java] Model ZipFile/JarFile constructors for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2218",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-06T09:44:05Z"
     }
   ]
 }
