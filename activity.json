@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-26T13:12:42Z",
+  "updated_at": "2026-10-26T22:43:35Z",
   "items": [
+    {
+      "title": "Pushed to main",
+      "href": "https://github.com/tanvir-ux/tanvir-ux/commit/48750b14d1c5c07ec437287c38ecb14aaccd6e64",
+      "repo": "tanvir-ux/tanvir-ux",
+      "created_at": "2026-10-25T23:28:24Z"
+    },
+    {
+      "title": "merged PR: [java] Model getChannel on file streams for Pulse resource leaks",
+      "href": "https://github.com/facebook/infer/pull/2271",
+      "repo": "facebook/infer",
+      "created_at": "2026-10-26T15:44:37Z"
+    },
     {
       "title": "Pushed to master",
       "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/970cde932d58be6ee37101a67c5273873d70c4ac",
@@ -36,18 +48,6 @@
       "href": "https://github.com/langchain-ai/langchain-azure/pull/1070",
       "repo": "langchain-ai/langchain-azure",
       "created_at": "2026-10-22T01:04:37Z"
-    },
-    {
-      "title": "Starred debpalash/VoiceStudio",
-      "href": "https://github.com/debpalash/VoiceStudio",
-      "repo": "debpalash/VoiceStudio",
-      "created_at": "2026-10-20T23:42:35Z"
-    },
-    {
-      "title": "Starred Tessie27/Live-Caption-Saver",
-      "href": "https://github.com/Tessie27/Live-Caption-Saver",
-      "repo": "Tessie27/Live-Caption-Saver",
-      "created_at": "2026-10-09T06:09:01Z"
     }
   ]
 }
