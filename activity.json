@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-10-27T12:20:52Z",
+  "updated_at": "2026-10-27T22:20:15Z",
   "items": [
+    {
+      "title": "Forked qdrant/qdrant-client",
+      "href": "https://github.com/qdrant/qdrant-client",
+      "repo": "qdrant/qdrant-client",
+      "created_at": "2026-10-27T22:12:26Z"
+    },
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/agent-platform",
+      "repo": "tanvir-ux/agent-platform",
+      "created_at": "2026-10-27T06:31:14Z"
+    },
+    {
+      "title": "Created branch fix/pulse-deflater-inflater-leak",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-10-27T05:45:34Z"
+    },
+    {
+      "title": "Pushed to main",
+      "href": "https://github.com/tanvir-ux/agent-platform/commit/902f3c8a9f3bcbf4afc177ac47888b11b763a2a3",
+      "repo": "tanvir-ux/agent-platform",
+      "created_at": "2026-10-27T06:33:25Z"
+    },
+    {
+      "title": "Created branch main",
+      "href": "https://github.com/tanvir-ux/graphrag-service",
+      "repo": "tanvir-ux/graphrag-service",
+      "created_at": "2026-10-27T06:47:28Z"
+    },
     {
       "title": "merged PR: [java] Model Deflater and Inflater as resources for Pulse resource leaks",
       "href": "https://github.com/facebook/infer/pull/2275",
@@ -18,36 +48,6 @@
       "href": "https://github.com/tanvir-ux/tanvir-ux/commit/48750b14d1c5c07ec437287c38ecb14aaccd6e64",
       "repo": "tanvir-ux/tanvir-ux",
       "created_at": "2026-10-25T23:28:24Z"
-    },
-    {
-      "title": "merged PR: [java] Model getChannel on file streams for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2271",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-26T15:44:37Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/970cde932d58be6ee37101a67c5273873d70c4ac",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-10-25T23:27:19Z"
-    },
-    {
-      "title": "Created branch fix/pulse-channel-getchannel-leak",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-10-25T02:21:48Z"
-    },
-    {
-      "title": "opened PR: [java] Model getChannel on file streams for Pulse resource leaks",
-      "href": "https://github.com/facebook/infer/pull/2271",
-      "repo": "facebook/infer",
-      "created_at": "2026-10-25T02:22:01Z"
-    },
-    {
-      "title": "Starred xerj-org/xerj",
-      "href": "https://github.com/xerj-org/xerj",
-      "repo": "xerj-org/xerj",
-      "created_at": "2026-10-24T02:46:22Z"
     }
   ]
 }
