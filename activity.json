@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-27T05:12:45Z",
+  "updated_at": "2026-10-27T12:20:52Z",
   "items": [
+    {
+      "title": "merged PR: [java] Model Deflater and Inflater as resources for Pulse resource leaks",
+      "href": "https://github.com/facebook/infer/pull/2275",
+      "repo": "facebook/infer",
+      "created_at": "2026-10-27T11:50:34Z"
+    },
+    {
+      "title": "opened PR: [java] Model Deflater and Inflater as resources for Pulse resource leaks",
+      "href": "https://github.com/facebook/infer/pull/2275",
+      "repo": "facebook/infer",
+      "created_at": "2026-10-27T05:45:35Z"
+    },
     {
       "title": "Pushed to main",
       "href": "https://github.com/tanvir-ux/tanvir-ux/commit/48750b14d1c5c07ec437287c38ecb14aaccd6e64",
@@ -36,18 +48,6 @@
       "href": "https://github.com/xerj-org/xerj",
       "repo": "xerj-org/xerj",
       "created_at": "2026-10-24T02:46:22Z"
-    },
-    {
-      "title": "Starred langchain-ai/langchain",
-      "href": "https://github.com/langchain-ai/langchain",
-      "repo": "langchain-ai/langchain",
-      "created_at": "2026-10-22T07:47:31Z"
-    },
-    {
-      "title": "merged PR: fix(azure-ai): pick latest Foundry checkpoint by checkpoint id",
-      "href": "https://github.com/langchain-ai/langchain-azure/pull/1070",
-      "repo": "langchain-ai/langchain-azure",
-      "created_at": "2026-10-22T01:04:37Z"
     }
   ]
 }
