@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-29T05:55:11Z",
+  "updated_at": "2026-10-29T13:11:29Z",
   "items": [
+    {
+      "title": "Created branch fix/overwrite-predicate-lossy-literal-cast",
+      "href": "https://github.com/tanvir-ux/delta-rs",
+      "repo": "tanvir-ux/delta-rs",
+      "created_at": "2026-10-27T22:56:06Z"
+    },
     {
       "title": "opened PR: [java] Model ZipFile.getInputStream and JarFile.getManifest as throwing IOException",
       "href": "https://github.com/meta/infer/pull/2289",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/ai-engineering-stack/commit/0f0e9d126c3083fd4df87856b114f9ccabebcbcd",
       "repo": "tanvir-ux/ai-engineering-stack",
       "created_at": "2026-10-27T23:05:15Z"
-    },
-    {
-      "title": "Created branch master",
-      "href": "https://github.com/tanvir-ux/ai-engineering-stack",
-      "repo": "tanvir-ux/ai-engineering-stack",
-      "created_at": "2026-10-27T22:58:02Z"
     }
   ]
 }
