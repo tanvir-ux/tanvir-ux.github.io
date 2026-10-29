@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-28T22:39:28Z",
+  "updated_at": "2026-10-29T05:55:11Z",
   "items": [
+    {
+      "title": "opened PR: [java] Model ZipFile.getInputStream and JarFile.getManifest as throwing IOException",
+      "href": "https://github.com/meta/infer/pull/2289",
+      "repo": "meta/infer",
+      "created_at": "2026-10-29T05:27:25Z"
+    },
     {
       "title": "Created branch fix/pulse-randomaccessfile-usage",
       "href": "https://github.com/tanvir-ux/infer",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/ai-engineering-stack",
       "repo": "tanvir-ux/ai-engineering-stack",
       "created_at": "2026-10-27T22:58:02Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/ai-engineering-stack/commit/bce4cdea4ab6c3a78944a8e67856eb2afb4e59e9",
-      "repo": "tanvir-ux/ai-engineering-stack",
-      "created_at": "2026-10-27T23:22:10Z"
     }
   ]
 }
