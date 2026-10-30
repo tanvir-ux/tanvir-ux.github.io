@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-30T05:56:06Z",
+  "updated_at": "2026-10-30T13:03:46Z",
   "items": [
+    {
+      "title": "merged PR: [java] Track PipedInputStream and PipedOutputStream as resources",
+      "href": "https://github.com/meta/infer/pull/2290",
+      "repo": "meta/infer",
+      "created_at": "2026-10-30T12:16:34Z"
+    },
     {
       "title": "opened PR: [java] Track PipedInputStream and PipedOutputStream as resources",
       "href": "https://github.com/meta/infer/pull/2290",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/ai-engineering-stack/commit/bc15b4a810a1c494e70b50a7e92389f2cadd3fdd",
       "repo": "tanvir-ux/ai-engineering-stack",
       "created_at": "2026-10-27T23:15:22Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/ai-engineering-stack/commit/3831421b4d9cb6ff6104affa70f19e00e368fe0d",
-      "repo": "tanvir-ux/ai-engineering-stack",
-      "created_at": "2026-10-27T23:15:04Z"
     }
   ]
 }
