@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-01T13:35:26Z",
+  "updated_at": "2026-11-01T22:07:20Z",
   "items": [
+    {
+      "title": "Pushed to fix/overwrite-predicate-lossy-literal-cast",
+      "href": "https://github.com/tanvir-ux/delta-rs/commit/7638c8ec00e641b05f8d08565673bfc532dd8a4a",
+      "repo": "tanvir-ux/delta-rs",
+      "created_at": "2026-10-30T19:21:15Z"
+    },
     {
       "title": "Created branch fix/pulse-piped-streams",
       "href": "https://github.com/tanvir-ux/infer",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/delta-rs",
       "repo": "tanvir-ux/delta-rs",
       "created_at": "2026-10-27T22:56:06Z"
-    },
-    {
-      "title": "opened PR: [java] Model ZipFile.getInputStream and JarFile.getManifest as throwing IOException",
-      "href": "https://github.com/meta/infer/pull/2289",
-      "repo": "meta/infer",
-      "created_at": "2026-10-29T05:27:25Z"
     }
   ]
 }
