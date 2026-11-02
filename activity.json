@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-01T22:07:20Z",
+  "updated_at": "2026-11-02T06:17:51Z",
   "items": [
+    {
+      "title": "opened PR: [java] Model connect and no-arg constructors of piped streams",
+      "href": "https://github.com/meta/infer/pull/2294",
+      "repo": "meta/infer",
+      "created_at": "2026-11-02T05:40:35Z"
+    },
+    {
+      "title": "Commented on fix(caching): don't require fastapi on plain SDK cache hits",
+      "href": "https://github.com/BerriAI/litellm/pull/42198#issuecomment-6569935269",
+      "repo": "BerriAI/litellm",
+      "created_at": "2026-11-02T05:36:09Z"
+    },
     {
       "title": "Pushed to fix/overwrite-predicate-lossy-literal-cast",
       "href": "https://github.com/tanvir-ux/delta-rs/commit/7638c8ec00e641b05f8d08565673bfc532dd8a4a",
@@ -36,18 +48,6 @@
       "href": "https://github.com/meta/infer",
       "repo": "meta/infer",
       "created_at": "2026-10-29T23:24:37Z"
-    },
-    {
-      "title": "merged PR: [java] Model ZipFile.getInputStream and JarFile.getManifest as throwing IOException",
-      "href": "https://github.com/meta/infer/pull/2289",
-      "repo": "meta/infer",
-      "created_at": "2026-10-29T13:39:04Z"
-    },
-    {
-      "title": "Created branch fix/overwrite-predicate-lossy-literal-cast",
-      "href": "https://github.com/tanvir-ux/delta-rs",
-      "repo": "tanvir-ux/delta-rs",
-      "created_at": "2026-10-27T22:56:06Z"
     }
   ]
 }
