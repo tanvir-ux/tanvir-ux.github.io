@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-02T06:17:51Z",
+  "updated_at": "2026-11-02T16:15:10Z",
   "items": [
     {
-      "title": "opened PR: [java] Model connect and no-arg constructors of piped streams",
+      "title": "merged PR: [java] Model connect and no-arg constructors of piped streams",
       "href": "https://github.com/meta/infer/pull/2294",
       "repo": "meta/infer",
-      "created_at": "2026-11-02T05:40:35Z"
+      "created_at": "2026-11-02T11:24:09Z"
     },
     {
-      "title": "Commented on fix(caching): don't require fastapi on plain SDK cache hits",
-      "href": "https://github.com/BerriAI/litellm/pull/42198#issuecomment-6569935269",
-      "repo": "BerriAI/litellm",
-      "created_at": "2026-11-02T05:36:09Z"
+      "title": "Commented on [#2504] Support Gradle incremental annotation processing",
+      "href": "https://github.com/remkop/picocli/pull/2530#issuecomment-6572534940",
+      "repo": "remkop/picocli",
+      "created_at": "2026-11-02T08:26:28Z"
     },
     {
-      "title": "Pushed to fix/overwrite-predicate-lossy-literal-cast",
-      "href": "https://github.com/tanvir-ux/delta-rs/commit/7638c8ec00e641b05f8d08565673bfc532dd8a4a",
-      "repo": "tanvir-ux/delta-rs",
-      "created_at": "2026-10-30T19:21:15Z"
+      "title": "Commented on [CLI-300] Parse -opt=value for multi-character short options",
+      "href": "https://github.com/apache/commons-cli/pull/440#issuecomment-6572531694",
+      "repo": "apache/commons-cli",
+      "created_at": "2026-11-02T08:26:16Z"
     },
     {
-      "title": "Created branch fix/pulse-piped-streams",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-10-30T05:27:52Z"
+      "title": "Commented on Fix spelling of lastSuccessfulCycle in comment",
+      "href": "https://github.com/Netflix/hollow/pull/852#issuecomment-6572526940",
+      "repo": "Netflix/hollow",
+      "created_at": "2026-11-02T08:25:59Z"
     },
     {
-      "title": "Created branch fix/pulse-zipfile-getinputstream-throws",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-10-29T05:27:16Z"
+      "title": "Commented on Fix spelling of overridden in LSPCommand and SLType comments",
+      "href": "https://github.com/oracle/graal/pull/14436#issuecomment-6572520204",
+      "repo": "oracle/graal",
+      "created_at": "2026-11-02T08:25:36Z"
     },
     {
-      "title": "merged PR: [java] Track PipedInputStream and PipedOutputStream as resources",
-      "href": "https://github.com/meta/infer/pull/2290",
-      "repo": "meta/infer",
-      "created_at": "2026-10-30T12:16:34Z"
+      "title": "Commented on Clear negotiate_in_use on all s2n_negotiate error paths",
+      "href": "https://github.com/aws/s2n-tls/pull/6088#issuecomment-6572520788",
+      "repo": "aws/s2n-tls",
+      "created_at": "2026-11-02T08:25:38Z"
     },
     {
-      "title": "opened PR: [java] Track PipedInputStream and PipedOutputStream as resources",
-      "href": "https://github.com/meta/infer/pull/2290",
-      "repo": "meta/infer",
-      "created_at": "2026-10-30T05:28:05Z"
+      "title": "Commented on Fix spelling of overridden in zone affinity comments",
+      "href": "https://github.com/Netflix/ribbon/pull/530#issuecomment-6572519009",
+      "repo": "Netflix/ribbon",
+      "created_at": "2026-11-02T08:25:32Z"
     },
     {
-      "title": "Starred meta/infer",
-      "href": "https://github.com/meta/infer",
-      "repo": "meta/infer",
-      "created_at": "2026-10-29T23:24:37Z"
+      "title": "Commented on fix(gaussian_actor): honor use_tanh_squash when building action dist",
+      "href": "https://github.com/huggingface/lerobot/pull/4728#issuecomment-6572516469",
+      "repo": "huggingface/lerobot",
+      "created_at": "2026-11-02T08:25:23Z"
     }
   ]
 }
