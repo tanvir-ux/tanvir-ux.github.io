@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-08T13:33:35Z",
+  "updated_at": "2026-11-08T22:12:51Z",
   "items": [
     {
+      "title": "Starred delta-io/delta-rs",
+      "href": "https://github.com/delta-io/delta-rs",
+      "repo": "delta-io/delta-rs",
+      "created_at": "2026-11-08T15:40:51Z"
+    },
+    {
+      "title": "merged PR: fix(core): coerce literals again after a predicate is simplified",
+      "href": "https://github.com/delta-io/delta-rs/pull/4973",
+      "repo": "delta-io/delta-rs",
+      "created_at": "2026-11-08T15:36:57Z"
+    },
+    {
+      "title": "Starred delta-io/delta",
+      "href": "https://github.com/delta-io/delta",
+      "repo": "delta-io/delta",
+      "created_at": "2026-11-08T15:27:00Z"
+    },
+    {
       "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/ai-engineering-stack/commit/fa2b77731b3c3eec0b188e7573e9af317c64a78b",
-      "repo": "tanvir-ux/ai-engineering-stack",
-      "created_at": "2026-11-02T08:12:37Z"
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/65f7322f85ac692444194c56014487525ccef1df",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-08T14:32:24Z"
     },
     {
-      "title": "Pushed to fix/cache-hit-no-fastapi-import",
-      "href": "https://github.com/tanvir-ux/litellm/commit/a39d97b7e58d97b772889a766fe7d5f24ad0b902",
-      "repo": "tanvir-ux/litellm",
-      "created_at": "2026-11-02T05:36:00Z"
+      "title": "merged PR: Add generative AI work and the Alawaf contact email",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/2",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-08T15:13:01Z"
     },
     {
-      "title": "closed PR: Fix spelling of occurred in MultipartDownloaderSubscriber javadoc",
-      "href": "https://github.com/aws/aws-sdk-java-v2/pull/7373",
-      "repo": "aws/aws-sdk-java-v2",
-      "created_at": "2026-09-14T19:59:05Z"
+      "title": "opened PR: Add generative AI work and the Alawaf contact email",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/2",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-08T15:11:52Z"
     },
     {
-      "title": "Commented on Fix spelling of occurred in MultipartDownloaderSubscriber javadoc",
-      "href": "https://github.com/aws/aws-sdk-java-v2/pull/7373#issuecomment-6596107402",
-      "repo": "aws/aws-sdk-java-v2",
-      "created_at": "2026-11-03T05:19:19Z"
+      "title": "merged PR: State current role as CTO at Alawaf Technologies Limited",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/1",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-08T14:32:22Z"
     },
     {
-      "title": "merged PR: [java] Model connect and no-arg constructors of piped streams",
-      "href": "https://github.com/meta/infer/pull/2294",
-      "repo": "meta/infer",
-      "created_at": "2026-11-02T11:24:09Z"
-    },
-    {
-      "title": "Commented on [#2504] Support Gradle incremental annotation processing",
-      "href": "https://github.com/remkop/picocli/pull/2530#issuecomment-6572534940",
-      "repo": "remkop/picocli",
-      "created_at": "2026-11-02T08:26:28Z"
-    },
-    {
-      "title": "Commented on [CLI-300] Parse -opt=value for multi-character short options",
-      "href": "https://github.com/apache/commons-cli/pull/440#issuecomment-6572531694",
-      "repo": "apache/commons-cli",
-      "created_at": "2026-11-02T08:26:16Z"
-    },
-    {
-      "title": "Commented on Fix spelling of lastSuccessfulCycle in comment",
-      "href": "https://github.com/Netflix/hollow/pull/852#issuecomment-6572526940",
-      "repo": "Netflix/hollow",
-      "created_at": "2026-11-02T08:25:59Z"
+      "title": "opened PR: State current role as CTO at Alawaf Technologies Limited",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/1",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-08T14:31:32Z"
     }
   ]
 }
