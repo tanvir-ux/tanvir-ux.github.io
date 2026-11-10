@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-10T07:26:12Z",
+  "updated_at": "2026-11-10T19:48:57Z",
   "items": [
     {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/tanvir-ux/commit/354cea8cf91daa4066a9cb4bb31e804a3b6e02a6",
-      "repo": "tanvir-ux/tanvir-ux",
-      "created_at": "2026-11-08T14:20:52Z"
+      "title": "Commented on [java] Model ServerSocket.accept for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2303#issuecomment-6768061808",
+      "repo": "meta/infer",
+      "created_at": "2026-11-10T13:04:06Z"
     },
     {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/a941bce4ca1bcabd67f5b7c895b5174bc1b30202",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-08T15:13:02Z"
+      "title": "merged PR: [java] Model Socket getInputStream/getOutputStream for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2302",
+      "repo": "meta/infer",
+      "created_at": "2026-11-10T10:57:11Z"
     },
     {
-      "title": "Starred delta-io/delta-rs",
-      "href": "https://github.com/delta-io/delta-rs",
-      "repo": "delta-io/delta-rs",
-      "created_at": "2026-11-08T15:40:51Z"
+      "title": "Commented on [java] Model ServerSocket.accept for Pulse resource leaks",
+      "href": "https://github.com/tanvir-ux/infer/pull/3#issuecomment-6764416021",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-10T09:59:20Z"
     },
     {
-      "title": "merged PR: fix(core): coerce literals again after a predicate is simplified",
-      "href": "https://github.com/delta-io/delta-rs/pull/4973",
-      "repo": "delta-io/delta-rs",
-      "created_at": "2026-11-08T15:36:57Z"
+      "title": "closed PR: [java] Model ServerSocket.accept for Pulse resource leaks",
+      "href": "https://github.com/tanvir-ux/infer/pull/3",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-10T09:58:17Z"
     },
     {
-      "title": "Starred delta-io/delta",
-      "href": "https://github.com/delta-io/delta",
-      "repo": "delta-io/delta",
-      "created_at": "2026-11-08T15:27:00Z"
+      "title": "opened PR: [java] Model ServerSocket.accept for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2303",
+      "repo": "meta/infer",
+      "created_at": "2026-11-10T09:59:17Z"
     },
     {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/65f7322f85ac692444194c56014487525ccef1df",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-08T14:32:24Z"
+      "title": "opened PR: [java] Model ServerSocket.accept for Pulse resource leaks",
+      "href": "https://github.com/tanvir-ux/infer/pull/3",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-10T09:56:58Z"
     },
     {
-      "title": "merged PR: Add generative AI work and the Alawaf contact email",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/2",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-08T15:13:01Z"
+      "title": "Commented on [java] Model Socket getInputStream/getOutputStream for Pulse resource leaks",
+      "href": "https://github.com/tanvir-ux/infer/pull/2#issuecomment-6764350325",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-10T09:55:59Z"
     },
     {
-      "title": "opened PR: Add generative AI work and the Alawaf contact email",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/2",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-08T15:11:52Z"
+      "title": "closed PR: [java] Model Socket getInputStream/getOutputStream for Pulse resource leaks",
+      "href": "https://github.com/tanvir-ux/infer/pull/2",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-10T09:54:57Z"
     }
   ]
 }
