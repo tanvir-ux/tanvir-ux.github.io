@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-09T22:27:02Z",
+  "updated_at": "2026-11-10T07:26:12Z",
   "items": [
+    {
+      "title": "Pushed to main",
+      "href": "https://github.com/tanvir-ux/tanvir-ux/commit/354cea8cf91daa4066a9cb4bb31e804a3b6e02a6",
+      "repo": "tanvir-ux/tanvir-ux",
+      "created_at": "2026-11-08T14:20:52Z"
+    },
     {
       "title": "Pushed to master",
       "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/a941bce4ca1bcabd67f5b7c895b5174bc1b30202",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/2",
       "repo": "tanvir-ux/tanvir-ux.github.io",
       "created_at": "2026-11-08T15:11:52Z"
-    },
-    {
-      "title": "merged PR: State current role as CTO at Alawaf Technologies Limited",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/1",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-08T14:32:22Z"
     }
   ]
 }
