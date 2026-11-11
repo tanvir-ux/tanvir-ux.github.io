@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-11T06:36:29Z",
+  "updated_at": "2026-11-11T19:40:25Z",
   "items": [
+    {
+      "title": "merged PR: Update resume experience",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/5",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-11T13:07:04Z"
+    },
+    {
+      "title": "opened PR: Update resume experience",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/5",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-11T13:06:28Z"
+    },
+    {
+      "title": "merged PR: Update AI engineering resume",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/4",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-11T09:53:28Z"
+    },
+    {
+      "title": "opened PR: Update AI engineering resume",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/4",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-11T09:52:29Z"
+    },
     {
       "title": "merged PR: Update downloadable resume PDF",
       "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/pull/3",
@@ -24,30 +48,6 @@
       "href": "https://github.com/meta/infer/pull/2304",
       "repo": "meta/infer",
       "created_at": "2026-11-11T05:52:47Z"
-    },
-    {
-      "title": "closed PR: [java] Model BufferedReader.readLine as nullable for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/4",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-11T05:45:57Z"
-    },
-    {
-      "title": "opened PR: [java] Model BufferedReader.readLine as nullable for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/4",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-11T05:45:57Z"
-    },
-    {
-      "title": "opened PR: Modernize the profile README and drop paused stats cards",
-      "href": "https://github.com/tanvir-ux/tanvir-ux/pull/2",
-      "repo": "tanvir-ux/tanvir-ux",
-      "created_at": "2026-11-11T05:43:22Z"
-    },
-    {
-      "title": "Commented on [java] Model ServerSocket.accept for Pulse resource leaks",
-      "href": "https://github.com/meta/infer/pull/2303#issuecomment-6768061808",
-      "repo": "meta/infer",
-      "created_at": "2026-11-10T13:04:06Z"
     }
   ]
 }
