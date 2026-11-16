@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-16T06:40:56Z",
+  "updated_at": "2026-11-16T22:13:40Z",
   "items": [
+    {
+      "title": "opened PR: [java] Model File.list and listFiles as nullable for Pulse",
+      "href": "https://github.com/meta/infer/pull/2308",
+      "repo": "meta/infer",
+      "created_at": "2026-11-16T10:28:54Z"
+    },
     {
       "title": "Pushed to cursor/serversocket-accept-resource-71c2",
       "href": "https://github.com/tanvir-ux/infer/commit/ec09ee0b75400310cc676ec76913ecbd01a51105",
@@ -42,12 +48,6 @@
       "href": "https://github.com/meta/infer/pull/2304",
       "repo": "meta/infer",
       "created_at": "2026-11-12T12:36:24Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/cea3dc000bd5a848ffb9a9320155c5043826586f",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-11T09:53:30Z"
     }
   ]
 }
