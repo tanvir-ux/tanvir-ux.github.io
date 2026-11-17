@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-17T08:01:20Z",
+  "updated_at": "2026-11-17T21:00:06Z",
   "items": [
+    {
+      "title": "merged PR: [java] Model File.list and listFiles as nullable for Pulse",
+      "href": "https://github.com/meta/infer/pull/2308",
+      "repo": "meta/infer",
+      "created_at": "2026-11-17T14:06:53Z"
+    },
+    {
+      "title": "merged PR: [java] Model ServerSocket.accept for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2303",
+      "repo": "meta/infer",
+      "created_at": "2026-11-17T14:05:07Z"
+    },
     {
       "title": "opened PR: Copy declaration annotations onto generated AutoValue builder methods",
       "href": "https://github.com/tanvir-ux/auto/pull/1",
@@ -36,18 +48,6 @@
       "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/ab759bafbfee99d0eddcad4065c2d2546dd3591d",
       "repo": "tanvir-ux/tanvir-ux.github.io",
       "created_at": "2026-11-11T13:07:06Z"
-    },
-    {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/tanvir-ux/commit/3cccd9ad4e7642629f46c8c09958571e4b6cda5a",
-      "repo": "tanvir-ux/tanvir-ux",
-      "created_at": "2026-11-11T05:54:23Z"
-    },
-    {
-      "title": "Commented on [java] Model ServerSocket.accept for Pulse resource leaks",
-      "href": "https://github.com/meta/infer/pull/2303#issuecomment-6824273573",
-      "repo": "meta/infer",
-      "created_at": "2026-11-12T12:59:11Z"
     }
   ]
 }
