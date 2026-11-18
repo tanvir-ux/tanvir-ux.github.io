@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-17T21:00:06Z",
+  "updated_at": "2026-11-18T07:37:55Z",
   "items": [
+    {
+      "title": "closed PR: [java] Model zip stream entry methods for Pulse",
+      "href": "https://github.com/tanvir-ux/infer/pull/5",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-18T06:03:22Z"
+    },
+    {
+      "title": "opened PR: [java] Model zip stream entry methods for Pulse",
+      "href": "https://github.com/tanvir-ux/infer/pull/5",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-18T06:03:22Z"
+    },
     {
       "title": "merged PR: [java] Model File.list and listFiles as nullable for Pulse",
       "href": "https://github.com/meta/infer/pull/2308",
@@ -36,18 +48,6 @@
       "href": "https://github.com/tanvir-ux/n8n-webhook-agent-bridge/commit/d43114929027aeb3588924be13f79f49337a303d",
       "repo": "tanvir-ux/n8n-webhook-agent-bridge",
       "created_at": "2026-11-12T10:39:06Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/9a188bbb8f6404be54697fca020c7723faa79473",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-11T06:19:53Z"
-    },
-    {
-      "title": "Pushed to master",
-      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/ab759bafbfee99d0eddcad4065c2d2546dd3591d",
-      "repo": "tanvir-ux/tanvir-ux.github.io",
-      "created_at": "2026-11-11T13:07:06Z"
     }
   ]
 }
