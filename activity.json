@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-18T07:37:55Z",
+  "updated_at": "2026-11-18T20:38:14Z",
   "items": [
+    {
+      "title": "merged PR: [java] Model zip stream entry methods for Pulse",
+      "href": "https://github.com/meta/infer/pull/2310",
+      "repo": "meta/infer",
+      "created_at": "2026-11-18T13:25:09Z"
+    },
+    {
+      "title": "Pushed to master",
+      "href": "https://github.com/tanvir-ux/tanvir-ux.github.io/commit/dbea3109090b5d4f006fa3aecec81d342ab9c768",
+      "repo": "tanvir-ux/tanvir-ux.github.io",
+      "created_at": "2026-11-17T10:08:13Z"
+    },
+    {
+      "title": "opened PR: [java] Model zip stream entry methods for Pulse",
+      "href": "https://github.com/meta/infer/pull/2310",
+      "repo": "meta/infer",
+      "created_at": "2026-11-18T08:13:59Z"
+    },
+    {
+      "title": "opened PR: Copy declaration annotations onto generated AutoValue builder methods.",
+      "href": "https://github.com/google/auto/pull/2195",
+      "repo": "google/auto",
+      "created_at": "2026-11-18T08:13:36Z"
+    },
     {
       "title": "closed PR: [java] Model zip stream entry methods for Pulse",
       "href": "https://github.com/tanvir-ux/infer/pull/5",
@@ -24,30 +48,6 @@
       "href": "https://github.com/meta/infer/pull/2303",
       "repo": "meta/infer",
       "created_at": "2026-11-17T14:05:07Z"
-    },
-    {
-      "title": "opened PR: Copy declaration annotations onto generated AutoValue builder methods",
-      "href": "https://github.com/tanvir-ux/auto/pull/1",
-      "repo": "tanvir-ux/auto",
-      "created_at": "2026-11-17T07:41:40Z"
-    },
-    {
-      "title": "opened PR: [java] Model File.list and listFiles as nullable for Pulse",
-      "href": "https://github.com/meta/infer/pull/2308",
-      "repo": "meta/infer",
-      "created_at": "2026-11-16T10:28:54Z"
-    },
-    {
-      "title": "Pushed to cursor/serversocket-accept-resource-71c2",
-      "href": "https://github.com/tanvir-ux/infer/commit/ec09ee0b75400310cc676ec76913ecbd01a51105",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-12T12:58:40Z"
-    },
-    {
-      "title": "Pushed to main",
-      "href": "https://github.com/tanvir-ux/n8n-webhook-agent-bridge/commit/d43114929027aeb3588924be13f79f49337a303d",
-      "repo": "tanvir-ux/n8n-webhook-agent-bridge",
-      "created_at": "2026-11-12T10:39:06Z"
     }
   ]
 }
