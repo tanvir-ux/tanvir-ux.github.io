@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-11-19T07:33:23Z",
+  "updated_at": "2026-11-19T20:43:47Z",
   "items": [
+    {
+      "title": "opened PR: Omit AutoBuilder null checks when the builder type variable is nullable.",
+      "href": "https://github.com/google/auto/pull/2197",
+      "repo": "google/auto",
+      "created_at": "2026-11-19T15:03:48Z"
+    },
+    {
+      "title": "opened PR: [java] Model FileChannel.open and Files.newByteChannel for Pulse",
+      "href": "https://github.com/meta/infer/pull/2311",
+      "repo": "meta/infer",
+      "created_at": "2026-11-19T12:20:16Z"
+    },
+    {
+      "title": "Created branch fix/zip-stream-entry-models",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-18T06:11:33Z"
+    },
     {
       "title": "merged PR: [java] Model zip stream entry methods for Pulse",
       "href": "https://github.com/meta/infer/pull/2310",
@@ -30,24 +48,6 @@
       "href": "https://github.com/tanvir-ux/infer/pull/5",
       "repo": "tanvir-ux/infer",
       "created_at": "2026-11-18T06:03:22Z"
-    },
-    {
-      "title": "opened PR: [java] Model zip stream entry methods for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/5",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-18T06:03:22Z"
-    },
-    {
-      "title": "merged PR: [java] Model File.list and listFiles as nullable for Pulse",
-      "href": "https://github.com/meta/infer/pull/2308",
-      "repo": "meta/infer",
-      "created_at": "2026-11-17T14:06:53Z"
-    },
-    {
-      "title": "merged PR: [java] Model ServerSocket.accept for Pulse resource leaks",
-      "href": "https://github.com/meta/infer/pull/2303",
-      "repo": "meta/infer",
-      "created_at": "2026-11-17T14:05:07Z"
     }
   ]
 }
