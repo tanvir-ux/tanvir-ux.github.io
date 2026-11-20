@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-19T20:43:47Z",
+  "updated_at": "2026-11-20T07:25:17Z",
   "items": [
+    {
+      "title": "Created branch fix/file-channel-resource-leak",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-18T13:57:14Z"
+    },
     {
       "title": "opened PR: Omit AutoBuilder null checks when the builder type variable is nullable.",
       "href": "https://github.com/google/auto/pull/2197",
@@ -42,12 +48,6 @@
       "href": "https://github.com/google/auto/pull/2195",
       "repo": "google/auto",
       "created_at": "2026-11-18T08:13:36Z"
-    },
-    {
-      "title": "closed PR: [java] Model zip stream entry methods for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/5",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-18T06:03:22Z"
     }
   ]
 }
