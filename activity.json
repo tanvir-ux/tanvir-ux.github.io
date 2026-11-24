@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-23T23:59:13Z",
+  "updated_at": "2026-11-24T10:00:12Z",
   "items": [
+    {
+      "title": "opened PR: Drop a purely defensive new_ref batch axis in freeze and get.",
+      "href": "https://github.com/jax-ml/jax/pull/42848",
+      "repo": "jax-ml/jax",
+      "created_at": "2026-11-24T00:02:58Z"
+    },
     {
       "title": "Forked jax-ml/jax",
       "href": "https://github.com/jax-ml/jax",
@@ -42,12 +48,6 @@
       "href": "https://github.com/microsoft/autogen",
       "repo": "microsoft/autogen",
       "created_at": "2026-11-23T05:24:00Z"
-    },
-    {
-      "title": "Forked microsoft/graphrag",
-      "href": "https://github.com/microsoft/graphrag",
-      "repo": "microsoft/graphrag",
-      "created_at": "2026-11-23T05:23:54Z"
     }
   ]
 }
