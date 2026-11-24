@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-24T10:00:12Z",
+  "updated_at": "2026-11-24T22:31:36Z",
   "items": [
     {
-      "title": "opened PR: Drop a purely defensive new_ref batch axis in freeze and get.",
-      "href": "https://github.com/jax-ml/jax/pull/42848",
-      "repo": "jax-ml/jax",
-      "created_at": "2026-11-24T00:02:58Z"
+      "title": "Commented on Copy declaration annotations onto generated AutoValue builder methods",
+      "href": "https://github.com/tanvir-ux/auto/pull/1#issuecomment-7133777461",
+      "repo": "tanvir-ux/auto",
+      "created_at": "2026-11-24T14:03:46Z"
     },
     {
-      "title": "Forked jax-ml/jax",
-      "href": "https://github.com/jax-ml/jax",
-      "repo": "jax-ml/jax",
-      "created_at": "2026-11-23T23:27:08Z"
+      "title": "closed PR: Copy declaration annotations onto generated AutoValue builder methods",
+      "href": "https://github.com/tanvir-ux/auto/pull/1",
+      "repo": "tanvir-ux/auto",
+      "created_at": "2026-11-24T14:01:41Z"
     },
     {
-      "title": "merged PR: [java] Model Files.newDirectoryStream for Pulse",
-      "href": "https://github.com/meta/infer/pull/2317",
-      "repo": "meta/infer",
-      "created_at": "2026-11-23T14:33:39Z"
-    },
-    {
-      "title": "opened PR: [java] Model Files stream factories for Pulse resource leaks",
-      "href": "https://github.com/meta/infer/pull/2321",
-      "repo": "meta/infer",
-      "created_at": "2026-11-23T11:55:23Z"
-    },
-    {
-      "title": "opened PR: [java] Model Files.lines, walk, find and list for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/6",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-23T05:53:23Z"
-    },
-    {
-      "title": "opened PR: fix: raise TypeError for unannotated parameters and unwrap partial returns",
+      "title": "closed PR: fix: raise TypeError for unannotated parameters and unwrap partial returns",
       "href": "https://github.com/tanvir-ux/autogen/pull/1",
       "repo": "tanvir-ux/autogen",
-      "created_at": "2026-11-23T05:32:19Z"
+      "created_at": "2026-11-24T14:01:36Z"
     },
     {
-      "title": "opened PR: Fix response_format_json_object being dropped before it reaches the model",
+      "title": "Commented on fix: raise TypeError for unannotated parameters and unwrap partial returns",
+      "href": "https://github.com/tanvir-ux/autogen/pull/1#issuecomment-7133775283",
+      "repo": "tanvir-ux/autogen",
+      "created_at": "2026-11-24T14:03:41Z"
+    },
+    {
+      "title": "closed PR: Fix response_format_json_object being dropped before it reaches the model",
       "href": "https://github.com/tanvir-ux/graphrag/pull/1",
       "repo": "tanvir-ux/graphrag",
-      "created_at": "2026-11-23T05:30:30Z"
+      "created_at": "2026-11-24T14:01:31Z"
     },
     {
-      "title": "Forked microsoft/autogen",
-      "href": "https://github.com/microsoft/autogen",
-      "repo": "microsoft/autogen",
-      "created_at": "2026-11-23T05:24:00Z"
+      "title": "Commented on Fix response_format_json_object being dropped before it reaches the model",
+      "href": "https://github.com/tanvir-ux/graphrag/pull/1#issuecomment-7133773088",
+      "repo": "tanvir-ux/graphrag",
+      "created_at": "2026-11-24T14:03:37Z"
+    },
+    {
+      "title": "closed PR: [java] Model Files.lines, walk, find and list for Pulse",
+      "href": "https://github.com/tanvir-ux/infer/pull/6",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-24T05:31:48Z"
+    },
+    {
+      "title": "Commented on [java] Model Files.lines, walk, find and list for Pulse",
+      "href": "https://github.com/tanvir-ux/infer/pull/6#issuecomment-7133420992",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-24T13:50:42Z"
     }
   ]
 }
