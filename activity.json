@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-11-24T22:31:36Z",
+  "updated_at": "2026-11-25T08:44:20Z",
   "items": [
+    {
+      "title": "Created branch fix/serversocket-accept-resource",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-24T14:04:47Z"
+    },
+    {
+      "title": "Created branch fix/jacfwd-new-ref-batching",
+      "href": "https://github.com/tanvir-ux/jax",
+      "repo": "tanvir-ux/jax",
+      "created_at": "2026-11-23T23:27:26Z"
+    },
+    {
+      "title": "Created branch sync/upstream-main-base-71c2",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-24T14:05:01Z"
+    },
+    {
+      "title": "Created branch fix/bufferedreader-readline-null",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-24T14:04:41Z"
+    },
+    {
+      "title": "Created branch sync/upstream-main-1898",
+      "href": "https://github.com/tanvir-ux/infer",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-24T14:04:57Z"
+    },
     {
       "title": "Commented on Copy declaration annotations onto generated AutoValue builder methods",
       "href": "https://github.com/tanvir-ux/auto/pull/1#issuecomment-7133777461",
@@ -18,36 +48,6 @@
       "href": "https://github.com/tanvir-ux/autogen/pull/1",
       "repo": "tanvir-ux/autogen",
       "created_at": "2026-11-24T14:01:36Z"
-    },
-    {
-      "title": "Commented on fix: raise TypeError for unannotated parameters and unwrap partial returns",
-      "href": "https://github.com/tanvir-ux/autogen/pull/1#issuecomment-7133775283",
-      "repo": "tanvir-ux/autogen",
-      "created_at": "2026-11-24T14:03:41Z"
-    },
-    {
-      "title": "closed PR: Fix response_format_json_object being dropped before it reaches the model",
-      "href": "https://github.com/tanvir-ux/graphrag/pull/1",
-      "repo": "tanvir-ux/graphrag",
-      "created_at": "2026-11-24T14:01:31Z"
-    },
-    {
-      "title": "Commented on Fix response_format_json_object being dropped before it reaches the model",
-      "href": "https://github.com/tanvir-ux/graphrag/pull/1#issuecomment-7133773088",
-      "repo": "tanvir-ux/graphrag",
-      "created_at": "2026-11-24T14:03:37Z"
-    },
-    {
-      "title": "closed PR: [java] Model Files.lines, walk, find and list for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/6",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-24T05:31:48Z"
-    },
-    {
-      "title": "Commented on [java] Model Files.lines, walk, find and list for Pulse",
-      "href": "https://github.com/tanvir-ux/infer/pull/6#issuecomment-7133420992",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-24T13:50:42Z"
     }
   ]
 }
