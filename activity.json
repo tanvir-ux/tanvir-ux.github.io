@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-26T08:30:03Z",
+  "updated_at": "2026-11-26T21:39:45Z",
   "items": [
+    {
+      "title": "opened PR: [java] Model DatagramSocket for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2334",
+      "repo": "meta/infer",
+      "created_at": "2026-11-26T13:51:38Z"
+    },
+    {
+      "title": "opened PR: Substitute AutoFactory thrown types inherited from generic supertypes.",
+      "href": "https://github.com/google/auto/pull/2203",
+      "repo": "google/auto",
+      "created_at": "2026-11-26T13:48:14Z"
+    },
     {
       "title": "merged PR: [java] Model Files stream factories for Pulse resource leaks",
       "href": "https://github.com/meta/infer/pull/2321",
@@ -36,18 +48,6 @@
       "href": "https://github.com/tanvir-ux/infer",
       "repo": "tanvir-ux/infer",
       "created_at": "2026-11-24T14:05:01Z"
-    },
-    {
-      "title": "Created branch fix/bufferedreader-readline-null",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-24T14:04:41Z"
-    },
-    {
-      "title": "Created branch sync/upstream-main-1898",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-24T14:04:57Z"
     }
   ]
 }
