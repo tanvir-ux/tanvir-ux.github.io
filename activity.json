@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-11-27T08:43:32Z",
+  "updated_at": "2026-11-27T21:24:24Z",
   "items": [
+    {
+      "title": "merged PR: [java] Model DatagramSocket for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2334",
+      "repo": "meta/infer",
+      "created_at": "2026-11-27T12:55:16Z"
+    },
+    {
+      "title": "opened PR: [java] Model Selector.open for Pulse resource leaks",
+      "href": "https://github.com/meta/infer/pull/2337",
+      "repo": "meta/infer",
+      "created_at": "2026-11-27T12:42:29Z"
+    },
     {
       "title": "Pushed to fix/files-stream-resource-leak",
       "href": "https://github.com/tanvir-ux/infer/commit/59f166ef77c253b32493e3e964f5ed73b127ed95",
@@ -36,18 +48,6 @@
       "href": "https://github.com/meta/infer/pull/2321#issuecomment-7162033378",
       "repo": "meta/infer",
       "created_at": "2026-11-25T12:11:10Z"
-    },
-    {
-      "title": "Created branch fix/serversocket-accept-resource",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-24T14:04:47Z"
-    },
-    {
-      "title": "Created branch fix/jacfwd-new-ref-batching",
-      "href": "https://github.com/tanvir-ux/jax",
-      "repo": "tanvir-ux/jax",
-      "created_at": "2026-11-23T23:27:26Z"
     }
   ]
 }
