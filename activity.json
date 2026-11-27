@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-26T21:39:45Z",
+  "updated_at": "2026-11-27T08:43:32Z",
   "items": [
+    {
+      "title": "Pushed to fix/files-stream-resource-leak",
+      "href": "https://github.com/tanvir-ux/infer/commit/59f166ef77c253b32493e3e964f5ed73b127ed95",
+      "repo": "tanvir-ux/infer",
+      "created_at": "2026-11-25T12:02:15Z"
+    },
     {
       "title": "opened PR: [java] Model DatagramSocket for Pulse resource leaks",
       "href": "https://github.com/meta/infer/pull/2334",
@@ -42,12 +48,6 @@
       "href": "https://github.com/tanvir-ux/jax",
       "repo": "tanvir-ux/jax",
       "created_at": "2026-11-23T23:27:26Z"
-    },
-    {
-      "title": "Created branch sync/upstream-main-base-71c2",
-      "href": "https://github.com/tanvir-ux/infer",
-      "repo": "tanvir-ux/infer",
-      "created_at": "2026-11-24T14:05:01Z"
     }
   ]
 }
